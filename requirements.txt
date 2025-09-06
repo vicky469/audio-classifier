@@ -12,3 +12,6 @@ notion-client==2.2.1
 
 # Environment variable management for API keys and secrets
 python-dotenv==1.0.0
+
+# Web interface for the application
+streamlit==1.28.1
