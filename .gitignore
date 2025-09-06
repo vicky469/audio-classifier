@@ -44,8 +44,7 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific
-transcript/process/
-transcript/original/
+transcript/
 videos/
 audios/
 output/
