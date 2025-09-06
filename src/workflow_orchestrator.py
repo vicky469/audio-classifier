@@ -11,6 +11,7 @@ import subprocess
 from pathlib import Path
 import webbrowser
 import glob
+import json
 from notion_integration import NotionIntegration
 from transcript_processor import process_file
 
@@ -21,21 +22,20 @@ class TranscriptWorkflow:
             base_dir = "/Users/wenqingli/Documents/repo/audio classifier"
         
         self.base_dir = Path(base_dir)
-        self.original_dir = self.base_dir / "transcript" / "original"
-        self.process_dir = self.base_dir / "transcript" / "process"
+        self.raw_dir = self.base_dir / "transcript" / "raw"
+        self.failed_dir = self.base_dir / "transcript" / "failed"
         self.clean_dir = self.base_dir / "transcript" / "clean"
         
         # Ensure directories exist
-        for directory in [self.original_dir, self.process_dir, self.clean_dir]:
+        for directory in [self.raw_dir, self.failed_dir, self.clean_dir]:
             directory.mkdir(parents=True, exist_ok=True)
     
-    def run_complete_workflow(self, youtube_url, tags=None, open_notion=True):
+    def run_complete_workflow(self, youtube_url, open_notion=True):
         """
         Run the complete workflow from YouTube URL to Notion page.
         
         Args:
             youtube_url (str): YouTube video URL
-            tags (list): Optional tags for the Notion page
             open_notion (bool): Whether to open the Notion page in browser
             
         Returns:
@@ -52,11 +52,11 @@ class TranscriptWorkflow:
         
         # Step 1: Download transcript from YouTube using shell script
         print("\n📥 Step 1: Downloading transcript from YouTube...")
-        success, vtt_file, video_info = self._download_with_script(youtube_url)
+        success, raw_file, video_info = self._download_with_script(youtube_url)
         
         results['download'] = {
             'success': success,
-            'file': vtt_file,
+            'file': raw_file,
             'video_info': video_info
         }
         
@@ -64,45 +64,32 @@ class TranscriptWorkflow:
             print("❌ Failed to download transcript")
             return results
         
-        print(f"✅ Downloaded: {os.path.basename(vtt_file)}")
+        print(f"✅ Downloaded: {os.path.basename(raw_file)}")
         
-        # Step 2: Copy to process directory and clean transcript
+        # Step 2: Process transcript in-place
         print("\n🔄 Step 2: Processing transcript...")
         
-        # Copy to process directory
-        process_file_path = self.process_dir / os.path.basename(vtt_file)
-        shutil.copy2(vtt_file, process_file_path)
-        print(f"📋 Copied to process directory: {process_file_path}")
+        # Process the transcript directly from raw directory
+        clean_file_path = self.clean_dir / f"{os.path.splitext(os.path.basename(raw_file))[0]}_clean.txt"
+        success = process_file(str(raw_file), str(clean_file_path))
         
-        # Generate clean file path
-        base_name = os.path.splitext(os.path.basename(vtt_file))[0]
-        clean_file_path = self.clean_dir / f"{base_name}_clean.txt"
+        results['process'] = {
+            'success': success,
+            'clean_file': str(clean_file_path) if success else None
+        }
         
-        # Process the transcript
-        try:
-            success = process_file(
-                str(process_file_path),
-                str(clean_file_path),
-                words_per_chunk=100,
-                words_per_line=15
-            )
-            
-            results['process'] = {
-                'success': success,
-                'input_file': str(process_file_path),
-                'output_file': str(clean_file_path)
-            }
-            
-            if success:
-                print(f"✅ Processed transcript: {clean_file_path}")
-            else:
-                print("❌ Failed to process transcript")
-                return results
-                
-        except Exception as e:
-            print(f"❌ Error processing transcript: {e}")
-            results['process']['success'] = False
+        if not success:
+            print("❌ Failed to process transcript")
+            # Move failed file to failed directory
+            failed_file_path = self.failed_dir / os.path.basename(raw_file)
+            try:
+                shutil.move(raw_file, failed_file_path)
+                print(f"📁 Moved failed file to: {failed_file_path}")
+            except Exception as e:
+                print(f"⚠️  Warning: Could not move failed file: {e}")
             return results
+        
+        print(f"✅ Processed transcript: {clean_file_path}")
         
         # Step 3: Upload to Notion
         print("\n☁️  Step 3: Uploading to Notion...")
@@ -110,16 +97,11 @@ class TranscriptWorkflow:
         try:
             notion = NotionIntegration()
             
-            # Prepare tags
-            if not tags:
-                tags = ["transcript", "youtube", "video"]
-                if video_info and video_info.get('uploader'):
-                    tags.append(video_info['uploader'].lower().replace(' ', '-'))
+            # Tags will be managed manually in Notion
             
             success, page_url, page_id = notion.upload_transcript(
                 str(clean_file_path),
-                video_info=video_info,
-                tags=tags
+                video_info=video_info
             )
             
             results['upload'] = {
@@ -131,13 +113,14 @@ class TranscriptWorkflow:
             if success:
                 print(f"✅ Uploaded to Notion: {page_url}")
                 
-                # Clean up process files after successful upload
+                # Clean up raw transcript file after successful upload
                 try:
-                    if os.path.exists(process_file_path):
-                        os.remove(process_file_path)
-                        print(f"🗑️  Cleaned up process file: {os.path.basename(process_file_path)}")
+                    if os.path.exists(raw_file):
+                        os.remove(raw_file)
+                        print(f"🗑️  Cleaned up raw file: {os.path.basename(raw_file)}")
+                        
                 except Exception as e:
-                    print(f"⚠️  Warning: Could not clean up process file: {e}")
+                    print(f"⚠️  Warning: Could not clean up raw file: {e}")
                 
                 # Open in browser if requested
                 if open_notion and page_url:
@@ -174,40 +157,74 @@ class TranscriptWorkflow:
             # Make script executable if not already
             os.chmod(script_path, 0o755)
             
-            # Clear any existing VTT files to prevent reuse
-            existing_vtt_files = glob.glob(str(self.original_dir / "*.vtt"))
-            for old_file in existing_vtt_files:
-                os.remove(old_file)
+            # Clear any existing transcript files to prevent reuse
+            existing_vtt_files = glob.glob(str(self.raw_dir / "*.vtt"))
+            existing_txt_files = glob.glob(str(self.raw_dir / "*whisper.txt"))
             
-            # Run the download script
+            for old_file in existing_vtt_files + existing_txt_files:
+                os.remove(old_file)
+                print(f"🗑️  Cleared old file: {os.path.basename(old_file)}")
+            
+            # Run the download script (don't capture output so we can see the method logs)
             result = subprocess.run(
-                [str(script_path), youtube_url, str(self.original_dir)],
-                capture_output=True,
-                text=True,
+                [str(script_path), youtube_url, str(self.raw_dir)],
                 cwd=str(self.base_dir)
             )
             
             if result.returncode == 0:
-                # Find the downloaded VTT file (should be the only one now)
-                vtt_files = glob.glob(str(self.original_dir / "*.vtt"))
-                if vtt_files:
-                    # Should only be one file now
-                    vtt_file = vtt_files[0]
+                # Find the downloaded transcript file (VTT from subtitles or TXT from Whisper)
+                vtt_files = glob.glob(str(self.raw_dir / "*.vtt"))
+                txt_files = glob.glob(str(self.raw_dir / "*whisper.txt"))
+                
+                transcript_files = vtt_files + txt_files
+                
+                if transcript_files:
+                    # Use the most recent file (should only be one now)
+                    transcript_file = transcript_files[0]
                     
-                    # Extract basic video info from filename
-                    filename = os.path.basename(vtt_file)
-                    title = os.path.splitext(filename)[0]
+                    # Try to load metadata from JSON file
+                    filename = os.path.basename(transcript_file)
+                    base_name = os.path.splitext(filename)[0]
+                    # Remove _whisper suffix if present
+                    base_name = base_name.replace('_whisper', '')
                     
-                    video_info = {
-                        'title': title,
-                        'duration': 0,
-                        'uploader': 'Unknown',
-                        'upload_date': 'Unknown'
-                    }
+                    metadata_file = self.raw_dir / f"{base_name}.json"
                     
-                    return True, vtt_file, video_info
+                    if os.path.exists(metadata_file):
+                        try:
+                            with open(metadata_file, 'r', encoding='utf-8') as f:
+                                metadata = json.load(f)
+                            
+                            video_info = {
+                                'title': metadata.get('title', base_name),
+                                'duration': metadata.get('duration', 0),
+                                'uploader': metadata.get('uploader', 'Unknown'),
+                                'upload_date': metadata.get('upload_date', 'Unknown'),
+                                'view_count': metadata.get('view_count', 0),
+                                'description': metadata.get('description', ''),
+                                'webpage_url': metadata.get('webpage_url', '')
+                            }
+                            print(f"📊 Loaded metadata: {video_info['uploader']} - {video_info['title']}")
+                        except Exception as e:
+                            print(f"⚠️  Could not load metadata: {e}")
+                            video_info = {
+                                'title': base_name,
+                                'duration': 0,
+                                'uploader': 'Unknown',
+                                'upload_date': 'Unknown'
+                            }
+                    else:
+                        # Fallback to basic info from filename
+                        video_info = {
+                            'title': base_name,
+                            'duration': 0,
+                            'uploader': 'Unknown',
+                            'upload_date': 'Unknown'
+                        }
+                    
+                    return True, transcript_file, video_info
                 else:
-                    print("❌ No VTT file found after download")
+                    print("❌ No transcript file found after trying all methods")
                     return False, None, None
             else:
                 print(f"❌ Download script failed: {result.stderr}")
@@ -217,13 +234,12 @@ class TranscriptWorkflow:
             print(f"❌ Error running download script: {e}")
             return False, None, None
     
-    def process_existing_transcript(self, transcript_file, tags=None, open_notion=True):
+    def process_existing_transcript(self, transcript_file, open_notion=True):
         """
         Process an existing transcript file and upload to Notion.
         
         Args:
             transcript_file (str): Path to existing clean transcript file
-            tags (list): Optional tags for the Notion page
             open_notion (bool): Whether to open the Notion page in browser
             
         Returns:
@@ -234,12 +250,8 @@ class TranscriptWorkflow:
         try:
             notion = NotionIntegration()
             
-            if not tags:
-                tags = ["transcript", "notes"]
-            
             success, page_url, page_id = notion.upload_transcript(
-                transcript_file,
-                tags=tags
+                transcript_file
             )
             
             if success:
@@ -267,12 +279,11 @@ def main():
     if len(sys.argv) < 2:
         print("🎯 YouTube to Notion Transcript Workflow")
         print("\nUsage:")
-        print("  python workflow_orchestrator.py <youtube_url> [tags...]")
-        print("  python workflow_orchestrator.py --existing <transcript_file> [tags...]")
+        print("  python workflow_orchestrator.py <youtube_url>")
+        print("  python workflow_orchestrator.py --existing <transcript_file>")
         print("\nExamples:")
         print("  python workflow_orchestrator.py 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'")
-        print("  python workflow_orchestrator.py 'https://youtu.be/dQw4w9WgXcQ' education blockchain")
-        print("  python workflow_orchestrator.py --existing transcript.txt notes research")
+        print("  python workflow_orchestrator.py --existing transcript.txt")
         sys.exit(1)
     
     # Initialize workflow
@@ -285,22 +296,20 @@ def main():
             sys.exit(1)
         
         transcript_file = sys.argv[2]
-        tags = sys.argv[3:] if len(sys.argv) > 3 else None
         
         if not os.path.exists(transcript_file):
             print(f"❌ File not found: {transcript_file}")
             sys.exit(1)
         
-        results = workflow.process_existing_transcript(transcript_file, tags)
+        results = workflow.process_existing_transcript(transcript_file)
         
         if not results['success']:
             sys.exit(1)
     else:
         # Process YouTube URL
         youtube_url = sys.argv[1]
-        tags = sys.argv[2:] if len(sys.argv) > 2 else None
         
-        results = workflow.run_complete_workflow(youtube_url, tags)
+        results = workflow.run_complete_workflow(youtube_url)
         
         # Exit with error code if any step failed
         if not all(step['success'] for step in results.values()):

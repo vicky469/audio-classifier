@@ -2,8 +2,9 @@
 """
 Simple transcript processor that:
 1. Cleans VTT files by removing timestamps and formatting
-2. Divides text into chunks of 100 words
-3. Formats each line with max 15 words and adds line breaks
+2. Removes audio cues like [Music], [Applause], etc.
+3. Divides text into chunks of 100 words
+4. Formats each line with max 15 words and adds line breaks
 """
 
 import os
@@ -11,6 +12,33 @@ import re
 import glob
 import sys
 import string
+
+def remove_audio_cues(text):
+    """Remove audio cues and sound descriptions from text."""
+    # Remove audio cues and sound descriptions
+    text = re.sub(r'\[.*?\]', '', text)  # Remove [Music], [Applause], etc.
+    text = re.sub(r'\(.*?\)', '', text)  # Remove (music), (applause), etc.
+    
+    # Remove common audio cue words that might appear without brackets
+    text = re.sub(r'\b(music|applause|laughter|cheering|background noise)\b', '', text, flags=re.IGNORECASE)
+    
+    # Normalize whitespace
+    text = re.sub(r'\s+', ' ', text).strip()
+    
+    return text
+
+def detect_language(text):
+    """Detect if text is primarily Chinese or English."""
+    # Count Chinese characters (CJK Unified Ideographs)
+    chinese_chars = len(re.findall(r'[\u4e00-\u9fff]', text))
+    # Count English words (sequences of Latin letters)
+    english_words = len(re.findall(r'[a-zA-Z]+', text))
+    
+    # If more than 30% Chinese characters, consider it Chinese
+    total_chars = len(text.replace(' ', ''))
+    if total_chars > 0 and chinese_chars / total_chars > 0.3:
+        return 'chinese'
+    return 'english'
 
 def clean_vtt_content(content):
     """Extract and clean text from VTT content."""
@@ -37,6 +65,9 @@ def clean_vtt_content(content):
         segment = re.sub(r'<c>(.*?)</c>', r'\1', segment)
         segment = re.sub(r'&gt;', '>', segment)
         
+        # Remove audio cues and sound descriptions
+        segment = remove_audio_cues(segment)
+        
         # Get clean text
         clean_text = ' '.join([line.strip() for line in segment.split('\n') if line.strip()])
         if clean_text:
@@ -46,10 +77,23 @@ def clean_vtt_content(content):
     full_text = ' '.join(clean_texts)
     full_text = re.sub(r'\s+', ' ', full_text).strip()
     
+    # Final audio cue cleanup
+    full_text = remove_audio_cues(full_text)
+    
     # Remove repetitive phrases (phrases that repeat 3+ words)
     cleaned_text = remove_repetitive_phrases(full_text)
     
     return cleaned_text
+
+def clean_plain_text(content):
+    """Clean plain text content by removing audio cues and normalizing."""
+    # Remove audio cues and sound descriptions
+    content = remove_audio_cues(content)
+    
+    # Remove repetitive phrases
+    cleaned_content = remove_repetitive_phrases(content)
+    
+    return cleaned_content
 
 def remove_repetitive_phrases(text, min_phrase_length=3):
     """Remove repetitive phrases from text using a more robust algorithm."""
@@ -107,8 +151,34 @@ def remove_repetitive_phrases(text, min_phrase_length=3):
     
     return '. '.join(unique_sentences) + '.' if unique_sentences else ''
 
-def format_text(text, words_per_chunk=100, words_per_line=15):
-    """Format text into chunks of specified word count with line breaks."""
+def format_text_chinese(text, words_per_chunk=100, chars_per_line=50):
+    """Format Chinese text with approximately 50 characters per line."""
+    # Clean up the text but preserve basic structure
+    text = re.sub(r'\s+', ' ', text).strip()  # Normalize whitespace
+    
+    chunks = []
+    
+    # Divide into chunks based on character count (approximate)
+    chunk_size = words_per_chunk * 6  # Approximate characters per chunk for Chinese
+    
+    for i in range(0, len(text), chunk_size):
+        chunk_text = text[i:i + chunk_size]
+        
+        # Format each chunk with chars_per_line characters per line
+        formatted_lines = []
+        
+        for j in range(0, len(chunk_text), chars_per_line):
+            line_text = chunk_text[j:j + chars_per_line]
+            if line_text.strip():
+                formatted_lines.append(line_text.strip())
+        
+        if formatted_lines:
+            chunks.append('\n'.join(formatted_lines))
+    
+    return '\n\n'.join(chunks)
+
+def format_text_english(text, words_per_chunk=100, words_per_line=15):
+    """Format English text with existing rules (15 words per line)."""
     words = text.split()
     chunks = []
     
@@ -126,21 +196,39 @@ def format_text(text, words_per_chunk=100, words_per_line=15):
     
     return '\n\n'.join(chunks)
 
-def process_file(input_file, output_file, words_per_chunk=100, words_per_line=15):
-    """Process a VTT file according to requirements."""
-    print(f"Processing file: {input_file}")
+def format_text(text, words_per_chunk=100, words_per_line=15):
+    """Format text based on detected language."""
+    language = detect_language(text)
     
-    # Read the input file
-    with open(input_file, 'r', encoding='utf-8', errors='ignore') as f:
+    if language == 'chinese':
+        return format_text_chinese(text, words_per_chunk=500, chars_per_line=50)
+    else:
+        return format_text_english(text, words_per_chunk, words_per_line)
+
+def process_file(input_file, output_file=None, words_per_chunk=100):
+    """Process a single transcript file."""
+    if not os.path.exists(input_file):
+        print(f"Error: File {input_file} not found")
+        return False
+    
+    # Read the file
+    with open(input_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Clean the content
-    clean_text = clean_vtt_content(content)
+    # Clean the content based on file type
+    if input_file.endswith('.vtt'):
+        cleaned_content = clean_vtt_content(content)
+    else:
+        # For plain text files, apply audio cue removal and basic cleaning
+        cleaned_content = clean_plain_text(content.strip())
     
-    # Format the text
-    formatted_text = format_text(clean_text, words_per_chunk, words_per_line)
+    # Format the text based on detected language
+    formatted_text = format_text(cleaned_content, words_per_chunk)
     
     # Create output directory if it doesn't exist
+    if output_file is None:
+        output_file = os.path.join(os.path.dirname(input_file), f"{os.path.splitext(os.path.basename(input_file))[0]}_clean.txt")
+    
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     
     # Write to output file
@@ -187,7 +275,7 @@ if __name__ == "__main__":
             # Process single file
             if not output_path:
                 output_path = os.path.join(os.path.dirname(input_path), f"{os.path.splitext(os.path.basename(input_path))[0]}_clean.txt")
-            process_file(input_path, output_path, words_per_chunk, words_per_line)
+            process_file(input_path, output_path, words_per_chunk)
     else:
         # Use default paths
         transcript_dir = "/Users/wenqingli/Documents/repo/audio classifier/transcript/process"

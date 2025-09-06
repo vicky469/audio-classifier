@@ -24,7 +24,7 @@ class NotionIntegration:
         
         self.client = Client(auth=self.token)
         
-    def create_page_in_database(self, title, content, video_info=None, tags=None):
+    def create_page_in_database(self, title, content, video_info=None):
         """
         Create a new page in the specified Notion database.
         
@@ -32,7 +32,6 @@ class NotionIntegration:
             title (str): Page title
             content (str): Transcript content
             video_info (dict): Video metadata (title, uploader, etc.)
-            tags (list): List of tags to add
             
         Returns:
             tuple: (success, page_url, page_id)
@@ -58,42 +57,65 @@ class NotionIntegration:
             
             # Add video metadata if available
             if video_info:
-                if video_info.get('author'):
+                # Use 'uploader' field for Author (channel name)
+                if video_info.get('uploader'):
                     properties["Author"] = {
                         "rich_text": [
                             {
                                 "type": "text",
                                 "text": {
-                                    "content": video_info['author']
+                                    "content": video_info['uploader']
                                 }
                             }
                         ]
                     }
                 
-                if video_info.get('upload_date'):
+                # Format upload_date for better display
+                if video_info.get('upload_date') and video_info['upload_date'] != 'Unknown':
+                    upload_date = video_info['upload_date']
+                    # Format YYYYMMDD to YYYY-MM-DD if it's in that format
+                    if len(upload_date) == 8 and upload_date.isdigit():
+                        formatted_date = f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:8]}"
+                    else:
+                        formatted_date = str(upload_date)
+                    
                     properties["Created"] = {
                         "rich_text": [
                             {
                                 "type": "text",
                                 "text": {
-                                    "content": str(video_info['upload_date'])
+                                    "content": formatted_date
                                 }
                             }
                         ]
                     }
                 
-                if video_info.get('duration'):
-                    # Convert duration to phone number format (just the number)
-                    duration_min = str(video_info['duration'] // 60)
+                # Convert duration from seconds to minutes for display
+                if video_info.get('duration') and video_info['duration'] > 0:
+                    duration_min = str(int(video_info['duration']) // 60)
                     properties["Duration"] = {
                         "phone_number": duration_min
                     }
+                
+                # Add view count if available
+                if video_info.get('view_count') and video_info['view_count'] > 0:
+                    view_count = f"{video_info['view_count']:,}"  # Format with commas
+                    properties["Views"] = {
+                        "rich_text": [
+                            {
+                                "type": "text",
+                                "text": {
+                                    "content": view_count
+                                }
+                            }
+                        ]
+                    }
             
-            # Add tags if provided - using URL format as that's what the database expects
-            if tags:
-                # For URL type, we'll just put the first tag as a URL or convert to text
-                properties["Tags"] = {
-                    "url": f"https://example.com/tags/{'-'.join(tags)}"
+            
+            # Add video URL if available
+            if video_info and video_info.get('webpage_url'):
+                properties["Video URL"] = {
+                    "url": video_info['webpage_url']
                 }
             
             # Set default status
@@ -191,24 +213,32 @@ class NotionIntegration:
         
         for paragraph in paragraphs:
             if paragraph.strip():
-                # Split long paragraphs if needed
-                if len(paragraph) > 1800:  # Leave some buffer
-                    # Split by sentences or at word boundaries
-                    sentences = paragraph.split('. ')
-                    current_block = ""
+                # Split long paragraphs if needed (Notion limit is 2000 chars)
+                text = paragraph.strip()
+                if len(text) > 1900:  # Leave buffer for safety
+                    # Split into chunks of 1900 characters at word boundaries
+                    chunks = []
+                    while len(text) > 1900:
+                        # Find a good break point (space, comma, period, or Chinese punctuation)
+                        break_point = 1900
+                        for i in range(1900, max(1700, 0), -1):  # Look backwards for break point
+                            if i < len(text) and text[i] in ' ,.。，！？\n':
+                                break_point = i + 1
+                                break
+                        
+                        chunks.append(text[:break_point].strip())
+                        text = text[break_point:].strip()
                     
-                    for sentence in sentences:
-                        if len(current_block + sentence) > 1800:
-                            if current_block:
-                                blocks.append(self._create_paragraph_block(current_block.strip()))
-                            current_block = sentence + ". "
-                        else:
-                            current_block += sentence + ". "
+                    # Add remaining text
+                    if text:
+                        chunks.append(text)
                     
-                    if current_block.strip():
-                        blocks.append(self._create_paragraph_block(current_block.strip()))
+                    # Create blocks for each chunk
+                    for chunk in chunks:
+                        if chunk:
+                            blocks.append(self._create_paragraph_block(chunk))
                 else:
-                    blocks.append(self._create_paragraph_block(paragraph.strip()))
+                    blocks.append(self._create_paragraph_block(text))
         
         # Add a divider and notes section
         blocks.extend([
@@ -219,27 +249,13 @@ class NotionIntegration:
             },
             {
                 "object": "block",
-                "type": "heading_2",
-                "heading_2": {
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "My Notes"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "object": "block",
                 "type": "paragraph",
                 "paragraph": {
                     "rich_text": [
                         {
                             "type": "text",
                             "text": {
-                                "content": "Add your notes and insights here..."
+                                "content": "📝 Add your notes here..."
                             }
                         }
                     ]
@@ -266,14 +282,13 @@ class NotionIntegration:
             }
         }
     
-    def upload_transcript(self, transcript_file, video_info=None, tags=None):
+    def upload_transcript(self, transcript_file, video_info=None):
         """
         Upload a cleaned transcript file to Notion.
         
         Args:
-            transcript_file (str): Path to the cleaned transcript file
-            video_info (dict): Video metadata
-            tags (list): Tags to add to the page
+            transcript_file (str): Path to the transcript file
+            video_info (dict): Video metadata to add to the page
             
         Returns:
             tuple: (success, page_url, page_id)
@@ -290,11 +305,7 @@ class NotionIntegration:
                 filename = os.path.basename(transcript_file)
                 title = f"📺 {os.path.splitext(filename)[0].replace('_clean', '')}"
             
-            # Default tags
-            if not tags:
-                tags = ["transcript", "video", "notes"]
-            
-            return self.create_page_in_database(title, content, video_info, tags)
+            return self.create_page_in_database(title, content, video_info)
             
         except Exception as e:
             print(f"❌ Error uploading transcript: {e}")
