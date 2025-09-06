@@ -1,43 +1,150 @@
-// pip install -r requirements.txt
+# YouTube to Notion Transcript Workflow Setup
 
-https://github.com/yt-dlp/yt-dlp/?tab=readme-ov-file#installation
+This automated workflow allows you to:
 
-## Templates:
+1. Download transcripts from YouTube videos
+2. Clean and format the transcripts
+3. Upload them to Notion for note-taking
+4. Automatically open the Notion page in your browser
 
-// Basic template: Extract audio only (-x) and save with the video title as filename
-`yt-dlp -x -o '/path/to/downloads/%(title)s.%(ext)s' 'youtube video link'`
+## 🚀 Quick Start
 
-// Template with channel name: Extract audio and include channel name in filename
-`yt-dlp -x -o '/Users/wenqingli/Documents/repo/audio classifier/audios/%(channel)s - %(title)s.%(ext)s' 'youtube video link'`
+### 1. Install Dependencies
 
-// Template with uploader and channel: Extract audio and include both uploader and channel in filename
-`yt-dlp -x -o '/Users/wenqingli/Documents/repo/audio classifier/audios/%(uploader)s - %(channel)s - %(title)s.%(ext)s' 'youtube video link'`
+```bash
+cd "/Users/wenqingli/Documents/repo/audio classifier"
+pip install -r requirements.txt
+```
 
-## Examples:
+### 2. Set Up Notion Integration
 
-// Example 1: Extract audio only, saving with just the video title
-yt-dlp -x -o '/Users/wenqingli/Documents/repo/audio classifier/audios/%(title)s.%(ext)s' 'https://www.youtube.com/watch?v=xdZlAIQgNuM'
+#### Create a Notion Integration:
 
-// Example 2: Extract audio and include the channel name in the filename
-yt-dlp -x -o '/Users/wenqingli/Documents/repo/audio classifier/audios/%(channel)s - %(title)s.%(ext)s' 'https://www.youtube.com/watch?v=RGRT78Sn8dE&ab_channel=ricarda'
+1. Go to [https://www.notion.so/my-integrations](https://www.notion.so/my-integrations)
+2. Click "New integration"
+3. Give it a name (e.g., "Transcript Processor")
+4. Select your workspace
+5. Copy the "Internal Integration Token"
 
-// Example 3: Extract audio with time range (from 1:55 to 19:20) and include channel name in filename
-yt-dlp -x --postprocessor-args "-ss 01:55 -to 19:20" -o '/Users/wenqingli/Documents/repo/audio classifier/audios/%(channel)s - %(title)s.%(ext)s' 'https://www.youtube.com/watch?v=-8Whp_X6xoE&ab_channel=GhettoASMRReuploads'
+#### Set Up Your Database (Optional but Recommended):
 
-// Example 4: Extract audio in MP3 format with time range (from 1:55 to 19:20) and include channel name in filename
-yt-dlp -x --audio-format mp3 --postprocessor-args "-ss 01:55 -to 19:20" -o '/Users/wenqingli/Documents/repo/audio classifier/audios/%(channel)s - %(title)s.%(ext)s' 'https://www.youtube.com/watch?v=-8Whp_X6xoE&ab_channel=GhettoASMRReuploads'
+1. Create a new database in Notion with these properties:
 
-// Example 5: Extract audio in MP3 format and include channel name in filename
-yt-dlp -x --audio-format mp3 -o '/Users/wenqingli/Documents/repo/audio classifier/audios/%(channel)s - %(title)s.%(ext)s' 'https://www.youtube.com/watch?v=vNC1zr2XpKQ&ab_channel=VanessaASMR'
+   - **Title** (Title)
+   - **Status** (Select: "Ready for Notes", "In Progress", "Complete")
+   - **Author** (Text)
+   - **Duration (min)** (Number)
+   - **Tags** (Multi-select)
+   - **Created** (Date)
 
-## Troubleshooting
+2. Share the database with your integration:
+   - Click "Share" on your database
+   - Add your integration
+   - Copy the database ID from the URL
 
-### Fixing "Sign in to confirm you're not a bot" Error
+#### Create Environment File:
 
-// Method 1: Use browser cookies (recommended)
-yt-dlp -x --audio-format mp3 --cookies-from-browser firefox -o '/Users/wenqingli/Documents/repo/audio classifier/audios/%(channel)s - %(title)s.%(ext)s' 'https://www.youtube.com/watch?v=7hyoONj4nEY&ab_channel=JordanBPeterson'
+```bash
+cp .env.example .env
+```
 
-### Fixing Requested format is not available. Use --list-formats for a list of available formats
+Edit `.env` file:
 
-// Method 1: Try with format 18 (combined audio/video) and extract audio
-yt-dlp -f 18 -x --audio-format mp3 --extractor-args "youtube:player_client=android" --geo-bypass -o '/Users/wenqingli/Documents/repo/audio classifier/audios/%(channel)s - %(title)s.%(ext)s' 'https://www.youtube.com/watch?v=7hyoONj4nEY'
+```
+NOTION_TOKEN=your_integration_token_here
+
+NOTION_DATABASE_ID=your_database_id_here  # Optional
+
+```
+
+### 3. Run the Workflow
+
+#### Complete Workflow (YouTube → Notion):
+
+```bash
+python src/workflow_orchestrator.py "https://www.youtube.com/watch?v=VIDEO_ID"
+```
+
+#### With Custom Tags:
+
+```bash
+python src/workflow_orchestrator.py "https://www.youtube.com/watch?v=VIDEO_ID" education blockchain crypto
+```
+
+#### Process Existing Clean Transcript:
+
+```bash
+python src/workflow_orchestrator.py --existing "transcript/clean/your_file_clean.txt" notes research
+```
+
+## 📁 File Structure
+
+```
+audio classifier/
+├── scripts/
+│   ├── download_transcript.sh      # YouTube transcript downloader
+├── src/
+│   ├── workflow_orchestrator.py    # Main workflow script
+│   ├── notion_integration.py       # Notion API integration
+│   └── transcript_processor.py     # Transcript cleaner/formatter
+├── transcript/
+│   ├── original/                   # Raw VTT files from YouTube
+│   ├── process/                    # Intermediate processing files
+│   └── clean/                      # Cleaned, formatted transcripts
+├── requirements.txt                # Python dependencies
+├── .env                           # API keys and configuration
+```
+
+## 🎯 Workflow Steps
+
+1. **Download**: Extracts transcript from YouTube video using `youtube-transcript-api`
+2. **Process**: Copies VTT file to process directory and runs transcript cleaner
+3. **Clean**: Removes timestamps, repetitions, and formats into readable chunks
+4. **Upload**: Creates a Notion page with the cleaned transcript and metadata
+5. **Open**: Automatically opens the Notion page in your browser for note-taking
+
+## 🔍 Features
+
+- **Smart Repetition Removal**: Detects and removes repetitive phrases automatically
+- **Proper Formatting**: 100-word chunks with 15 words per line for readability
+- **Rich Metadata**: Includes video title, author, duration, and upload date (TODO)
+- **Automatic Tagging**: Adds relevant tags based on content and video info
+- **Browser Integration**: Opens Notion page automatically for immediate note-taking
+- **Error Handling**: Comprehensive error messages and fallback options
+
+## 🛠 Troubleshooting
+
+### "No transcript available"
+
+- Some videos don't have transcripts
+- Try videos with auto-generated captions
+- Check if the video is public and accessible
+
+### "Notion token not found"
+
+- Make sure `.env` file exists with `NOTION_TOKEN`
+- Verify your integration token is correct
+- Ensure the integration has access to your workspace
+
+### "Permission denied" errors
+
+- Make sure your Notion integration has access to the target database/page
+- Check that the database ID is correct
+
+### Import errors
+
+- Run `pip install -r requirements.txt`
+- Make sure you're in the correct directory
+
+## 📝 Example Usage
+
+```bash
+# Complete workflow with a YouTube video
+python src/workflow_orchestrator.py "https://www.youtube.com/watch?v=JJqjTxaVSGw&ab_channel=WhenShiftHappens"
+
+# Process existing transcript file
+python src/workflow_orchestrator.py --existing "transcript/clean/my_transcript_clean.txt" research notes
+
+# Just download transcript (no Notion upload)
+python src/youtube_downloader.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+```
