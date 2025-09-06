@@ -1,5 +1,14 @@
+# YouTube transcript extraction
 youtube-transcript-api==0.6.2
+
+# YouTube video downloading and metadata extraction
 yt-dlp==2023.12.30
+
+# HTTP requests for API calls
 requests==2.31.0
+
+# Notion API integration for database operations
 notion-client==2.2.1
+
+# Environment variable management for API keys and secrets
 python-dotenv==1.0.0
