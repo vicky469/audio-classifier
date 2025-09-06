@@ -1,0 +1,1710 @@
+I do not think institutions are here in size at all. When I think of
+institution, I think of the large pension plans, the large endowments, insurance companies, insurance companies,
+insurance companies, sovereign wealth funds and there some of those flows have have started for
+sure. So the type of institution that I have spent my career with mostly have
+still like they haven't even scratched the surface surface surface really. Oh, not at all.
+Not at all. Welcome to Bankless, where we explore the frontier of internet money and
+internet finance. This is Ryan Sean Adams. Just me here
+
+today. David is out, so I am here to help you become more bankless. We've
+got Eric Peters on the podcast today. This is our third time talking. I consider
+Eric an absolute investing legend. He was some of the first, some of the largest
+at the time. Institutional capital, brave enough to buy crypto, back before it was an
+institutional asset class, back before it was popular. Now, last time we checked in with
+Eric, it was back in 2023. So, Bitcoin was in the 20K range at the
+time, if I remember, and ETH was in the thousands.
+
+We were in the midst of Operation Chokepoint. We were under a full frontal assault
+by Gary Gendler. We were still cleaning up the mess left by the SPF blow
+up. The institutions had largely left. They were gone. Many had thought they had left
+for good. We're in a completely different world right now. On Bank list, this cycle,
+this crypto bull cycle, we've called the institutional cycle of crypto. And I wanted to
+get Eric's thoughts on this institutional cycle, how it would play out. How does Wall
+Street actually view crypto in 2025. Why did Larry think
+
+change his mind. who's left on Wall Street to convince and how far will this
+cycle actually take us, including from a price perspective for Bitcoin and Ether. We talk
+about Paul Tudtor Jones and Ray Dallio, their crypto conversion, how ETFs fundamentally change crypto's
+market structure, and why Eric thinks in the wake of the Genius Act, all of
+Wall Street assets will become tokenized. And I think probably the most bullish thing that
+he said, the big institutional money isn't even here yet. Eric thinks it'll be coming
+over the next 5 years or so, and they'll be
+
+buying our crypto assets at higher prices. He talks about why. This is one of
+my favorite episodes that we've recorded this year, so please enjoy it. It's a conversation
+with Eric Peters, and thanks to the sponsors who made it possible. In the wild
+west of DeFi, stability and innovation are everything, which is why you should check out
+FRA Finance. The protocol revolutionizing stable coins, DeFi, and Rolex. The core of FRA Finance
+is FRAXUSD, which is backed by Black Rockck's institutional bidd. FRA designed FRAUSD for best-in-class
+yields across DeFi, T bills, and carry trade returns allinone.
+
+Just head to fra. com, then stake it to earn some of the best yields
+in DeFi. Want even more. Bridge Fra USD over to the Fractal layer 2 for
+the same yield plus Fraal points and explore Fractal's diverse layer 2 ecosystem with protocols
+like Curve, Convex, and more. All rewarding early adopters. FRA isn't just a protocol. It's
+a digital nation powered by the FXS token and governed by its global community. Acquire
+FXS throughfra. com or your go-to dex. Stake it and help shape FRA Nation's future.
+Ready to join the forefront of DeFi. Visit frack. com
+
+now to start earning with FRAUSD and staked FRAUSD. And for bankless listeners, you can
+use fra. com/r/bankless fra. com/r/bankless when bridging to Fraal for exclusive fraal perks and boosted
+rewards. Imagine a world where traditional finance meets the power of blockchain seamlessly. That's what
+Mantle is pioneering with blockchain for banking. A revolutionary new category at the intersection of
+tradi and web 3. At the heart is UR, the world's first money app built
+fully on chain. It gives you a Swiss iBAN account blending fiat currencies like the
+euro, the Swiss franc, the United States dollar, or the
+
+raimi with crypto all in one place. Enjoy real world usability and blockchain's trust and
+programmability. Transactions post directly to the blockchain, compatible with tradi rails and packed with integrated
+D5 futures. UR transforms Mantle Network into the ultimate platform for onchain financial services unifying
+payments, trading and assets like the MI4, the ME protocol and functions FBTC backed by
+developer grants, ecosystem incentives and top distribution through the UR app, reward stations and buy
+bit launch pool for MNT holders. Every economic activity in UR drives value back to
+you, embodying the entire stack and future growth of this
+
+super app ecosystem. Follow Mantle on X at mantle_official for the latest updates on blockchain
+for banking. That's x. com/mantle_official. Ethereum's layer 2 universe is exploding with choices. But if
+you're looking for the best place to park and move your tokens, make your next
+stop uni chain. First, liquidity. Uni chain hosts the most liquid unis swap v4 deployment
+on any layer 2, giving you deeper pools for flagship pairs like ETHUSDC. More liquidity
+means better prices, less slippage, and smoother swaps. Exactly what traders crave. The numbers back
+it up. Uni Chain leads all layer 2s in total
+
+value locked for unis swap v4. And it's not just deep, it's fast and fully
+transparent. Purpose-built to be the home base for DeFi and crosschain liquidity. When it comes
+to costs, uni chain is a no-brainer. Transaction fees come in about 95% cheaper than
+Ethereum mainet, slashing the price of creating or accessing liquidity. Want to stay in the
+loop on UniChain. Visit uniain. org or follow uniain onx for all the updates. Bank
+station very excited to introduce you once again to Eric Peters. He is the CEO
+of Coinbase Asset Management. He's also the founder and CIO
+
+of One River Asset Management. I think we first met Eric Peters in 2021. That
+was our first Bankless podcast with him. And at the time, he was one of
+the institutions, one of the few, maybe the first that had actually entered crypto. So,
+a lot to talk about today, a lot of things to catch up on. Eric
+Peters, how you doing. you doing. I'm great, man. It's great to be back. It's
+good to good to see you again. Sorry we're going to miss David today, but
+uh yeah, it's great to see you. Yeah. Okay, so
+
+uh for people who don't haven't listened the previous episodes, we did one with you
+I think in 2021, another in 2023. Those are different environments, different climates. But you
+started with a story of you were one of the first institutional buyers of Bitcoin.
+And I also I think Ether and I recall the story you told us where
+you were trying to find a way to purchase at the time was that $600
+million worth of Bitcoin and Ether back in 2020. And you're trying to do this
+on on the quiet and realizing that as an institution
+
+there was like very little institutional infrastructure to execute this trade. uh take us back
+to that story because I want to contrast that with where we are today. So
+for people who haven't heard, what like what were you doing back in 2020. Why
+were you an institution actually bold enough to enter crypto. What what the heck were
+you thinking. So um that was a really fun time and it seems quaint, right.
+Like $600 million doesn't seem like that much money anymore. Um which is which is
+part of the story of crypto as well. It just,
+
+you know, money illusion and over time um money becomes worth less. um not worthless
+but worthless. Uh yeah. So at the at the time uh you know we gotten
+through COVID right and um I was uh I was running a macro firm called
+one river still am um in addition to Coinbase asset management um and we were
+searching around for um interesting expressions for this monetary debasement theme that we saw unfolding.
+government, you know, borrowing insanely large amounts of money, essentially printing it. And um the
+question was, what are what were some of the the
+
+ways that you could profit from that or or just protect your wealth. And um
+one of our largest clients, actually UK client, it's all public record. Um their their
+CIO is Philip Henry Maxi. True iconoclastic. Wait, Philip Henry Maxi, his last name is
+Maxi. is Maxi. His name is Henry Maxi. Okay. Well, that's fitting. You know, actually,
+that's so funny. I never even thought about that. Um, we bought a lot more
+Bitcoin than than ETH. So, uh, yeah, so uh, so yeah, so Henry um is
+a client and, uh, um, they they ultimately made the
+
+plunge and just said, look, this is this is going to be um this is
+going to be a really highly convex way to play this theme. So then the
+question was, well, how do you do it. And there really there were very few
+options. you know, there were some crypto um financial firms um you know, great run
+by great people, great firms, but kind of not not institutional in the classic sense.
+And we had always done bespoke things together and um and so we just set
+out to figure out how to how to make it
+
+happen and do it really quietly because at the time and this is with Bitcoin
+at you know 15,000 and uh and with ETH at you know we're buying around
+400 or something like My god. Um, and there just wasn't that much volume. So,
+like we we ended up working exclusively with Coinbase. Um, we had a a project
+called Project Acorn. There were probably seven people within the whole firm that knew what
+we were doing. And I actually didn't even tell them the full amount that we
+were doing. I said, "We're going to, you know, we're
+
+we're making some purchases and I think they thought we were buying 50 million bucks,
+which was a lot. " And, uh, every time we kept wiring more and more
+money over, we were like, "Okay, well, now there's another hundred coming. " You know.
+So um but but yeah that was uh that was a really exciting time and
+uh wow have we come a long way since then just in terms of infrastructure
+in terms of trade size and and and yeah just the ability to execute and
+you guys were one of the first institutions to kind
+
+of like enter in this way I believe now now it's like that's why I
+want to get to this cycle a little bit more because it seems like this
+cycle of crypto is being defined by the institutions but going back to that you
+know $600 uh million dollar execution Bitcoin right and that was maybe Bitcoin at 15K
+or something. So you maybe you like 5x that or or 6x that and you
+know what's the equivalent of say a $5 billion entry into Bitcoin. Is that fairly
+easy to do today if you kind of like you
+
+know 5 to 10x the the size compared to you know doing that uh back
+in 2020. Is the infrastructure institutional infrastructure now set up to execute in that type
+of size or is that still kind of like a big amount of money. It's
+a big amount of money, but like one of your boys just sold eight billion
+dollars worth, right. Um Yeah. So So So that was a Galaxy thing, right. Are
+is that what you're referring to. Um supposedly. So this is probably an early Bitcoin
+type investor. We don't know who this is. They did
+
+8 billion in trade execution over the last couple of weeks of of Bitcoin, I
+believe, right through Galaxy. And that uh sent waves into the market. market. Come on.
+Well, you know, we can't disclose these types of things. Um, yeah, of course. Um,
+but yeah, so, you know, you're starting to see really, you know, really large sums
+trade hands without moving markets dramatically. You know, we're swinging around 5% or 7% or
+3%. But yeah, I I think the the depth and liquidity this market now is
+it's pretty remarkable. We really didn't move the market. I
+
+did that whole execution. And I I I was working with the Coinbase team, I
+mean, literally around the clock using all their latest algos and, you know, all these
+things are more advanced now than they were back then, of course. Um, but they
+had clearly the the the best institutional uh type desk uh back then and and
+I think still do, but I mean that took us 5 days to do it
+without moving the market 24/7. And now you could, you know, you could do that
+trade in a heartbeat. You could do an OT OTC
+
+trade and really not move the market materially. materially. So, uh, that's one of the
+ways that things have changed over the last 5 years is deeper liquidity, you know,
+ability to execute on major volume. Obviously, price has been been a big change. I
+want to go through some of the other changes that you've seen over the last
+5 years. It strikes me that back in 2020, what you were doing as kind
+of a, you know, um, an institution, a respected uh, individual asset manager from Greenwich,
+Connecticut. And I said the the name right this time,
+
+Eric. So, we got it. We're fully We understand Trafi now a bit more in
+crypto. So, that was career risk at the time. It strikes me for at least
+a lot of asset managers felt like buying this dark money sketchy internet thing called
+Bitcoin was career risk. Now you fast forward to 2025, we've got Larry Frink talking
+about crypto. It took Bitcoin ETFs. It feels very much like crypto has invaded Wall
+Street. And I'm not going to say it's become consensus, but it has certainly become
+accepted. What's happened over the last 5 years to move
+
+the dial so much on that. Can you just describe what it's looked like from
+the belly of the beast. That's a that's a really good question. The question of
+why is a really good question. I think we could probably spend a lot of
+time on that. Uh I think I think Black Rockck's entrance was a big deal.
+And uh and look, Larry Frink, if you think about his career, I I mean,
+what a what an impressive entrepreneur. He took that firm and he really disrupted the
+um the mutual fund industry industry industry in just a
+
+massive way and has made his fortune by doing that. Now most people probably his
+age with the type of wealth that he's created they probably I want to say
+would gotten fat and lazy but I you know they they probably would have would
+have declared victory and gone home. And I think he saw this he rightly saw
+this technology as something that could potentially disrupt the ETF industry and made the fateful
+decision to just to lean into it. And so I think certainly he's not the
+only one who deserves that credit. I think there were,
+
+you know, there were all sorts of luminaries in our industry uh in in trad
+uh finance who who had similar views. Um, I mean, Jamie Diamond certainly didn't, at
+least not outwardly, but you know, Ray Dalio, uh, who I have a tremendous amount
+of respect for, you know, came out fairly early and talked about that, you know,
+he is he is kind of a northstar for a lot of the large institutional
+investors out there when when, you know, he says, "Look, something like this likely deserves
+a place in a portfolio that matters. " Um, Paul
+
+Jones is enormously respected throughout our industry. uh and you know and and there there
+certainly are others no need to go through the whole list but you know you
+just you started to see people who I think are very savvy investors who saw
+this technology platform as likely being an important part of the foundation for financial infrastructure
+and if that was the case it was like well stuff will probably get built
+on top of these things and kind of like us we looked at it and
+said people really do not understand this technology they kind
+
+of don't understand that you actually can store it securely. They don't understand that it's
+used for all sorts of things that are not drug dealing and all the like
+so many of the misconceptions that that were rampant 5 years ago. You if you
+looked if you did real work on them, you're like this is all BS. Um
+or most of it is and you couldn't it it didn't take a genius to
+envision a future where became more important. And then and so you're like, okay, well,
+if there's something substantive to this and hardly anyone owns
+
+it, then the price is probably going to be higher tomorrow relative to today. And
+so that, you know, that just draws financial players into, you know, um into investments.
+And so I I really think that's what's happened broadly. So you really think it's
+been a matter of um you just hearts and minds have changed basically around this
+asset class and in some of these key opinion leaders let's call it the Larry
+Fanks the Paul Tudtor Jones of the world these have been sort of their hearts
+and minds have kind of changed they've seen the investment
+
+potential to to what extent I guess Eric do you think it's also because Wall
+Street now has something to sell right so like let's take another kind of maybe
+cynical uh take on it it's not that cynical it's just kind of a profit
+motive incentive based take which Well, I mean, Larry Frink and Black Rockck, they're going
+to change bullish now that they have an ETF to actually sell because then they
+can collect fees on that. Maybe that's a simple explainer to the story of why
+Trad is bullish because they can tokenize things and they
+
+can launch treasury companies and they now have ETFs. To what extent is that an
+explainer. explainer. It is an explainer, but I think it's uh it's a good explainer.
+I don't there's nothing to be ashamed about there because I think there are a
+lot of things that you can that you could you know quote unquote do in
+the world but it doesn't mean that they make sense to do do do and
+I think if if the traditional financial players didn't look at blockchain technology and and
+recognize that it could be it could allow the financial
+
+system to transact faster and cheaper um potentially far more transp apparently um more securely.
+If they didn't see that as the as the underlying justification for doing something then
+I would it wouldn't matter. But I think what what is evident with with people
+who have spent time looking at these technologies technologies technologies what is evident is that
+if they get adopted at scale they will make financial transactions faster, cheaper, more secure,
+more transparent and everyone has a vested stake in that. Some of the reasons that
+we have had large financial crises have been because financial
+
+transactions haven't been able to happen fast enough. Some of them have been because there's
+been a lack of transparency. 2008, one of there were all sorts of problems of
+overlever. Um, but one of the largest problems that compounded some of the more fundamental
+problems of just kind of overlever and overvaluation was that there was so little transparency
+that if you faced if you faced your your counterparty, you didn't know if they
+actually were solvent or bankrupt. You had no idea what was on their balance sheet.
+In fact, many of the the companies themselves didn't even
+
+know really what was on their own balance sheet. And so blockchain technology, crypto is
+can solve all these problems. So I I think that the foundation is is actually
+solid. Um which is why Tradfi and people who've looked at this have been able
+to envision a future where if you look at like myself 10 years hence, 5
+years hence and you go this is going to be used everywhere. This is again
+the people who don't see it, they're just it doesn't matter. like eventually they'll see
+it and they'll be the guys that pay more for
+
+the things that we're building or buying right now. So that's great. You know, not
+everyone has to see it all at once, but that create that's what creates a
+you know a a bull market and and pulls people in. So would you say
+at this point in Tradfi in Wall Street crypto is now consensus and maybe maybe
+there's a way to pull that apart because there are different pieces of of crypto,
+different use cases. Of course you have the store of value use case. You know
+something like a bitcoin you would argue ether kind of
+
+fits that as well. And then you you also have you know stable coins you
+have tokenization and different subsets may or may or DeFi different subsets may or may
+not be consensus versus contrarian but on a whole is it kind of broadly accepted
+that crypto's here to stay. It's going to be a big deal and we have
+to adapt our uh financial firms to fit this accordingly. We have to have a
+crypto strategy. Is that now consensus. I think that with quite a few people at
+large financial firms, it is they would say it's obvious.
+
+obvious. I don't know that it's a I don't know that it's fully a consensus.
+I think that one of the one of the great things about crypto markets uh
+and and also it's somewhat frustrating is that and and Jay Clayton who was uh
+was one of our adviserss uh he was the one who really helped me see
+this um early he was a former SEC chair Mhm. um before he he joined
+us and uh he said crypto is the first financial innovation innovation innovation that started
+basically on main street. It did not start on Wall
+
+Street and the consequence of which which is a really simple statement but I think
+actually quite profound. So if you think of all the frustrations and the misunderstandings and
+quite frankly a lot of the fraud and the bad actors that have really harmed
+this industry or at least set us back. I don't it won't do lasting harm
+but it you know s the Sam Banks of the world certainly set us back.
+back. Yes. But if you look at kind of all of the things that have
+happened that um that traditional financial players have just resented
+
+or pushed back on, I think it's because it started with, you know, it started
+outside of their industry. So it never it was never regulated out of the start.
+If you think about mortgage bonds or CDOS or all sorts of derivatives or swaps,
+um all of these things started within the financial industry and and this this whole
+you know crypto started elsewhere and as a result we've just had a very we've
+had a very different path and the consequence of that is that most of the
+most of the older people who have been at these
+
+financial firms that naturally are the most senior are probably the most conserv conservative in
+general. They've just stayed away from crypto, but now they they've missed this massive move.
+And it's hard for people when they misunderstand something and miss something and particularly when
+they're very successful people, it's hard for them to just be like, you know what,
+I was wrong. I move on. Like I I've been wrong so many times in
+my life and career that it doesn't really bother me that much. And you'll see
+the same thing with guys like Paul Jones. Like people
+
+who can flip, they can change their opinion three times in a day. Those are
+the those are like that category of people are the ones that have really gotten
+on board. But these these you know bankers that don't usually don't have to admit
+mistakes and things like that. It's been really hard for them to get on board.
+And yet, I think an increasing number of them are saying things to me like,
+"Yeah, obviously this is the future, but I still, you know, my board's still not
+on board or, you know, maybe they invested in Celsius
+
+and they lost some money or, you know, whatever. What there's there's still excuses for
+them to not fully embrace it right now, but it it is so obviously coming.
+" You said something there that I want to just uh drill into and just
+get your kind of uh because one of the benefits I always enjoy talking to
+you, Eric, is you you have this wealth of um experience, just investing experience, right.
+But you said someone like Paul uh Jones can kind of change his opinion three
+times in a day. So, and the importance of being
+
+able to change your opinion, look at your blind spots and say, "Okay, here I
+was wrong. " That's important. And that caused many in traditional finance to miss out
+on crypto. How do you balance that. the idea that you want to evaluate things,
+re-evaluate things, change your opinion multiple times with the other thing that seems important around
+crypto or any investing in general, any asset class, which is conviction. I have trouble
+wrestling with this in my own head because, you know, sometimes I uh I want
+to change my opinion on things and yet sometimes I
+
+like I re-evaluate it so much that I can almost sigh up myself into selling
+assets that I truly do believe in just because a whole bunch of people don't.
+So, how do you balance kind of the conviction element as an investor and actually
+being able to open your mind to new information and like not be a bag
+holder of things that are like obviously never or maybe it's not obvious are never
+going to return. How do you how do you balance these things. I guess that's
+what I'm asking. That's the art of of investing and
+
+uh and trading and you know investors generally have a longer time horizon than traders.
+than traders. Uh there's some people who are pretty good at both. Um but oftentimes
+you'll find that um that people who are really good at one are just not
+very good at at the other. And really successful ones will admit that be like
+I'm actually you know someone might say I'm actually a really good investor. I am
+a terrible trader. Like if you look at my decisions to get in or out
+of something it is always at the low or it's
+
+always at the high and um and if I change my investment thesis I'm getting
+out the wrong time. And so I don't trust myself and therefore I kind of
+don't trade. And but that's it's a it's a very very hard thing to do.
+I mean look at you. You I mean I I wouldn't call you the most
+objective person in the world when it comes to ETH. Right. So you you have
+incredibly high conviction. ETH like I've lived the ETH journey. You know I was the
+you you were a buyer before. I was but like
+
+I was a buyer at 400. I lived lived it all the way up to
+4,800 and all the way down to, you know, very low levels. I don't know,
+1500, whatever. And then, you know, here we are back again. And I think we
+probably go quite a bit higher. But I think it's it's a lot of uh
+the people who who can kind of do both credibly, I think, do a good
+job of of identifying the time horizon that they're focused on because it much of
+it is about time horizon. You can be a long-term
+
+bull on any asset, crypto assets, Bitcoin, Ethereum, whatever it may be, and you can
+be bearish in the short run. Um, I my wife jokes with me all the
+time, like I've called ETH a dog for so long, as it has been, but
+like, but I but by the way, it hasn't gotten me bearish on ETH over
+the long term because because because we're building things on ETH. Like I I you
+know, we could talk about that later perhaps, but one of the things that was
+exciting for me to sell One River Digital to Coinbase
+
+is that the things that we were building that were financial infrastructure, I thought would
+have a much higher probability of seeing the light of day and really scaling across
+the industry if we were part of the 800 lb gorilla. And that's actually starting
+to play out right now. So like I've lived the journey of like building things
+on ETH for to 5 years at this stage and now you're starting to see
+it's like okay the whole financial system is going to move I believe to uh
+to ETH and uh you know as just a foundational
+
+layer and so if you have that conviction and you kind of see things unfold
+you could it's fine to be like this thing is such a dog and it
+was like everyone hates it but you you kind of knew that or at least
+I did that there is a future that's out maybe it was like 6 months
+maybe it's 3 months maybe it's a year two years where where things are being
+built on this are going to start to get announced and Wall Street's going to
+come to it and then you're like all right well
+
+I don't know what your valuation model is but if people start really using this
+across the financial system it's going to be the price is going to be higher
+than it is today particularly when everyone's so bearish so you know you have to
+kind of weigh that your time horizon with some of the near-term frustrations you have
+and you have to be careful that you don't get yourself too overlevered because then
+it number one you can get stopped out but but probably even more importantly it
+throws your mindset off like if you're just if you
+
+if you can't hold out in your mind this longer term thesis you can ride
+out the thing that those periods where it goes against you. It's almost in a
+weird sick. It's It's like almost sick in a way, but it's almost fun because
+you just see people like you you see the people who are getting all beared
+up and they're like, "This thing's going to zero or whatever. " You know, just
+kind of stupid stupid statements and then you're like, "Okay, actually this is it's going
+to be fun to watch it on the other way.
+
+" But you can't do that if you if you're not thinking objectively and and
+so and if you oversize something or you overlever then you won't there will be
+a markets do a great job of of finding your pain thresholds and so overlever
+makes them um closer to at the money if that makes sense. It's so interesting,
+right. Cuz like I I definitely have the longerterm holder kind of um orientation to
+me, investor, not not a trader. And there's a unique type of uh pain that
+one feels like the high conviction hold pain when the
+
+thesis that you think is not working out and everyone hates it and the price
+continues to dump and dump and dump. And I found at least for myself, maybe
+this is um a bit sadistic here, but or maybe it's an attribute of a
+high conviction holder that you have to have. You start to almost enjoy a little
+bit of the pain. You know what I mean. You're just like, "Ah, I know
+that feeling. I know that pain. Everyone else is wrong. " You know, like and
+I'm still going to hold because I'm using the asset,
+
+because I see the road map, because I see the potential. And then the thing
+about high conviction holding is you um the worst mistakes I've made is getting out
+of the market because I've been doubtful. and then suddenly it hits and there's this
+step function change and you don't have time to re-enter. The high conviction holder doesn't
+have to worry about days where you know we get a you know a double
+digit uh pump because they're always in the market and that's a piece of it.
+Maybe maybe getting back to Trafi here for a second.
+
+So you mentioned maybe some of the reason TRFI didn't see crypto in the early
+days was this not invented here syndrome. I'm also wondering because we've talked about this
+before in the podcast. I is there was there also another element of it's been
+a long long time since tradfi last thought about base money like the concept of
+money I mean I went to you know business school I did that all that
+whole training they teach you nothing about kind of like base money the uh mimemetic
+side of what money actually is all kind of assumed
+
+that we're in a dollar world dollar based system and maybe there used to be
+a gold standard but now we've evolved and humanity has evolved olved and now we're
+on the dollar and they don't teach any of that stuff I guess. So to
+what extent do you think the story of money has had to permeate into tradi
+and they've had to re-evaluate their assumptions and think about this maybe that's a reason
+they were partially blind for the first decade of this whole crypto thing. That's a
+really interesting um way of looking at it. I um
+
+I think that there's probably probably truth in that. Um, it's a little hard for
+me to distance myself from the industry in the sense that I've always thought about
+money. It's just been really interesting to me. Not, you know, not money cuz I
+just love money for for money, but just like the the whole the nature of
+like what is it what does it really mean. Um, so, you know, I've read
+a lot of books about it and have um just kind of marveled at it.
+I I think it's just because it's it's this it's
+
+a really the more time you think about it, it's like this really odd concept.
+It's just this collective faith in something that kind of doesn't mean anything. And yet
+you look around the world and people exchange their life like literally. I mean lawyers
+are the worst with that. Like you're literally saying how much money do I want
+to make in my life. This is how many billable hours I have. Which and
+think about what you're spending. You're spending what. Time with your kids. You know, things
+you could be doing elsewhere. You're spending units of your
+
+life. Basically, you're spending your time, the most valuable thing you have for in pursuit
+of this thing. And and uh and then you can think about you can think
+about money as this. It's almost a battery. It it it stores time. M time.
+M um it stores time cuz right if you have if you have a lot
+of it if you accumulated a lot of it if you invest well and you
+compound it then it equals time that you would have to have spent making it
+or time you didn't spend with your family or whatever
+
+it is that you value you know to do with your with your time and
+some people value being able to work. So, but it's it's a really it's a
+really interesting thing. I hadn't thought about that as maybe the reason why broad finance
+struggled with crypto. Um, probably because I think about money so much and what it
+what it means. Um, it's fascinating. I mean, it's one of the reasons that I
+have I've loved crypto and and it make kind of makes sense to me that
+I would have ended up being heavily involved here. That's
+
+why I feel like Eric like Ray Dallio was a um a good win onto
+the crypto side because Ray Dallio from everything I've read from him he is somewhat
+he's a traditional investor who deeply thinks about the subject of money you know what
+is what is M1 what is M2 and these kind of cycles of how that
+switches and can become you know kind of a switch back from a fiat-based money
+system to a commodity money system and so some level he'd always just been like
+oh gold is the thing and now to see him
+
+start talking about crypto on the crypto train. It just it feels like it fits
+perfectly. perfectly. The other thing about money though, you know, it doesn't you don't have
+these big monetary shifts that happen frequently and they they tend to take time and
+then they accelerate and they can happen really fast. Do they get it now, do
+you think. Do they get what this whole crypto thing is. You know, it's not
+just like because there was a time where we thought Tradi was getting it. This
+is back in like uh 2016 20. It was like
+
+but it was a blockchain not Bitcoin type era and I was like oh you
+tradi is getting entirely wrong. They think this thing is just a database technology or
+something or it's an open ledger technology and it's far deeper than that. Do they
+now understand it in this kind of second wave of of institutional adoption here. I
+think most people in Tradfi are not thinking about crypto as money. Um, I think
+that they're I think one of the reasons that Tradfi has finally wrapped their or
+begun to wrap their heads around it, why you're seeing
+
+more and more interest in infrastructure like Circle being an infrastructure play, Coinbase being an
+infrastructure play, is that they're seeing uh they're seeing stable coin as being this killer
+app that is, that is, that is, you know, maybe it's a different version of
+like it's it's blockchain versus, you know, Bitcoin. Uh, and they're I I don't I
+don't think that people in Tradfi think that that Bitcoin is going to take over
+the dollar or going to be the next payment system or anything. I think they're
+just looking at it and like, okay, this is this
+
+technology is faster, cheaper, more secure, more transparent. You can have programmable money. Um, it's
+going to be dollar-based or it's going to be uh R&amp;B based or it's going
+to be euro based or it's going to be whatever, you know, whatever the the
+sovereign currency is. And um I think that's how people wrap their heads around it.
+There's just a very very small portion of Tradfi people who think Bitcoin's going to
+take over the world for instance. And I think that that's healthy incidentally for for
+this whole industry because at at the like when when
+
+I first saw Bitcoin, I actually I actually thought it was way too big a
+threat for threat for threat for I remember you saying this back back when we
+first talked for for the US or or for whatever whatever sovereign system where one
+of the you know one of the things that governments accumulate is power and they
+rarely rar literally shed it unless they're forced to. And so one of the great
+powers that they have is Senior Edge being able to essentially create money and for
+free more or less. And so it was like h
+
+how will they let something like this actually work. It's way it's way too powerful
+an idea. And there was only a very narrow path that that allowed I think
+Bitcoin to break through. But I still think that they have the tools to prevent
+Bitcoin from just taking over the dollar. Mhm. Um and and so now that like
+this technology, the industry, the smart people within it have kind of found that path
+for really wide integration across the financial system which is dollar stablecoin and dollar stable.
+So and now that we have the genius act and
+
+dollar stablecoin is actually doing more transactions than say mastercard or visa which is an
+amazing statement because what is it doing. It's just all trading within this crypto economy.
+But now like imagine what's going to happen which is that now that now that
+we have clarity around dollar stable coin the question is well what will what will
+trad five find to allow those dollar stable coins to buy other than just crypto
+and the answer is and the these are things that we've been working on you
+know there it's it's going to be bonds it's going
+
+to be stocks it's going to be all sorts of it's commodities all sorts of
+everything will get tokenized now uh and be I shouldn't even say tokenized. we like
+to to talk about is, you know, issued in digitally native form because we don't
+need to have two parallel. We don't need to have the old kind of paper
+database system that, you know, that then has just a token attached to it. And
+so the the infrastructure that we've been working on for four years is, you know,
+allows the digitally native issuance of these TRDFI investments. That's
+
+what's all coming and I think that's what's going to be built on on uh
+Ethereum and that's super exciting and you'll probably create global markets that will have different
+regulatory you know regimes that sit on top of them and there'll be all sorts
+of things that have to be built to stitch together a global market but you
+now h you're now going to have a really consistent technology that's going to connect
+global markets and so I think when tradi players are getting excited about this it's
+not because Bitcoin's going to take over the dollar. It's
+
+because of that whole latter thing that I just described. described. So back I do
+recall back in early days of talking about this, you did always see a risk,
+a threat of ba basically US government or some government power squashing this whole crypto
+thing before it, you know, strangle it in the crib, that kind of thing, right.
+Do you think we're fully on the other side of that. So it does seem
+that the threat is no longer to the dollar. That's not just not on the
+radar. They're fine with with some of these crypto assets
+
+being alternatives to gold because that's not particularly threatening to them at this moment. And
+then they see the big win, at least the US has seemed to see this
+big win in stable coins, which is just a net new buyer of treasuries, which
+is a huge win for the US system. All of these things put together, right.
+Of course, we have the crypto favorable administration at this point in time. We have
+some good crypto regulation going forward. The Genius Act is the first. Are we over
+the hump. Is this now. Have we uh entrenched crypto
+
+so much in the global financial system, in particular maybe the US financial system that
+even if there was a hostile administration at some point in the future, it's kind
+of too big to to shut down or fully quash out. Have we fully crossed
+that that um uh you know hurdle to you. I'm still processing the the image
+of strangling in the crib. That was just a really um I think I think
+um the honest answer is is I don't know. I mean, and I say that
+I say that because at the end of the day,
+
+governments have enormous power and um and so could I envision a hostile administration that
+that came in uh and tried to strangle the baby in the We wouldn't be
+a baby any longer. It be have to wrestle with a teenager or something like
+that. That's the right point. I think that um we could have a much more
+hostile uh we could have a much more hostile administration. I think that we pro
+I think this administration is probably the only realistic hope that crypto has uh to
+be able to scale out in the US a infrastructure
+
+that is that is open and permissionless. I I sincerely doubt that we're ultimately going
+to see that out of Europe, certainly not China, you you you know, the big
+places that matter. I think that, you know, a lot of the spirit and ethos
+of crypto just being representing freedom, liberty, these are deeply held American values. And I
+know that I know some people think that some of those values are are under
+threat. I would say that in the last administration they were under enormous threat. And
+so I think we now we now actually have an
+
+administration which is is you know kind of almost promoting this and recognizing which is
+something that we had said all along when we were advocating with regulators and and
+with um policy makers is that like crypto really and and kind of private sector
+dollar stablecoin really represents these core US beliefs in freedom and liberty. And why would
+we ever want to kind of chase China down this really dark path of central
+bank digital currency where you can kind of where you can just turn people off
+financially. financially. I think it's a it's a very dark
+
+world. So wouldn't it be great if the US kind of led and said, you
+know what, with freedom and liberty, we're going to kind of promote this this financial
+infrastructure that could effectively get exported throughout the world. Now, other governments could could try
+to shut it down, make things illegal, but at least if there if like the
+most powerful country in the world is is pushing this technology for its citizens first,
+but then out into the world, we probably have a lot of influence over that.
+And that's, you know, in terms of of supporting human
+
+liberty, if you have no financial liberty, you're screwed. Uh you might think you have
+all the liberty in the world, like you saw this in Canada with that trucker
+strike. Um you know, when you start turning people off financially, you can destroy their
+lives, their livelihood, their businesses. I mean, the the amount you don't even have to
+exert that control directly. Just the threat of it gives government, I think, an unhealthy
+amount of control. So I I think we're we're really I think we're moving in
+in a great direction and this is the opportunity in
+
+this administration to roll this out fast. Now the good news is that the Trady
+players are now racing ahead. you know, the the horses left the stable and everyone's
+racing and running and now you're going to see, you know, you're probably going to
+see companies trying to screw one another and, you know, uh that um if you're
+a startup company, you're going to have Tradfi saying, you know, advocating with regulators not
+that let X Y or Z company move as fast as they are because the
+race is really on right now. I think in over
+
+the next few years so much will be accomplished that even a hostile administration can't
+roll things back to where it was but they can you know governments can always
+make you know make life miserable um or or and I should even say that
+that's a value judgment. Governments can exert enormous amount of control over individuals and industries.
+I think I love the direction that we're that we're heading right now in this
+industry. I think it's great and I think we'll take a lot of ground over
+the next few years and as that gets embedded within
+
+Tradfi it'll be really hard to change. We certainly have some tailwinds from government from
+the US government which we've never had in crypto and you know uh in the
+best of times previously it's been neutral but in some of the worst of times
+it's actually been massive headwinds and we didn't talk during this dark period of you
+know uh 2023 2024 I think we talked you know maybe once uh or something
+like that back in 2022. What were you thinking during the operation chokepoint era things.
+And it wasn't just operation chokepoint of crypto getting kind
+
+of squeezed off from the banks, of course. It was just a hostile executive branch,
+let's say, in the wake of Sam Bankman Freed and all of these things. We
+had a very hostile SEC. We had a hostile FDIC. We had a hostile, you
+know, Treasury Department. All of that has shifted and shifted over the past year. But
+during 2023, 2024, in those dark days, were you kind of thinking, okay, this crypto
+thing, like I'm not even going to put words in your mouth. What were you
+thinking at that time. For the first statement is that
+
+uh you know, Chepoint 2. 0 was so real. Um, you know, we got acquired
+by Coinbase and in pretty short order, we were trying to pull on pull on
+pull on all of our our kind of best relationships across Tradfi to help figure
+out banking relationships and banking lines and all sorts of things that were really being
+denied. I mean, it was it was it was that was government overreach in such
+an an unethical um undemocratic way. um that at the end of the day I'm
+like I'm a bit of a rage against the machine
+
+kind of person. Um so at my core I'm like maybe I'm a little bit
+too old to to come across that way but I I like I it pissed
+you off. Like in equity, government overreach, um these things they just I see red.
+So I mean I guess the biggest thing is I never I never sold into
+that. Um I and I I just kept building and I I felt my level
+of conviction was that these technologies were ultimately going to replace traditional financial infrastructure never
+wavered because it's it's it's like when in human history
+
+have have techn technological innovations just been stopped by politics. They just haven't. They they
+tr now you can you can make you can find situations where maybe not the
+best technology of that category one. category one. Um but but governments have not been
+able to hold back technological innovation. innovation. And so I figured that we would eventually
+get there. It could be a really rough road, but I've career-wise I've traveled a
+pretty rough road for a long period of time. And just as someone who's who's
+kind of principled about these things is like we're gonna
+
+we're gonna win because the technolog is on our side here. Um it might take
+longer than than we expected, but it's it's such an obvious play. In other words,
+like relative to traditional financial infrastructure, building everything ultimately on um Ethereum with layer twos
+and all sorts of things that we don't we still don't even know that will
+get built that will I think be really exciting. Vitalik on your your podcast was
+talking uh just about you know the importance of privacy. Like there can be so
+many things that I think end up getting built on
+
+this infrastructure where it's so much more reliable, antifragile and in a world of AI,
+I think we have this this technology that is going to supply this source of
+of truth uh or at least the potential to access like what what is real,
+what is authentic, what is true. And so like when you look at all those
+things, you're like, "Okay, so Elizabeth Warren is a nightmare. " And I to this
+day, I mean, I've I know a lot of people in DC and I know
+a lot of theories around, you know, why the Biden
+
+administration was the way they were, why Elizabeth Warren was the way she was. It
+doesn't really matter at this stage. Joke Point 2. 0 was very real. we got
+through it and uh it'll be harder for that to kind of come back. But
+yeah, as I lived through it, I was like, this is it it was it
+was in a sick way. It was like this is really fascinating because fascinating because
+fascinating because you know if you're a a lay person which I am across pretty
+much every field you know you you read you pick
+
+up the newspaper and you read about I don't know biotech or you read about
+what's happening in healthcare or you read about what's happening in defense it it's like
+you don't really know that much about it and it's fun to be in something
+where you're like okay I'm right in the middle of it and I see how
+government is is really being awful here And I think there's no there's no kind
+of freedom loving person any anywhere in the world who if they were subjected to
+this wouldn't react kind of the way that I am
+
+at just I'm in the middle of it. So now I can see it and
+it's a it was a great learning experience and it it you know it allows
+me to pick up the newspaper and read about other industries and hear about perhaps
+injustices or regulations that are overbearing and be like okay I I have more knowledge
+and insight into that because of what I live through and what we live through.
+I completely agree with you those are my takeaways as well. And what what was
+it was surprising to me the the depth of sort
+
+of um hostility that the US government um you know like had for crypto elements
+of the government during those dark times. But it's also been surprising how fast we've
+180. And I want to talk about maybe the last uh 12 months or so.
+And you tell me, Eric, what is the most significant thing do you think that
+that's happened on the regulatory government front. Uh back to these these tailwinds into crypto.
+We've had the genius bill signed. That was a big deal. We've had a chokepoint
+being unchokeointed. So, you know, crypto companies are no longer
+
+being debanked. And even from a rhetoric perspective, you you get talk of, you know,
+the US being the crypto capital of the world. So, we've got all of that
+uh side of things. You've got a what seems to be a fantastic SEC right
+now under Paul Atkins and this whole project crypto. uh you know with the brains
+and the intelligence with with um Commissioner Hester Pur to actually pull it off where
+all of these fantastic ideas to tokenize things. Seems like so many good things are
+happening in in the US from a Tailwind's perspective. What's
+
+the most significant to you. Well, for starters, I have to say I love Hester.
+Um and I haven't even met her. I just man I love her spirit. It's
+it's it's amazing. And I think this new SEC chair and project crypto are phenomenal.
+The the the notion that that we now have room to have kind of a
+sandbox um for innovation super important like how the US hasn't always had that is
+is kind of stunning to me. Um in fact when so when we started building
+out our infrastructure we originally called it one bridge when
+
+when uh it was at one river and and and the the the so I'll
+tell you a little story about this cuz I think it it plays into Genius
+Act and what's happening with stable coin. So when we first entered crypto, it was
+a macro trade as I described earlier. And then I kind of like any macro
+trade. You you when you have a big position on, you pay a lot more
+attention to it. And so really kind of dove into the technology and said, "Okay,
+this is the future. " And so what does that
+
+future look like. And I looked at all of the the the DeFi um applications
+that had been built and I felt like they probably wouldn't be what the future
+looked like. They were really it was really cool technology, you know, exchange technology, lending
+technology, but there were a host of reasons that I thought it wouldn't really scale
+into the the bigger markets. And so we just said, let's look at kind of
+what has been built and let's let's build out the ability to um to issue
+uh digitally native securities native securities native securities that would
+
+be compliant that we felt like regulators would accept. And so we started that out.
+So it was called one bridge kind of bridging crypto and tradi. And then uh
+and then it really kind of started growing. And we had brought as I mentioned
+uh Jay Clayton the former SEC chair onto our board. Kevin Hassid who's now part
+of the Trump administration was on our board as well and we really looked at
+it and my instinct was let's figure out how to create digitally native really complex
+securities securities securities and and Jay was like no this
+
+is just or actually what we did is we laid out the the array of
+things that we could do really complex all the way to really simple which is
+tea bills and and he's like we I thought we should go complex and he's
+like no 100% T bills because they're still boring. I mean, there there's these short-term
+discount notes. He's like, that's exactly we need because the first thing that needs to
+happen is we need to get clarity on stable coin so that we understand what
+digital dollars are, how they're regulated, how they kind of
+
+become part of the financial system. And then what and then what you need to
+do is you need to figure out well how are they used to integrate with
+other traditional financial products. And you're going to start at the the simplest kind of
+highest veloc velocity instruments and then as you get confident as the financial system gets
+confidence with that and you see the benefits then you'll move out to these really
+complex securities. So that's how that's how we started building um and that's what we
+are doing uh at Coinbase now which is super exciting.
+
+So, it it's like how do you bring how do you bring stocks and bonds
+really onchain and al and and all sorts of other financial instruments and I think
+Coinbase is going to do that at the right pace working closely with regulators and
+policy makers and is really going to do it right and um and so it's
+fun to be part of that. Now, how does the Genius Act fit within that.
+The Genius Act is really the first most important step. So, Dollar Stablecoin had obviously
+become this killer app in crypto that had demonstrated that
+
+it can process, you know, $50 trillion worth of uh of of transactions a year,
+which is just like absolutely stunning number. And so, it happened without without having that
+regulatory clarity. Now that we have that, this just invites all of traditional finance to
+say okay now we have this this foundational I say an asset this foundational you
+know currency clarity and now we can start plugging everything everything else into it. So
+that is in my opinion by far the the biggest thing. Why did that happen.
+I think it only happened because of the changed administration.
+
+changed administration. And I think that like my personal opinion is the Trump administration um
+felt like they were under siege by many of the same people that the crypto
+community felt under siege by. And so there was this there was this alliance in
+a way that uh maybe not a formal alliance but like just kind of a
+a common view that that direction just is not good for the country is certainly
+not good for this industry and so I think this industry got a lot of
+support from that and and the political system has come
+
+around to that and I think as as you're seeing us move toward discussions like
+I just had there relative to Bitcoin or ETH or Fartcoin or you know whatever
+then I I think you you really get traditional finance and you get politicians to
+just get behind it. So that that was the Genius Act is super super important.
+We always thought it would be and uh and I'm you know I'm very proud
+for the advocacy that that Coinbase has had and that we've had over the years
+to try to to move in in in the direction
+
+that we've ultimately gotten to. So Eric, I'm I'm wondering as you were talking about
+that, I'm I'm curious to pick your brain on on the road map here of
+how you think this happens with real world assets, maybe like a 3 to fiveyear
+type timeline or what we can get accomplished, you know, uh up until 2028, right.
+It seems like we are starting with the more boring assets, which is and I'm
+talking in terms of like quote unquote real world assets, tokenizing real world assets. We're
+starting with dollars, right. Simp, you know, very simple use
+
+case. We have 275 billion or so. they're now on chain. The the Secretary of
+Treasury thinks that's going to grow into the trillions in a few short years. Okay,
+so that's happening. Next, you most adjacent to that seems to be treasuries and then
+maybe we get uh bonds of some sort or other other types of bonds and
+then we get into what uh security like more equities and that sort of thing.
+Is is that basically how it happens and how fast can this happen. I think
+it will I think it'll start happening pretty quickly now.
+
+Um and we're we're you know we're in it. So like if you think about
+what we what we were building with one bridge that you know went to project
+Hamilton like when we renamed one bridge project Hamilton went to the Fed went to
+the TBACK the treasury borrowing advisory committee um we presented everything that we did. This
+is during the last administration and we we encountered um we had multiple meetings. We
+encountered staffers and people there who were who were really intrigued by what we did
+and yet it was it was apparent that that we
+
+were facing that we were not welcome in the US. We actually um went and
+looked globally for what we felt was the most credible regulatory uh agency or environment
+uh to go and build offshore because they're like, "Okay, we'll eventually come back onshore.
+" I was sure of it, but we might have to wait another administration or
+two. I don't know how long it will be. Wow. But again, you can't stop
+you can't stop technology from uh it from its ascent if it's it's it's just
+on that. Eric, was there another jurisdiction that was you
+
+know like are there more friendly jurisdictions than than I guess you know like last
+administration is probably a low bar but like what other jurisdictions are friendly to crypto.
+We went we went to UAE. We went to Abu Dhabi. And we entered uh
+ADGM, Abu Dhabi global markets which is their kind of regulatory entity and we had
+a very common vision for you know the for infrastructure should be built on um
+on public blockchains. uh and and we and just like Vitalik had said on on
+your recent interview with him, you know, he just said
+
+like if you if you concentrate data and the control of data in any type
+of centralized authority, you create fragility. fragility. And I think our view was that why
+why use this technology if you're just going to kind of centralize it. And if
+you have the courage, which we we felt the US should have had to kind
+of open it up for um you know, open software, public blockchain, you can put
+regulations on top of that. But if you start there, you're ultimately going to have
+a much more robust financial system. And um and you
+
+know, AI has made that even more important because God only knows how these centralized
+authorities can get hacked. like I don't know how can JP Morgan get hack how
+can any of these these central nodes in our systems get get hacked in the
+future if you have everything built in in an open way on public blockchain I
+think that those risks you know collapse and so we had that view we had
+written we had sketched out in a white paper our view for this we we
+we went to Abu Dhabi and they actually had they
+
+had sketched out something that was really similar and we compared the papers and and
+they're like, "Did you read what we wrote. " And and you know, we had
+it dated in such a way that it they they could tell that it wasn't.
+And so they welcomed us in there. And so we built out um Coinbase has
+called it Project Diamond. We built out Project Diamond. We have we have issued and
+matured, you know, 200 discount notes under regulatory supervision in Abu Dhabi global markets. And
+they are, you know, these are it's really awesome. And
+
+I I think their view was like, let's use the technology in the way it's
+intended to use it. And what Abu Dhabi is trying to do really, at least
+in my opinion, is build out the Switzerland of this next century where a place
+where east can meet can meet west. Um, where you're bringing in new technologies and
+you're doing things, you know, that that maybe some of the other jurisdictions were reluctant
+to do, but you're doing them the right way. And so, it's been a phenomenal
+experience for us because I, to my knowledge, we're the
+
+only platform that has done things under that type of regulatory supervision. And that just
+means you're like with every one of our issuances and and um maturities, we're sending
+weekly reports to them, you know, and and they will they will be excited to
+work with US regulators, by the way. It's it's not like one is trying to
+beat the other. Um but I think credit to them for being they were out
+ahead of any jurisdiction globally uh in our opinion. So we were thrilled to work
+together. Now, is it Eric, is it smooth sailing to
+
+bring everything that you've developed in Abu Dhabi or other jurisdictions like back to the
+US. Do you do you feel like you have clear regulatory line of sight to
+go do that. Now, Now, Now, I think we are we're in active discussion with
+with regula at at Coinbase with regulators and policy makers. And the short answer is
+yes. Um I think you know when you have an SEC chair that is that
+is advocating for the things that you just saw um you know the five those
+those kind of main five points that he came up
+
+with including regatory sandbox and then you show up and you've built something you've built
+something that um that works that scales that is flexible that's that's kind of generalpurpose
+technology that can allow for the digitally native issuance of of equities and bonds, all
+sorts of bonds, not just discount notes. So, a treasury is a discount note, commercial
+paper is a discount note, really simple, but then, you know, mortgage bonds, all sorts
+of different types of trady instruments that can be brought on chain through a platform
+like the one that we built. Yeah, it's exciting from
+
+a from a government and regulatory uh standpoint. And by the way, like the fact
+that we've already done it under regulatory supervision is a really big deal. Um it's
+a you know without any any problems, any issues, any flaws. It's great. So I
+I think I think there's going to be a lot of acceptance of this. By
+the way, just as we talk to people about what we've been up to here,
+there's definitely FOMO in in Tradfi where where where people are like they they want
+um they want to figure out how to do things
+
+with us on this type of platform. And there are all sorts of reasons why
+they want to do it. Some of them for publicity, some of them because it
+act they actually recognize this is going to lower costs in their you know in
+their business model. So I think it will happen actually pretty quickly now. um it
+better happen quickly because who knows maybe get a different administration. So everyone's incentivized to
+move fast and I think this this administration is as you can see is moving
+very fast and I do hope Eric we have the
+
+leadership like people like Hester Pur definitely give me hope because she is uh very
+deep in crypto. I mean she just knows she knows exa she knows what she's
+talking about. She's been in this space for a long time and what what I
+what I'm kind of hopeful is that we get a kind of a synthesis between
+the best of crypto and also the best of tradi. I was going down the
+the the traditional finance track a little bit looking at some of these treasury companies
+recently in particular these ETH treasury companies and that causes
+
+you to go navigate like SEC filings, right. And it's like there's so much documentation
+there. And so what I do is I I'll go and I'll download all of
+the SEC filings. I'll put them into an LLM, you know, and and get it
+to spit out some information for me. And what's fascinating to me is like a
+lot of these disclosures are pretty useful. Like I I'm glad that I know some
+of the investors and you know uh how they're compensated and you know how much
+of a share and what the what the fees have
+
+been. Uh like some of this information is is very good and some of this
+information I don't get in the tokenized world and I wish I did. At the
+same time I also see it's like um I mean there's a time lag in
+terms of when I receive this data. I have to sort through all of this
+paperwork. I look at the legal fees to go list one of these treasury companies
+uh on the NASDAQ or on the New York Stock Exchange and it's tens of
+millions of dollars just in documentation and listing fees and
+
+investment banker fees and all of this. And I'm like we could just do this
+with smart contracts basically, right. like we could file this all digitally and the investor
+can keep the transparency that they have with existing SEC disclosures but use the technology
+and reduce costs of of cryptocurren I guess what I'm saying is I'm hopeful that
+we get a best of breed type world of we get disclosures but we also
+get like reduced legal fees smart contracts doing it digital assets doing it and we
+don't get this world of oh now we have like
+
+legal paperwork just with a you know uh an IOU on the blockchain do you
+think that this type of world is is possible what I'm describing and like what
+do you think about that. about that. I definitely think so. I I think that's
+where we're going and I think that the you know players that are that are
+trying to create that digital IOU on the blockchain I think you know I guess
+good for them for for just trying to move quickly. I think our approach at
+Coinbase has always been to just try to do things
+
+the right way. M um I I say that recognizing we got sued by the
+ACC. At the same time, um at the same time, I I think that that
+that is that is why Coinbase is is the 800 lb gorilla. I think we've
+really always tried to do the the right thing. And I think the world that
+you just described, the marriage of what what what crypto and blockchain technologies can offer
+and what you know the all the sorts of disclosures and the things that have
+allowed American capital markets to be the deepest most liquid
+
+in the world and like let's not take that for granted. That is an inc
+it's an incredibly valuable asset that the US has. People, companies, investors from all over
+the world, they generally come to US capital markets to come and meet and you
+know buy and I'm not saying meet in person. I mean like if you're a
+if you have money and you want to invest, if you need to borrow money
+and you know you're someone who who wants to lend, they come to the US
+capital markets which is why it just it's so dominant.
+
+But that requires really great regulatory frameworks that give people the confidence that the government's
+not just going to take their money. um that if they get screwed in some
+way that there's a watchdog that will um that will help resolve that matter and
+that they've got you know they've got good courts where you know disagreements can get
+litigated. If you don't have all of those things come together and probably five other
+things that I haven't mentioned you you're you cannot have deep liquid capital markets like
+we have. And so I think crypto is just gonna
+
+it's not going to do it's not it I certainly hope that people in our
+industry and it's definitely not the case of Coinbase like we're not looking to dispense
+with any of that. We're just saying that there's a more efficient way of bringing
+these things together. You shouldn't have to pay tens of millions of dollars to do
+the type of transaction that you just described. Like obviously you shouldn't and I don't
+think that we will in the future. I think it will it'll all be a
+lot faster and it will and and you know the
+
+the concept of smart contract is just a it's like magic from a financial structuring
+perspective. So and you can attach all of those disclosures and everything can kind of
+can can kind of be saved down into that smart contract or linked to it
+in ways where maybe it uses you know less compute. So it's like and storage.
+So, um I think that that's the future that we're that we're going to get
+to. And I think the other thing is that yes, there will be certain there
+will be law firms that aren't thrilled about that because
+
+they're going to make less fees. But there, you know, when you look at the
+history of the financial industry, there is no other industry that has spent the amount
+of money on technology that financial services has. services has. And I know that that
+might seem odd to people, but it's it is a it is a fact. And
+as like Wall Street traditional finance has thrown tech at at its industry for many
+many decades to and and what has happened, it's like the speed of transaction has
+gone up. The costs have just been in this inexurable
+
+decline. crypto is just the latest technology that has that is going to, you know,
+take take it all to the next level. So, I think it's a much better
+future for finance and it'll look like the one that you described. I really do.
+really do. I think it'd be amazing. I mean, can you imagine a world where
+basically, you know, a smaller company, there's some path to some sort of IPO, a
+tokenized digital asset type IPO where instead of contracting with these lawyers, you basically you
+have an AI, right, that just generates you define exactly
+
+what you want and it generates basically the smart contract code, legal code to go
+execute this on chain. That type of thing. I mean, maybe the lawyers won't like
+it, but why are we allocating our society's cost to all of these legal fees
+anyway. There's more efficient uses for this. Um I I want to talk about the
+marriage of uh you know two products that have been very successful it seems like
+between trady and crypto and that is the ETF. So January 2024 we got the
+Bitcoin ETF and that was um that was amazing. It's
+
+like been I believe the most successful Black Rockck ETF ever. I think uh some
+of the volumes around this have blown minds. Not too long after that we actually
+got an Ethereum ETF. Was not expecting that that would happen and that happened under
+the Gendler regime. I have no idea what type of phone call, you know, uh
+was given to him to have the SEC change their mind there. But we got
+the the Ethereum ETF in the summer of 2024. These ETF products are now consuming
+a tremendous amount of both Bitcoin and Ether supply. I
+
+think you know, Bitcoin something like 6%. Uh Ether is is going right up there
+too. It's like four or 5% at the time of recording. So can you talk
+about the transformation that cryptonative ETFs have actually had in traditional finance markets. So um
+some have said that well this actually dampens volatility across Bitcoin because now we have
+institutional large institutional purchases and since the Bitcoin ETFs have come out we've seen less
+volatility in uh Bitcoin as an asset itself. Just these large US institutional capital flows.
+What effect is that having on the crypto markets and
+
+what effect is are the ETFs having on on traditional finance. finance. Incredibly successful products,
+which is ironic because they kind of fly in the face of crypto ethos from
+a custody perspective, centralization perspective. Um, and and they're huge. Yeah, I think Bitcoin is
+7% now. Uh, the Bitcoin ETS, it's it's just they're massive numbers. um they naturally
+as you draw more players into a market uh in general the volatility will uh
+will decline. Ironically at times as you bring leverage into a market volatility can decline
+as well until something goes wrong in which case the
+
+volatility explodes. Um so there but those the dynamics that you described I think are
+in play right now. I still from my vantage point I do not think institutions
+are here in size at all. So you know the definition of institution um is
+you know can vary quite a bit. So I think when I think of institution
+I think of the large pension plans, the large endowments, large endowments, large endowments, insurance
+companies, insurance companies, insurance companies, sovereign wealth funds and there some of those flows have
+have started for sure. Um I think when a lot
+
+of other people talk about institutions um they talk about hedge funds um you know
+large investment funds um of different sorts different sorts different sorts um corporates um so
+so those so so the type of institution that I have spent my career with
+mostly have still like they haven't even scratched the surface really really really oh not
+at all not at all these As I said, these are the guys that have
+just gotten it they kind of got left behind and it was pretty much a
+nightmare. The amount of brain damage that I think has
+
+happened across the institutional landscape is severe. So it's like in 2021 2021 2021 there
+were multiple like largest institutions across the world there were digital asset working groups that
+were you know any had anywhere from like five to 15 people on them. they
+were, you know, exploring whether to get involved, how to get involved. And then it
+was like, okay, we're going to get involved, but now we have to change our
+investment policy statement, our asset allocation. And in a lot of cases, they needed approval
+by the internal board and then also the external board.
+
+And then then you had this big bare market and then you had FTX and
+you had all these, you know, all these issues and you drove Bitcoin from, you
+know, all the way down to back down to 15,000 basically and they stopped all
+efforts and they just stopped, you know, they're like there were so many different controversies
+and problems and the SEC was, you know, suing everyone and some of them had
+policies that they just couldn't, you know, they couldn't deal with any group that was
+that was being sued sued sued and they just they
+
+kind of shut down and the people who had formed the digital asset working groups,
+it was kind of their part-time job because they they they didn't get hired to
+do that. They were and so they just went back to what they were doing
+and then, you know, and then obviously crypto's back over 100,000 or is at new
+highs, you know, up up over 100,000 and it happens so fast that they didn't
+get the position on. So, it's like if you're if you're a if you're a
+professional investor, which all these people are, and you put
+
+all this work in the digital asset working group, and then you didn't buy the
+and and you said, "This is something that we really want to do, even if
+it's just a, you know, a starting position, and then you got a whatever it
+was, you know, 70% decline and you you bought nothing and then it's back to
+new highs. " that there's a lot of brain damage there. there. It's really hard
+to be like, "Okay, you know what. Now we're going to let's let's crank up
+the digital asset working group again. " group again. "
+
+So, I think I think what's happened is it's not illogical. What's happened is the
+first step that they're trying to make is to say, well, we don't have to
+buy the coins themselves. Let's invest in the infrastructure. And so that's one of the
+reasons I think that you see something like a circle IPO that goes absolutely bananas
+because you got these you've got these large pools of capital that look around and
+say well god I am I really going to buy you know Bitcoin at at
+100,000 or 110 or 115 or 120 um and even
+
+if it goes back to 85 like they can't they just can't they haven't been
+able to do it but they can go out and buy a stock um they
+you know and and um and so That's the type of thing that I think
+you're seeing. Um, they've put money into VCs, but they haven't really come in. So,
+I think that they, you know, that they will, but this this to me, this
+is exciting. It's like this is that is exciting. You want a market where you're
+where you can look out a couple years and say,
+
+"Yeah, I I know who's going to be buying this stuff from me and, you
+know, in in a few years time at what I think will be substantially higher
+prices. " You want to know who that is. If the answer is you don't
+really know, you should probably be thinking about selling right now, you know. Um, but
+there are plenty of people who who I think will will be buying at higher
+prices, but they'll first make bigger and bigger investments in infrastructure and maybe in the
+end maybe they won't hold huge amounts of these tokens.
+
+I think that they they at least some of them will. Um, and it's it
+is possible that crypto to a degree becomes part of some new monetary standard. Not
+that Bitcoin takes over the dollar, but that like it's it's possible. You know, you
+see the US talking about a strategic digital asset or Bitcoin reserve and there certainly
+are are countries around the world in the Middle East who've made large investments that
+are probably bigger than the ones that they've disclosed. And so it's possible that there
+even do become some monetary standards that are at least
+
+in part backed by by crypto just like they might be backed by gold or
+other commodities. And so there could be narratives out there. I think there probably will
+be narratives that will ultimately suck some of these big players in at higher prices.
+prices. So you're saying the real institutions, the big big institutional money is not here.
+That's like pensions, that's sovereign wealth funds, that's, you know, some of the uh like
+I guess biggest capital allocators uh in the world. And they're actually not here. And
+it's funny to me that you say they got shaken
+
+out by another four-year cycle, right. Like crypto cycle, boom bust cycle because like that's
+our expected that's that that's what we being in crypto, that's what we expect. And
+every time it just shakes them out because probably they're not used to that type
+of a a cadence, boom bust cadence uh in the um in the traditional markets.
+But I guess maybe um that that begs the question, do like how high do
+you think these crypto assets can actually go. So something like Bitcoin or something like
+Ether. So I mean we're above 2 trillion on Bitcoin
+
+right now. And you're saying that's without the big pensions and sovereign wealth funds and
+the big institutions entering. We're at above 500 billion or so on Ether at the
+time of recording. Um, of course, we don't know how the cycles will will play
+out, but what do you think is the ultimate size of this opportunity for those
+top two cryptonative assets, sort of the the quote unquote store of value type of
+uh crypto assets here. Are we like how far are we in that journey. Let
+me tell the story first and then uh then get
+
+to that. So when I entered this space, I kind of arbitr in in late
+2020, I arbitrarily said this is going to be 10-year trade for me at the
+time. Now maybe it won't end up being that, but that was I was like,
+I think it's going to take that long for all the misconceptions that people have
+about these assets to more or less be answered. stability of storage um you know
+use in for nefarious purposes like all the things that people just kind of got
+wrong about these things you know why could these go
+
+up aren't they just isn't it just uh technology couldn't you create you know a
+million different Bitcoin protocols and like all these things it's like it's going to take
+10 years for most people who don't pay much attention to this stuff to finally
+understand it and for the infrastructure to be built so that there really are no
+frictions from an accessibility standpoint. And I figured, you know, in 10 years they'll probably
+be valued like a lot of other assets in the economy, which doesn't mean that
+it it has to go down from there. It's just
+
+that they'll probably be fully valued. So for instance, US economy is $30 trillion GDP
+right now roughly. gold market cap is 23 trillion dollars. It's big, right. It's like
+all the gold in the world is at this price worth not a full US
+uh economy from an annual GDP perspective and Bitcoin is 2. 3 trillion. So Bitcoin
+is onetenth of gold. Um and then as you said ETH is kind of half
+a trillionish, you know. I know you had Tom Lee on uh recently and he
+was talking about well you know ETH could 100x from
+
+here and be worth worth worth 40 trillion guy. 40. So it's like you know
+you think of numbers like that is ETH going to be like I I don't
+think that's going to happen honestly. Um but I think my my mind is open
+to I try to stay open to everything and then just think in probabilistic terms.
+So the the story So I think we're kind of halfway through my 10 year
+that original still like that tenure. I'm kind of sticking to that honestly because because
+because I think that it's playing out roughly how I
+
+hoped and now we have the stable coin legislation. We talked about how like that
+leads to all these next steps, right. I I think that it it's playing out
+that way and yet so I was I was speaking with um uh someone who
+you know close kind of colleague friend who who essentially leads investments for one of
+the largest pension plans in it's not a pension plan. It's a uh it's like
+a basically kind of a 401k money. This is in a foreign country okay in
+in kind of Asia Pacific. It's one of the largest
+
+in the world. And so their underlying clients are pensioners in their country. And this
+guy uh is a very forward-looking investor. He's been invested in crypto for years. He
+finally got an approval. This is in the past year. year. Finally got an approval
+to put in a a very small allocation to Bitcoin. Um and and they got
+to a point where the regulators were were going to force them to disclose that.
+And so they they called they were really worried about, you know, what are our
+what are our clients, our pensioners going to think about
+
+this. And so they they called up and uh they contracted with a crisis PR
+firm and they said, "Okay, this is going to be announced. We're worried that we're
+going to get influx of people saying, "What are you doing with my money. you
+know, why is it in Bitcoin. This is my retirement savings. So, they had everything
+mapped out. They make the announcement and they do get inundated with calls and the
+calls were could we could can I put all of my money into that product
+product and it wasn't a product, but like they so
+
+the the reason that I say that is because I think in I don't think
+in terms of price per se. Sure. Like I want to know where relative values
+are. So the US GDP is 30 trillion. Is Tom right that ETH could be
+40 trillion. I don't think so, but I don't know. Maybe US GDP ends up
+being 100. Well, it will someday, you know, 100 trillion because there's a whole bunch
+of inflation over the next 10 years and then maybe ETH at 40 trillion makes
+sense. I don't know. But I I don't really think
+
+in terms of those price targets. I think that that prices move because there are
+more buyers than sellers or there more sellers than buyers. buyers. And when I look
+around the world and I hear a story like the one that I just described
+where you have this absolutely massive pension pool and they get inundated with calls because
+people want more exposure, but they don't have it. That is that is still a
+structural friction in the system. Trump just had a he just, you know, signed an
+executive order that made crypto essentially eligible for more 401k
+
+plans, also, you know, private equity and other things. But the point is that I
+think that we still have a multi-year play where the frictions for frictions for frictions
+for for buyers to be able to put money into these assets, those frictions are
+going to decline. And as they decline, I think that more money will flow into
+them and prices will go higher. And it's a super reflexive reflexive reflexive it's a
+super reflexive market. Meaning um one of the this goes back to the nature of
+money. One of the wild things about crypto to me
+
+is that if you look if you just look at Bitcoin for instance, like it
+could be worth anything. There's no ETH almost the same in the sense that um
+if you have someone on who tells you that they have this great valuation model.
+I will I will tell you just it's I don't I don't believe I don't
+believe that there is one at this stage. I think there may be in the
+future as these assets become more integrated across finance. But like there really isn't a
+good valuation model which means by the way that's a
+
+blessing and a curse. means the price could go down a long way and you'd
+be like, I don't know, Bitcoin at 3,000. 3,000. It made sense not that long
+ago. Bitcoin at 123,000. at 123,000. Yeah, makes sense. It feels a little cheap now
+that it's trading down at 115. Um, it feels really cheap at 85. 85, if
+you go back however many years seemed really crazy expensive, but there's no real valuation
+model. Like people try to say, "Oh, network effects and everything. " I think there
+will be a valuation model at some point when there
+
+really is. I will I will probably be out of my, you know, holdings. There'll
+probably be there still be all sorts of things to do in trading, but but
+like we're still in that stage right now where the value could be anything. And
+so, as long as you believe that there are going to be more buyers than
+sellers, which I do, and you have a market that's reflexive, that isn't bound by
+a valuation model. You can't look at Bitcoin at 200,000 and say it's wildly overvalued.
+You're like, what valuation metric are you using. And you're
+
+like, I actually don't have one. So you're like, well, okay, it could be that
+value. It's it's fine. I think that the confluence of the different themes right now,
+so like one of the themes I think is that that is going to drive
+valuation is this flow of 401k money. I think that income inequality is actually a
+big driver of this because there's so many younger people that don't feel like they
+can make it and they have guys like Michael Sailor or Tom Lee talking about
+100x and like hell man I could put my money
+
+into some you know crappy stock index fund and earn you know on average 7%
+a year or I could make a 100x like I'm I'm going to put a
+bunch of money in that. I think like income inequality and some of the frictions
+between youth and older people that have a lot of money are going to drive
+flows into this. I think the use cases are going to obviously drive drive drive
+flows. I but like AI is another like I think we're starting to see this
+convergence between crypto which doesn't have great valuation models and
+
+AI which ignites people's imagination in wild ways. you're seeing this convergence where AI is
+going to make it so that we don't know what's real and what's unreal and
+crypto can help solve that. Like you can you'll be able to authenticate video and
+everything using blockchain. So I think but I think you'll also see this AI agentic
+economy where you're going to have AI agents um transacting with one another and they
+need to move money and do all sorts of financial services between them at light
+speed that JP Morgan or these other firms are not
+
+going to be able to do. So you're going to So you're you're seeing this
+AI theme with this like inequality youth versus versus uh you know young people theme.
+This kind of movement of all these baby boomers that are giving money to their
+younger people that's going to kind of drive this this new technology. So there they're
+like all these different themes that are coming together. I think that over the next
+five years you could you could see like sorry to go back to valuation or
+or or price I think in terms of probabilities I
+
+think that there's a 25% probability and and by the way that is is is
+like for what I'm about to say is like huge in my opinion of of
+something that you know that is like the South Sea bubble type move where you
+get these these frictions decline, these passive flows increase in in an into cryptos where
+there really isn't a supply response. It's like everything else that humans have ever invested
+in. If the price goes up, you create more of it. You don't create more
+Bitcoin. The only way you get more Bitcoin, I mean,
+
+you're creating a little bit, but but like there's no big supply response. the the
+the rate of mining um creation is not going up because the price doubles or
+triples or quadruple. It just doesn't go up. You have to just get people who
+currently own it to sell it at a higher price. So, you could you could
+see some type of, you know, massive move. I I assigned a 25% probability to
+that. I think there's a 25% or there's probably 50% probability that say with Bitcoin
+that we're over the next 5 years we're like between
+
+se 50 to 75,000 and 250,000 and we're just like we swing around and those
+are still big numbers like again if you you kind of compare Bitcoin to US
+GDP and gold um and then there's a 25% probability that we're kind of lower
+than that. But I it's probably not even a 25% probability over the next 5
+years. I mean, eventually maybe it could get there. It would probably be hostile administration.
+It would be I don't know. Some things really went wrong that we can't foresee
+um that I can't foresee right now. But there's there's
+
+always a probability that the the thesis is wrong. But like some of the high
+numbers could be really high. And uh and I think for ETH I think ETH
+is more of a trade by the way just because the the thing about and
+and that's not a bad thing by the way but well like the higher ETH
+becomes the more expensive it is to transact on it which I think will invite
+more innovation to increase speed throughput etc and and you will kind of tend to
+to bring that price down. So it could be more
+
+subject to boom bust and you know Bitcoin I think is really will become a
+dominant store of value and and over time probably overtakes gold um over the you
+know very long term but you know next 3 to 5 years I I could
+see I could see some colossal uh upside if you get this you know this
+real reflexive mad rush in. rush in. What do you think about these treasury companies.
+So you mentioned one of the things is um friction sovereign wealth funds for instance
+I was just reading this morning about Norway sovereign wealth
+
+fund and there was a report that they increased their their bitcoin holdings by 80%
+this year right and it's just a very small number so 80% increase but when
+I looked into it it was actually bitcoin holdings were via strategy micro strategy that's
+they they didn't actually hold bitcoin they they held you know m michael sailor's proxy
+stock of micro strategy which you know demonstrates I think the friction case but we've
+seen micro strategy of course over the last you know four or five years now
+we've seen these ETH treasury companies popping up you just
+
+mentioned you know Tom Lee but there's a slew of them them them and they're
+really like tracking I mean I I think it's like close to 3% or two
+to 3% of all ETH right now in treasury companies and this is just in
+the past couple of months and these act as kind of shelling points for the
+narrative as well when you have people like Tom Lee on CNBC saying like we
+could 100x here you know genius spell stable coins stable coins are on Ethereum ETH
+you know number go up all of these things. Do
+
+you think this is healthy for the market. Unhealthy. Do you worry about it. Do
+you think it's positive. What's your take on this whole move. move. I think it's
+ultimately unhealthy. Um, but it's it's still early. Uh, it's still it's still too early
+for them to be materially unhealthy. Um, and the reason I think that ultimately unhealthy
+is well, I I thought Vitalik's answer when when you asked him about that, I
+think it was perfect. Like I I don't know that guy. I I have a
+real soft spot for him. He's such an innovator and
+
+I think he's he's just he just calls it as he as he sees it.
+He's like, "Yeah, these these companies, I guess they're kind of creating an something between
+an option and a derivative of these assets. " And you can just tell the
+way he answers it like he doesn't that's just not what he's in it for,
+you know. He's more of a purity guy around what this could do for financial
+services in society broadly. And so it's like creating derivatives and options on the underlying
+asset. It's like why you doing that, man. Um I
+
+I feel like that that was kind of that was the spirit with which he
+answered that that question. I I'm um having spent my career in financial services and
+around Wall Street even though I only worked at a Wall Street bank for like
+five or six years and I I saw enough. I you know I kind of
+wanted and needed out. Um but I think Wall Street has a tendency to take
+everything and financialize it, leverage it, amplify it and there are all sorts of tools
+that are being used with these treasury companies to do
+
+those things now. And they and by the way they're working. Um and uh but
+I think now that you're seeing this proliferation of them I they'll probably like anything
+like any kind of array of startups in a new category there'll be some that
+that do really well. Um Micro Strategy is clearly the you know the dominant one
+but it's MNAV was just like at 3. 4x at one point. It was 2x
+not too long ago. It's 1. 6x right now. I just saw that they, you
+know, that they they kind of um issued renewed guidance
+
+or new guidance on kind of when they'll be issuing equity. And like it it
+feels like the market's doing what it typically does, which is if if if you
+get an MNAV that's trading above one for any protracted period of time with these
+companies where the the value of the company is, you know, well above its underlying
+underlying underlying holdings. Of course, you're going to get financial players that are like, well,
+hell, I'll do that, too. I like free. Who doesn't like free money. Um, so
+I'll do that, too. And so I think the market
+
+will supply that just like in do you know all these companies that made no
+money were trading at crazy valuations and so the market you know in its infinite
+wisdom just created more companies until the value pushed down and then you realized hardly
+any of them are worth anything and then they collapse. I don't think that same
+thing I don't think it's actually the right proxy for these treasury companies because they
+actually do do something. They just own the underlying asset. It's not like they have
+no business. they just they're kind of leveraged financialized ways
+
+to to own these assets. And so I think in time it's likely that Wall
+Street ends up creating at least a class of them that embed all sorts of
+leverage into them. They probably suck a lot of fees out from their investors for
+the management companies, which I don't think is healthy. But I don't think they'll destroy
+the markets. I just think they'll create volatility at some point and they're not super
+interesting from my perspective. Like I wouldn't buy them. I saw that um um what
+was it. Um uh the Norwegian um the Norwegian sovereign
+
+wealth fund they you know they added a a maybe they doubled their micro strate
+position and maybe that was the one that you were talking about. That's what I
+was talking about. That's the one you were talking about. It's like they did that.
+I'm like I wonder why. I mean they're very smart investors. Like why are they
+paying a premium for underlying. It's probably friction. It was probably somebody in the do
+you think their hierarchy of the investment committee whatever who just Yeah. And and and
+you know I I sent a note around to you
+
+know five or six guys that are that are that are that I I turned
+to with a question like that and no one had a really good answer. It
+was like well maybe m maybe it's it's such a big portion of whatever the
+index is that they're tracking that they're forced to buy it now. Like it's it's
+probably something like that. I don't think that they're these are smart guys that aren't
+in the habit of buying things that are multiples of underlying valuations. So, um but
+but again, there are all sorts of frictions in finance.
+
+Some of them make a lot of sense, some of them make less sense. Um
+I I don't I don't think like when the story of crypto is over, I
+don't think these these companies will will feature prominently. I think they'll just be like,
+you know, something along along the edges. the edges. So, Eric, going back to your
+10-year crypto trade, we're 5 years in, so we got five more years to play
+out, right. And part of that was uh as you um you mentioned, a macro
+trade basically. And so, I'm wondering if you could kind
+
+of forecast the next 5 years of macro. There's all sorts of details we could
+get in. What's Powell going to do. Blah blah blah blah blah. I'm talking about
+the things that you feel like we can bank on over the next 5 years
+that you can bet on. So, like I don't know if it's debasement if that's
+a theme, fiscal dominance if that's a theme. I don't know what you think about
+US's position in the world, but what are the things that you're basically banking on
+that fuel your crypto investment when it comes to macro
+
+over the next 5 years. Uh, okay. I think I think some things that you
+can bank on that we're seeing directionally unfold here that are supportive of crypto cuz
+like we could talk about macro all day long, but let's talk about the things
+that I think really will impact crypto. I think that you're seeing a convergence between
+you're seeing a more transparent and overt convergence between Treasury and the Fed. It's that
+Ray Dallio thing. It's just it it it Yeah, it's uh I think he's written
+a lot about it. It's like what you see in
+
+much longer cycles when you have this much debt and the debt um the interest
+payments on the debt are driven by a policy that the Fed is um is
+in charge of. Um it's the temptation to kind of merge those two entities is
+extremely high. And I would I would have said that once the Fed balance sheet
+got big enough, which it did over the last, you know, 1015 years, you whether
+you admitted it or not, that the two really were kind of locked at the
+hip. hip. And I think there's some political tensions that
+
+are going on right now. But I think that those things will converge. I think
+that that that will be good for for crypto because what what will happen and
+I think it's a very logical thing for the government to do. If if you
+and I were running the government, I think we would converge on this policy which
+is that we have a lot of debt in the world and so we need
+to grow the economy really fast and we need to keep interest rates really low
+and that is um you know that's kind of like
+
+fiscal dominance basically. You're basically the government is saying look we have so much debt
+in the world. We can either default on it which they're not going to do
+or we can kind of inflate it away. Inflating it away in a constructive way
+which I think is what they're trying to do and probably will pull off is
+just running the economy super hot but then keeping interest rates really low. And so
+the people who want to hold government debt and they basically don't want to take
+any risk. they're just like, I wanna I want to
+
+make sure I get my money back. Well, it's like great. You can get your
+money back, but you're not going to make very much money with it. And maybe
+you make negative money like in a on a real basis, maybe you lose money,
+but you don't lose a ton of money. And so, it's like a it's like
+taxing the savers. So, I think that that that is happening. And as that happens,
+essentially, real interest rates decline. That's great for crypto or it traditionally has been and
+I think it will continue to be. So I think
+
+that that's something that you can really bank on. You're seeing that playing out right
+now with it some of the tension between Bessant and Powell and Trump and maybe
+there's not tension between Besson and Pal really like Besson is a super super smart
+guy and operator and knows markets well and so like he like anyone in his
+seat would say we could just kick this problem to the next administration or we
+could deal with it. And I think he's really trying to deal with it now.
+I think it comes at a wonderful time in economic
+
+history because for the first time really in my well in the last 25 years
+of my career let let's say post post uh. com in internet which is a
+really exciting time for the economy in terms of innovation like AI has the potential
+to allow productivity in the US economy and globally to the extent that people adopt
+it. It has the potential to allow that productivity to increase significantly. increase significantly. And
+if you do that, if you if you increase the productivity of the US economy,
+it allows you to run it at a much higher
+
+rate of GDP growth. And if you do that at the same time that you're
+holding interest rates down, we could be in five years, we can be in a
+place where people are where there there has been essentially debasement of the dollar because
+um you've held interest rates low. And so as a result, you know, the people
+that have just kind of been in hiding in safe spaces, they have less money
+than they they did before. But you could be in a much better place from
+debt dynamic perspective. And I actually think that there's a
+
+really good chance that that's where we end up. But that AI theme, for the
+reasons we described earlier, I think that that AI theme will fuel crypto adoption and
+usage at potentially a wild scale. And I think because AI is this wild new
+technology, it also ignites people's imaginations. And so when you have, you know, crypto that
+has no great valuation model attached to it, which means it could be valued to
+anything combined with AI, which which um will kind of conflate with that theme. I
+think that that'll be a really powerful thing over the
+
+next 5 years that that that can really drive these markets. So I think those
+are those are the big things I I think we'll get widespread adoption. the Genius
+Act was the first part of that that will continue on. So, those will be
+the the the big themes. Um, but what throws a wrench in this. Like, what
+could go wrong here. It always seems like when we've got it figured out, you
+know, like cuz I everything that you you're saying, this is sort of what, you
+know, we've converged on, what I've converged on, right, is
+
+just like, you know, fiscal dominance, continued debasement. you want to have these store value
+assets, plus you get this upside of, you know, AI, all of the tech that's
+being built in crypto and real world assets, all of this stuff, right. But it
+just at at some level, it just seems uh too too obvious and too simple.
+And maybe we're not thinking about enough about what could go wrong. What could still
+go wrong. Trump could lose lose the midterms and and you get a real political
+backlash. Um that could happen that would would be damaging.
+
+I don't think it would I think it would create a material correction, but I
+don't think it would I don't think think anything's going to derail these markets entirely.
+to go back to your Vitalik interview. I think he he expressed concern about these
+Treasury companies, which I think again is I don't think they're big enough yet for
+this to to be the case, but he was, you know, he was like, "Look,
+if you get if you get them big enough and overleveraged enough in some way
+that a 30% correction creates a mass liquidation event that
+
+gets down to 50, that gets to 70, gets to 90, then you you dent
+the credibility of the underlying assets. " And and I think that's true. I don't
+think that that's that's not a today problem. Um it could but it could be
+depending on what happens with these treasury companies. We'll see. Could be a a problem
+in 2 years, 3 years. Um we got to keep an eye on that. I'll
+definitely keep an eye on it. Whenever you have a leverage player that gets big
+enough, that person will get stopped out. I can assure
+
+you it is. I've never I've never seen in my career that not be the
+case. That happened in the VIX ETNs in 2018. I don't know if you remember
+those things. Um but uh yeah, you know, I started in the commodity pit. Anytime
+there's someone with a big levered position, they get stopped out. So, but that's not
+a today or tomorrow problem. Um so, I mean, there there could, you know, I
+don't think that we're going to have a big wide widescale fraud. I think that
+the industry's cleaned up from that. there could be um
+
+some type of massive hack as Tradfi kind of gets involved and if they they
+don't get their security right, I mean these are bare assets like there could be
+problems there. I think that's a big I think that's one of the big plays
+for Coinbase is like crypto is a service. I mean Coinbase is the 800 lb
+gorilla that is going to supply the infrastructure services to traditional finance as these guys
+all get on board. some of them maybe JP Morgan or maybe Goldman will build
+some of their own infrastructure but I think you know
+
+Coinbase will be dominant in that space but you could get some lesser players that
+you know try to do things on their own and just mess it up I
+think that would harm the industry you know big thefts or people feel insecure with
+their assets those are the things that I kind of think about you know um
+whenever like what really moves markets is fear and greed is people's imaginations running wild
+on the upside and but also on the downside and so you know things that
+destroy people's faith in these underlying assets. So it could
+
+be a hack, it could be, you know, something with with um you know encryption
+that that goes wrong due to quantum computing. But like when we've really looked into
+that, I don't think that's going to be a real issue. It's so it's like
+but it's the type of thing that it could scare people. Um but I I'm
+not worried about at this stage in the cycle. I'm not worried about like catastrophic
+downside. I I'm I'm not I There's downside of course. There's always like 30% downside
+in any market. You're crazy if you think there isn't,
+
+but I'm not worried about the catastrophic downside right now. Eric, this has been uh
+so good. And you know, as we start to close this out, I I I'm
+curious for a lot of listeners, you've mentioned Coinbase throughout this episode. You've also mentioned
+One River. You're still running One River Asset Management as well, but was also acquired
+by Coinbase, I think, back in 2023. This is not the Coinbase kind of maybe
+exchange that everyone's thinking of. It it still is part of Coinbase, but it's also
+its own separate thing. And I'm wondering if you could
+
+kind of describe what uh your side of Coinbase is. So, what is Coinbase asset
+management. What are you guys doing over there. Yeah, so um thanks for asking that,
+by the way. But yeah, so I I I started One River. We created One
+River Digital as a subsidiary. Coinbase acquired that and left me running both firms. And
+the kind of the industrial logic behind that was we all agree that that TRFI
+and crypto are going to converge. And having someone in my seat who can kind
+of speak both languages um who's out in front of
+
+many of the largest institutional investors in the world all the time speaking with them.
+I've been able to be a good translator and and an educator quite frankly. Um
+particularly in in the the kind of the dark bare market crypto winter when people
+weren't doing a whole lot. It's like these big players were not going to call
+up some cryptonative person and say, "Hey, could you come in and you know explain
+how the blockchain works. " But I I would be there and they and and
+you know we'd be talking about macro and be like
+
+okay I'd say 30% of every conversation was about crypto and where this is leading
+and so hopefully we you know we've done collectively our service as a firm to
+you know help people understand that. So Coinbase acquired One River Digital and that turned
+into Coinbase asset management. So we're wholly owned by Coinbase. Got it. Um there all
+sorts of information barriers because we are an asset manager. We don't get to see
+what people are doing on the exchange or anything and very thick barriers. We're an
+SEC registered investment advisor. Nice. And where we see the
+
+greatest opportunity right now, like we've built out indices, we're doing some things in in
+DeFi with capital. The big the big opportunity that we see right now is that
+um there are over$ two trillion dollars of Bitcoin in uh that people hold in
+the world and most of that Bitcoin earns it's incredible collateral. Most of it earns
+no return, you know, no no yield. And so we've we've been developing quite secure
+and um interesting ways to help our clients who are sitting on a lot of
+Bitcoin earn an incremental yield that can be three five
+
+you know 8% depending on the amount of risk tolerance they have could be even
+more than that and Eric when people hear that right so some some people in
+crypto were burned by that whole you know 2020 uh2 thing where it was like
+you know BlockFi and Celsius and they promised yield on Bitcoin and other assets assets
+and of course, you know, it turned out that they didn't actually have the assets.
+They were doing risky things. They got blown out on the GBDC trade and all
+of that. Are you guys doing things differently. differently. Totally.
+
+And I I would tell you that we um I think one of the reasons
+that Coinbase acquired us when they decided to to just go in all in on
+asset management is we you know, we didn't touch FTX, Celsius, block, none of these.
+like we we literally our our yield products back then returned 100% of their capital
+because we were fully collateralized and it's just you know I've I've made my career
+really um capitalized into some great opportunities but also being a very good risk manager
+and so we have some of the smartest investors in
+
+the world that ask the same question that you just did and we walk them
+through how we're generating yield and they're like okay that's that's secure and that's great
+and the only reason that we're generating the kind of yields that we are is
+because Tradfi has not come full force into this space. And so we'll build out
+a great business around helping our clients that are longerterm holders or long-term holders of
+Bitcoin earn yield in Bitcoin so they basically can kind of continue to build their
+stack. And then also, you know, there are more and
+
+more dollars in stable coin that are earning no yield. And so we are developing
+yield products for those stable coin holders as well. so they don't have to leave
+the crypto economy and they can earn substantial yields. Um, and so, you know, I
+think that we'll probably end up seeing dollar stable coin be like kind of like
+the checking account um, of the future and then and then we're building out essentially
+the savings account and you'll be able to kind of sweep money into that savings
+account and earn, you know, earn very nice yields again
+
+depending on the amount of risk tolerance that you have. We're never like we're not
+taking catastrophic risks. But of like of course there are risks if you're going to
+receive any reward. There are some risks but we don't you know I'm totally uninterested
+in taking any type of catastrophic risk. These are just risks of higher or lower
+yields or sort those sorts of things. Is that open to retail now or is
+like the asset management stuff you doing or is it all a credittor investor credit.
+open retail yet, but you know um obviously I think
+
+some of the industrial logic of of bringing asset manager into Coinbase is you know
+Coinbase has a lot of of of a lot of retail customers and high net
+worth customers and so I think some someday of course like how could you not
+have really high quality asset management services provided to retail of of course that will
+be the case but we're we're not there yet. Eric this has been amazing. Last
+question just to close us out. What do you think we're going to see. Just
+summarize all of this in Trafi institutional kind of entering
+
+crypto. What do you think we're going to see in crypto for the next 12
+to 18 months. What should people be looking for. I think we're going to see
+a lot of really exciting announcements that um that are showing real use cases which
+everyone's been asking for but it's like been hard to do because the regatory issues
+and and as those get cleared I think some really great things are going to
+start happening with it kind of bringing bonds and and equities on chain and I
+think Coinbase will be leader in that space and I
+
+think that'll get people super excited. Um I think this convergence between Treasury and Fed
+and um monetary dominance you know will I think it was like these things will
+will unfold and I think these assets will you know will continue to do well.
+So I think a lot of really good things are happening that are foundational that
+will you know that will then help people like their imaginations will start more easily
+seeing a future where everything's built on blockchain uh in financial services. So that's the
+world that we're kind of playing for and infrastructure will
+
+be really great investments in that world, but I think crypto will be good investment
+as well. Exciting times. Eric Peters, thank you so much. Last time we had you
+on, I think Bitcoin was 22K. ETH was about 1. 5K. So we've come a
+long way since then. Hopefully we'll see a similar price appreciation the next time we
+chat, too. Uh well, keep up keep up the good work. I I I love
+the uh the content that you guys produce and and uh your your thoughtful questions
+and your engagement in the space is is is really
+
+wonderful. So, thanks and it's fantastic. You're doing a ton of education to people who
+wouldn't listen to Banklist listen to Eric Peters. So, you're doing God's work there on
+the back end. So, got to let you know, of course, Bankless Nation, crypto is
+risky. You could lose what you put in, but we're headed west. This is the
+frontier. Not for everyone, but we're glad you're with us on the bankless journey. Thanks
+a lot. [Music] [Music].

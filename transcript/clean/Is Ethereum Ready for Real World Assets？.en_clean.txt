@@ -1,0 +1,1343 @@
+the people, the users, the assets, the companies who issue those assets and the governments
+who regulate those companies will find themselves on a decentralized network because it's the worst
+option except for every other one. And I think ultimately decentralization will win by default.
+default. >> Austin, >> Austin, >> Austin, >> I don't think we could ever get
+away from the real world or the constraints of the real world and humans are
+going to human. I think as a result, if we want to bring the majority
+of real assets on chain, we're going to be forced
+
+to acknowledge that reality. But I think the value of decentralized store of value systems
+is by providing people an opt out. Welcome to Bankless, where we explore the frontier
+of internet money and internet finance. This is Ryan Sean Adams. I'm your only host
+today. David's out. So, I'm here to help you become more bankless. We have a
+debate episode today. I always love these. The debate is on the question of is
+Ethereum ready for real world assets. Got two professors. I'm going to tell you first
+what they share in common because I think that's interesting.
+
+They are both previous bankless guests. They are both crypto advocates and they are both
+longtime friends and also co-workers. So why is there a debate. Why is there daylight
+between these two guests. Well, Austin on the one hand doesn't think Ethereum is a
+good home for real world assets like stable coins and tokenized equities and all of
+the things we expect to come on chain. He thinks the attributes that make Ethereum
+decentralized, things like immutability, the element of code is law, these aren't so much features
+for real world assets. They're bugs and he simply doesn't
+
+think Ethereum is the right architectural fit. Omid on the other hand thinks that the
+decentralization and the neutrality of Ethereum are exactly why the largest financial powers in the
+world are selecting and will select Ethereum. These are the institutions. These are the sovereign
+countries. They're going to trust Ethereum with our assets and liquidity because without decentralization after
+all we're left with is a system like the one we already have. It's just
+Trafi. This is a fascinating debate. I think it's a good point in the cycle
+to talk about this as we continue to onboard more
+
+and more financial institutions and traditional finance. Now, before we get into the episode, a
+quick shout out to our friends over at Ronin. Ronin wants you to know that
+they are coming home to Ethereum. They are Ethereum's Nintendo. Already today, the Ronin chain
+has seen 4. 5 billion in NFT volume. That's like 30 million wallet downloads. And
+actually a fun fact, you may know Ronin as the AXI Infinity chain of yester
+year. Today, the Ronin chain actually has more onchain activity than at the peak of
+the AXI boom in 2021. So they have grown fast
+
+during the bare market and into this bull market. Now they are launching the Ronin
+layer 2 on Ethereum. So Ronin is coming home. That's the news. It's going to
+be 12 times faster because it borrows all the security and decentralization from Ethereum. Plus,
+there are staking rewards in the form of the Ron token. That's RO N. And
+this will now reward builders and their communities programmatically for adding value to Ronin. So,
+you got to go check it out. Download the Ronin wallet. Get a taste of
+the onchain Nintendo. There's a link in the show notes
+
+or banklist. cc/oninwallet. All right, let's get right to that debate episode with Omid and
+Austin. It's coming right up. >> In the wild west of DeFi, stability and innovation
+are everything, which is why you should check out FRA Finance, the protocol revolutionizing stable
+coins, DeFi, and Rolex. The core of FRA Finance is FRAUSD, which is backed by
+Black Rockck's institutional biddra designed FRAUSD for best-in-class yields across DeFi, T bills, and carry
+trade returns allinone. Just head to fra. com, then stake it to earn some of
+the best yields in DeFi. Want even more. Bridge your
+
+FRA USD over to the Fractal layer 2 for the same yield plus Fractal points
+and explore Fractal's diverse layer 2 ecosystem with protocols like Curve, Convex, and more. All
+rewarding early adopters. FRA isn't just a protocol. It's a digital nation powered by the
+FXS token and governed by its global community. Acquire FXS through FRA. com or your
+go-to DEX, stake it, and help shape FRA Nation's future. Ready to join the forefront
+of DeFi. Visit frax. com now to start earning with FRAUSD and staked FRAUSD. And
+for Banklist listeners, you can use fra. com/r/bankless fra. com/r/bankless
+
+when bridging to Fractal for exclusive Fraal perks and boosted rewards. Ethereum's layer 2 universe
+is exploding with choices. But if you're looking for the best place to park and
+move your tokens, make your next stop Uni Chain. First, liquidity. Uni Chain hosts the
+most liquid UniS swap V4 deployment on any layer 2, giving you deeper pools for
+flagship pairs like ETHUSDC. More liquidity means better prices, less slippage, and smoother swaps. Exactly
+what traders crave. The numbers back it up. Uni Chain leads all layer 2s in
+total value locked for Uniswap V4. And it's not just
+
+deep. It's fast and fully transparent. Purpose-built to be the home base for DeFi and
+crosschain liquidity. When it comes to costs, Uni Chain is a no-brainer. Transaction fees come
+in about 95% cheaper than Ethereum mainet, slashing the price of creating or accessing liquidity.
+Want to stay in the loop on Uni Chain. Visit uniain. org or follow uni
+chain onx for all the updates. updates. >> Nation, I've got a debate for you
+today. Everyone loves debates and I think we're all going to enjoy this. The question
+I think we're putting forward to the two gentlemen on
+
+this episode is how much does decentralization matter. That's the wide sweeping question. What are
+the implications for real world assets, for traditional finance, for government regulations, for cryptonnative assets.
+And I have the perfect debate opponents to talk about this. Austin Campbell is a
+professor at NYU Stern. He's a big stablecoin advocate and he's a repeat bank list
+podcast guest. Austin, how you doing. doing. >> Doing quite well, thank you. And uh
+excited to do this because as you get to Omid's intro, you'll find there's some
+significant overlap between the two of us. us. >> Well,
+
+we get to see what you agree on, what you uh disagree on. So, that'll
+be interesting. Omid Makin is a professor at Colombia. He is also a longtime blockchain
+crypto evangelist. Omid, welcome back to Bankless. >> Thank you. >> All right, so I
+think the genesis for this conversation was like all great conversations started on Twitter or
+the platform formerly known as Twitter on X and there was some back and forth
+with you guys. I'll read a few uh quotes. Austin, I think this was maybe
+a podcast uh video clip that um was uh was
+
+put forward on X. You said this, I don't think Ethereum is ready for prime
+time uh for prime time real world asset issuance. Then you gave an example of
+the bybit hack. We're in a place where the Ethereum validators aren't willing to do
+something about exploits. Omid, you pushed uh back a little bit. You said a blockchain
+that isn't perfectly neutral is a terrible database worse than anything Tradfi has today. The
+neutrality that Ethereum has optimized for more than any chain is the reason it's likely
+to become the global settlement layer and attract endless trillions
+
+in capital. Okay, first since I put you on the spot, uh Austin in a
+defensive position, you said Ethereum is not ready for real world assets. What did you
+mean by that. >> Yeah, so there's this central problem that you run into when
+you're thinking about RWA, and it's something I used to think a lot about when
+I was running a stable coin of you're fundamentally stuck between two worlds in terms
+of the masters that you answer to. And maybe the best way to like make
+this distinction clear is to start with something like Bitcoin,
+
+right. And what I mean by that is Bitcoin is like stateless nons sovereign purely
+programmatic money. And that's kind of fine in that there's no physical like representation of
+Bitcoin in the real world that is answering to a sovereign government. like this is
+purely an electronic construct and the network behaves in the way the network wants to
+behave and fundamentally like as somebody who owns Bitcoin in ETF format before somebody tries
+to rob me. I think like this is actually a very good invention for the
+world and I'm in favor of it. The problem though
+
+is to go the other way. Like let's take the example of like if we
+tokenize ownership of houses and grandma's house title, right, is tokenized and somehow it gets
+hacked and the North Koreans end up in possession of it. Like so like my
+grandmother lived in Connecticut. Do you think the United States is going to let the
+North Koreans evict her and move into her house. The answer is no. And so
+there's this inherent tension with real world assets between what are the programmatic rules on
+a blockchain and what are the actual factual rules in
+
+the real world of how this asset is going to be adjudicated. And the tension
+that you run into is if you can't make your ledger ultimately responsive to what
+is going on in the real world, I would suggest that on a long enough
+time frame it is certain that your ledger will eventually break. eventually break. >> Okay.
+Is that does that get into the bybit hack. Why is that a relevant example
+that you brought up. >> Okay, so the bybit hack starts to become a relevant
+example for two reasons. Um, one, I was using it
+
+as a demonstration of there is currently no real coordinated way within the Ethereum community
+to handle these sorts of nation state level expropriations, right. Like put differently, the buy
+bit hack this time was ETH. How would it have been handled differently if it
+was, you know, a real world asset of some sort. And specifically, the interesting part
+about the bybit hack to me is less the individual token targeted and more the
+sophistication of the attack, right. Which is to say they got into bybit systems themselves
+and compromised the people actually managing what was going on
+
+internally. And this time it was bybit, but thought experiment for the crowd. What if
+that had been Tether, right. What do you do if Tether loses control of their
+own smart contract. >> Right. Right. So, in this case, it was a hack of
+Ether. I believe primarily that was the the asset that was uh taken. And of
+course, you know, um no government I I suppose could intervene. And you're saying, what
+if this was the Tether smart contract. What would happen in that case or something.
+>> Yeah. As a guy who ran a stable coin,
+
+and this is the nature of like rolling discussions on a podcast, they can be
+a little bit disorganized at times. But my my core concern is infosac is never
+perfect. It is a matter of time on a long enough timeline until people get
+hacked. And the question is how much damage it does and how do you recover
+from it. And so my concern is if we're living in a world where it
+is obvious that there are actors sophisticated enough to compromise people's internal security systems, what
+like genuinely like what is the response if like Tether
+
+or USDC has their smart contract compromised and how do you do that in a
+way that doesn't then subsequently as you roll down the chain brick like you know
+95% of things that are currently deployed in the world on Ethereum. >> Well OMI
+those are some arguments for you. Uh what do you say. I say that um
+the bite-bit hack is actually the best possible advertising Ethereum could have because the overwhelming
+shrug that the community gave to calls of doing something about it even though it
+was clearly big and was clearly some kind of a
+
+very sophisticated actor. It wasn't one of those sometimes there's a issue on chain where
+like somebody makes a mistake or one person claims a hacking and then the other
+person know says no this was a legitimate transaction. The bite bit hack was a
+great test case because it was like the perfect boogeyman scenario that anti-crypto people and
+anti- bitcoin people had been telling us for like a decade which is that well
+what are you going to do when literally North Korea steals a billion dollars worth
+of money and uh Ethereum's response was absolutely nothing. And
+
+I think that's great because neutrality is the only thing that blockchains could do well.
+They don't do simplicity well. We all know how complicated they are. They don't do
+performance well. They don't do cost well despite the efforts of my friends at Salana.
+They don't do bandwidth and throughput well. Not by the standards of web 2 and
+trafi. But the one thing they can do well is to say that we have
+a network or a platform here that is always going to do exactly what it's
+supposed to regardless of whatever legal, moral, or political order
+
+somebody else wants to put on it. Now, clearly the BBIT hack was a bad
+thing. So, I don't think this needs to be said, but I'll say it anyway.
+Um, it's bad that it's happened. It's overall it's clearly bad for bite bit, bad
+for their customers, bad for the price of eat during that period. But to me,
+the northstar of all of this is to build infrastructure that the rest of society
+could organize around because it is neutral and predictable in a way that very few
+things, if anything, in the world currently is. And I
+
+think the example that Austin gives is a really interesting one actually. I got to
+give you credit Austin. never thought about the potential consequences of somebody like hacking uh
+Tether or Circle's uh smart contract. I guess like they could just like mint a
+trillion USDT, USDT, USDC, and that would definitely be catastrophic in DeFi. It would be
+problematic everywhere. Um and far worse of an example than the Bitebit hack. So, I
+appreciate you throwing that out there, but the question I have for you is like,
+what do you propose to do about it. That risk
+
+is out there, however small it might be. So, given you, we know what my
+point of view is. Given your point of view, what would be the solution. I
+think this gets into why I started with Bitcoin because with what you're saying about
+something like Bitcoin itself or maybe ETH though in ETH's case because of proof of
+stake there may be a long-term governance question like okay the buy bit hack happened
+the North Koreans appear to have sold most of the ETH and moved on with
+their life but if they kept it and staked it
+
+and now we're participating in governance and then continue hacking people over time at some
+point you have a structural problem. So, let's leave that aside. Uh, but just acknowledge
+that, you know, we we'd have to think about that at some point, but that's
+a pretty extreme scenario. I think what I am ultimately advocating for and why I've
+raised this point is that there probably needs to be a different set of rules
+of the road at the network level for what I will call cryptonative tokens like
+ETH or Bitcoin and real world asset tokens, right. And
+
+the reason for that is that ETH like itself definitionally made to your point about
+what's valuable about it is not going to be like responsive to a federal judge,
+right. Like somebody in the Southern District of New York can write an order ordering
+all the ETH validators to do something and post it on the internet, then the
+ETH validators can totally ignore that person and like move on with their lives and
+there's basically nothing that's going to happen. On the other hand, if Tether's smart contract
+gets hacked and that same order gets written to like
+
+seize all the assets because the North Koreans appear in control of it and they
+show up at Caner Fitzgerald's office, who by the way is managing Tether's reserves and
+are like, "Here you go. " Guess what happens there. Caner hands over all the
+reserves. So my point is because there are two very different legal structures behind call
+it cryptonative things and things that are grounded in the real world and definitionally not
+decentralized. I think the network probably needs to be willing to roll back or have
+some sort of way to handle a hack of Tether
+
+in a way that it does not need for ETH because you know actually you
+raised this point earlier which I think was very astute when you were speaking is
+if Tether's smart contract gets hacked and the pat answer that you'll get from a
+lot of people is well tether can just drop a new smart contract what's the
+problem repudiate the old one drop a new one I would point out to everybody
+that nukes basically every single DeFi protocol that has tether integrated into them in the
+current like design of the ecosystem. Like unis swap is
+
+not robust to that. A is not robust to that. Compound is not robust to
+that. Like you now have pools that are immutable that exist that people can transact
+against that have a thing in there that's now completely worthless in sort of a
+one-step jump. And this is where I get to the requirement of network controls. Like
+for the audience, by the way, Omid and I go back like a decent ways
+at this point. We both worked at city. And so I would like to make
+the point that holding traditional financial or really any human
+
+institution to the standard of not making mistakes can be easily refuted by our old
+employer because while we were both there, they sent I mean what was it like
+$800 million to the wrong people in the Revlon thing. Like a a hilarious like
+error. Um and by the way, anybody if you trust that your bank knows what
+they're doing, boy are you wrong. Um, and so like my my point is even
+if we leave malfeasants aside, like it is a matter of time until somebody just
+[&nbsp;__&nbsp;] some [&nbsp;__&nbsp;] up, right. Because I posed like what
+
+if Tether's smart contract gets hacked. But maybe here's a more hilarious one. What if
+somebody just loses the private keys, right. Like you need obviously I think Tether please
+has better controls than that, but like you need ways to like recover from these
+sorts of human error things as well. But again, if somebody loses the keys to
+their private wallet and it's ETH, so be it. That was the deal that you
+made to use this product. And I think I agree with Omid, by the way.
+The value at the base layer for that token is
+
+the decentralization. I think the problem is again, you can't be like, well, grandma lost
+the key to her NFT. She can never sell her house again. Like the woman's
+dead, we can't settle the estate. 500 years from now, nobody lives there. Uh, so
+Austin, it almost seems like you're saying for immutability on the layer 1 in particular
+is a bug for real world assets where it's it's a feature for cryptonative assets.
+Um, what do you say to this. to this. >> That is exactly what I
+am saying right is that real world assets are not
+
+immutable and I'll just let Omid go. >> I don't know who's ever argued that
+we should turn houses into bearer assets, but I'm clearly not one of them. So
+I I don't that to me is a bit of a uh is a bit
+of a straw man argument like no one there was this idea back in the
+day like eight years ago that we're going to put deeds on the blockchain. This
+was really one of the endless manifestations of the blockchain not Bitcoin thesis but like
+even back then nobody said oh well we should have
+
+it be an NFT that anybody could hack and steal. But I I like this
+Tether example because if I understand you correctly, Austin, you're saying that because the smart
+contract is vulnerable to hacking, we should introduce a mechanism at the network layer to
+undo certain kinds of hacking. Is that right. >> I'm going to be very careful
+with what I say about network layer here. I think there are multiple like potential
+solutions to this problem. But I think the thing you need to introduce at the
+network layer is the requirement to have one of those
+
+solutions in place if you are going to put RWA on the network. Let me
+posit two worlds. one option and by the way this exists like you could create
+an avalanche like subnet or L1 or whatever you want to call it with this
+technology of we've got a permission validator set with a hard boundary and like delays
+to get something off the chain so in that case if somebody had deployed a
+stable coin and the smart contract gets hacked the validator set can be like whoa
+and that I think om you would classify as a
+
+network level control control control >> another one for instance could be theoretically if we
+build the DeFi ecosystem properly so that every smart contract that adopts a token has
+sort of call it a kill switch built into it and if some oracle that
+we've all agreed upon throws the kill switch the smart contracts just freeze you can
+no longer transact with them and all you can do is withdraw assets that might
+be an adequate response to something like the tether smart contract risk as well because
+again my concern is this like let's right now go
+
+look on like unis swap and be like how much ETH versus USD DT is
+there on there. I also think it's very dangerous to live in a world where
+if USDT gets compromised and we agree the old contract is worth zero, somebody just
+goes and drains that pool, right. That would be telling LPS like you have systemic
+risk to this ecosystem and basically Tether getting hacked sends ETH to zero, which I
+think is bad for ETH. And thus my point is it's it's not just the
+validators where the solution could reside, but I do think
+
+it's probably the validators that need to enforce you need to have some kind of
+solution guys here. Don't just put ticking time bombs on our chain. >> So what
+happens when North Korea hacks the permission validators on an avalanche subnet or the agreed
+upon oracle that triggers the kill switch on important smart contracts. Cuz the way I'm
+hearing you, you're worried about a specific risk for a specific coin, Tether smart contracts,
+and your solution is to introduce a universal risk to the chain or a universal
+risk to literally every smart contract that has this hack
+
+switch. And by the way, permission chains have been hacked, oracles have been hacked. So
+these are not theoreticals. The Tether one is >> simple answers to some of those
+things. I actually on the first one go back to something that I learned way
+back in the day in catastrophe risk which is an area where I would say
+blockchains have currently failed pretty badly which is what is your fail state right so
+like the reason I raised an oracle specifically only with a kill switch is my
+fail state there is okay well we can't transact with
+
+those LP pools but everybody can withdraw damaging in some form like somebody throwing that
+is really [&nbsp;__&nbsp;] annoying but it doesn't fundamentally like destroy things in the that actually
+continuing to transact with the smart contract itself got hacked would right and the reason
+I raise this is it has to do with how you think about engineering in
+general like a good example of this principle gone wrong was Fukushima right where you
+should be building your nuclear reactors such that if you lose power they shut down
+not cause like a completely out of control chain reaction
+
+and you know if you look at like modern designs of nuclear reactors they're going
+to hold your control rods that'll stop a nuclear reaction with electromag magnets so that
+definitionally if you lose power they drop the rods. Yeah, it breaks your nuclear reactor
+but you don't have an uncontrolled meltdown. Okay. And I'm arguing if you want to
+think about risks in smart contract world you should probably be building things that way
+cuz yes it would be painful to wake up and have been an LP and
+be like well I expected my LP would be working
+
+and instead like everything is frozen and all I could do is withdraw my assets.
+Okay, I guess. But that's way less painful than just losing all your assets. So
+one of those is thinking about fail states. Two, if the North Koreans are able
+to hack an entire permission validator network and you had a large enough permissioning set
+with differential security protocols, so be it. And what I mean by that is at
+some point the financial system is financially systemic. You could have some amount of redundancy,
+but like equivalently, if the North Koreans can hack like
+
+zel for all of the major banks simultaneously and then start sending themselves money, there's
+probably not a lot you could have engineered to stop that. But that feed is
+significantly harder than hacking merely one bank. So, I agree with you. At some point,
+the risk is non-diversifiable, right. Like for instance, ETH is always catastrophically exposed to a
+meteorite striking the planet, destroying Earth, right. Like the value goes to zero. Okay, I
+get it. But I am saying there are like well-known things we can do here
+to build a much more resilient ecosystem and thus one
+
+that also isn't inevitably probably in like a decade period as opposed to like a
+thousands of year period like going to brick itself when we get into a fight
+with the real world legal system because all of this omade to go back to
+the original point comes down to when I'm running a stable coin in the back
+of my mind is always my custodian is going to respond to the US government
+whether I like it or not. >> Sure. But um Ryan, correct me if I'm
+wrong. The Ronin hack was a majority multi-IG validator set
+
+that was it the Lazarus group that hacked and stole hundreds of millions of dollars.
+>> Yeah, I believe so. That's what's been reported. Yeah. 400 some million. Um the
+bybit hack, by the way, for listeners, was this happened in February 21st, 2025. This
+was a 400,000 ETH hack of the Bybit cold wallet. So that's about 1. 4
+to 1. 5 billion at the time. So these are pretty large hacks. So I
+bring that up because I just want to point out that a Austin's Tether smart
+contract example remains theoretical. the having a permission chain be
+
+hacked by North Korea example did happen uh and was quite costly and if I
+recall correctly a lot of it was a social engineering hack which is very very
+very or easier to do when you have a permissioned validator set of any kind
+and you know who they are you know where their computers are you know who
+their employees are and um you can figure out the back doors that way. Now,
+if the argument is that DeFi protocols should be more thoughtful about what kind of
+fail safes they integrate into their smart contracts to handle
+
+with certain scenarios. I think that's a different argument. Um, I still think the most
+important DeFi protocols will not do that. I would encourage a for example or unis
+swap to never do that because at the end of the day the guaranteed outcomes
+that they provide the 99. 99% the 99. 99% of their users and transactions that
+are not problematic is not worth bastardizing in order to deal with a black swan
+event. But if other nonfunddamental DeFi protocols want to say, "Hey, our smart contracts actually
+have some kind of a um fail safe built in
+
+like Austin's nuclear example. " I think that would be an interesting experiment. Um, in
+the long run, I think they would end up attracting a lot less capital because
+the people who would use them would sit there and say like, "Okay, but what
+if the back door is hacked, which happens, or what if the back door is
+somehow weaponized to harm my transaction, right. " the planning ahead as Austin said I
+think one of the things we both agree on is that we are headed to
+a future when one way or another trillions of dollars
+
+will live on chain of native assets and RWAs and other things in between and
+in preparing for that world I think the infrastructure that says you can always expect
+reliable outcomes will win over the ones that say most of the time you can
+expect reliable outcomes. But sometimes it either one of our engineers gets socially hacked or
+a government compels us, everything goes out the window and you have no idea what
+protections you're going to have, right. That's not a bad thing. That's just a tradey
+thing. That's a web two thing that the world already
+
+has. So then the people who would bring their capital on chain, they would say,
+"Wait a minute. I thought the reason why I'm coming on chain is I'm going
+to get censorship resistance, but now you're telling me actually no, there's a sensor censorship
+mechanism. They're going to think, I thought the reason I was coming on chain is
+because I'm going to have composability. But you can't have composability if the smart contracts
+of one DeFi protocol have a switch that can then deny access to the transactions
+required from another protocol. And then they're going to say,
+
+I thought I thought we're going to have transparency. If I use a completely permissionless,
+no failsafe switch a I know exactly what the code is and how it works
+and what it's going to do. But it would be prudent if you do have
+a fail safe to not advertise exactly how it works because then you know the
+hackers would figure out how to hack it. So then the wouldbe DeFi users are
+going to say, "Okay, so you're going to tell me that it's something that may
+or may not do what it's supposed to and has
+
+some mechanism that I cannot know that might be triggered to stop a transaction which
+I would have been the beneficiary of. " Right. Again, that's not a bad thing.
+I'm not here to argue against the world being this like cold mechanical libertarian. Everything's
+a bearer asset. the smart contracts do whatever they're supposed to do even if like
+the end of humanity is upon us. >> Code is law. I'm just saying that
+the assets that want or need neutrality are going to optimize for that. And if
+they don't want to need those things, they should really
+
+not be on any of these permission chains because those are just bad databases and
+we have much better databases offchain. >> Well, let's get to that in a second.
+I I want you to strengthen the argument of, you know, Austin's more extreme example
+of not sort of a a fail safe on smart contracts, but a more extreme
+example would actually um have Ethereum validators do something about some of these exploits. So,
+me, I I think you're pretty against that. Uh and tell me why. Why are
+you against that. The idea that uh Ethereum validators or
+
+any validator of a layer 1 system can kind of roll back the chain or
+interfere in some of these transactions. Why why is that a bad idea. So, it's
+one thing to talk about that in the abstract, like in a magical world, it
+would be great if that was a feature that worked, right. First, I question how
+you would implement it because we've all seen firsthand how messy and often um broken
+governance is on decentralized systems, right. And this is effectively going to be a new
+governance mechanism, except it's a governance mechanism where like the
+
+fate of the chain and maybe a hundred trillion dollars are in its hands. So
+I would put that back on Austin to explain to us exactly what this solution
+looks like. Who decides when action is taken. Is there voting. Is there onchain coordination.
+Is there offchain coordination. Because part of my sort of like do nothing recommendation, Ryan,
+is based on the fact that when you say no, no, no, do something and
+you start getting into the weeds of what the something might be. um you open
+up a whole new can of worms. >> We'll get
+
+Austin to weigh in in a second, but I want to add this uh get
+get your thoughts on this uh Omid, which is maybe what Austin is arguing, and
+we can ask him. He's right here, but maybe what he's arguing is not so
+much, you know, you want to have uh validators be able to kind of reverse
+transactions on the chain. Just ignore that for a second. What he's saying more is
+if you have a completely immutable permissionless decentralized chain, maybe that's not the place for
+real world assets. That's another, you know, tactic you would
+
+take. And in fact, this is sort of what Bitcoin does. You know, Bitcoin, what
+is the Bitcoin network. Well, it's just for moving Bitcoin essentially, and everything else goes
+off chain. Ethereum has this blend where it has all sorts of tokens, some real
+world tokens, some cryptonative tokens. Any token you want to deploy, you can put and
+you inherit the the properties of Ethereum. So maybe he's just saying real world assets
+don't belong there on Ethereum. Ethereum. >> Are you awesome. >> I mean, I is
+I do think what's the right way to say this.
+
+There is some internal hypocrisy in the current arguments around Ethereum that there is not
+in Bitcoin for exactly the reasons that Ryan just raised, right. Like if I were
+to take these concerns to the Bitcoin community, the answer that I get from the
+Bitcoin people is cool that don't put that [&nbsp;__&nbsp;] on our chain. To which I'm
+like, well, you know what, that's intellectually honest, right. Like I think that may put
+an in the long term an upward cap on Bitcoin prices, but what you've said
+to me is completely intellectually honest of like get that
+
+[&nbsp;__&nbsp;] out of here because I mean like the core point I would make to
+you is real world assets, it's not a back door, it's the front door, right.
+Like the responsiveness to real world legal systems is the core feature of the product
+and you have to deal with that whether you like it or not. Because essentially
+here's what I'm saying and where I sort of bring in the hypocrisy here. Like
+if I'm running a stable coin and my reserves are US treasuries, the number one
+group of people I am responsive to is US lawmakers,
+
+regulators, and like judicial persons. Period. Full stop. Like no judge, none in the United
+States is going to be like, "Well, you know, some random anonymous validators say that
+the North Koreans own your money now, so we're going with that. " They're going
+to be like, "Absolutely [&nbsp;__&nbsp;] not. " Like, we have OFAC. I understand what the
+concerns are. We have sanctions law. Seize those assets. The coin is pricricked. But c
+can can can we go into that Austin too. It's like let's describe what that
+means too. I mean >> yeah let me finish the
+
+bridge and then we'll come back to that which is to say I am asserting
+this which is if you want on your chain to have tokenized real world assets.
+You really really really need some multiply redundant mechanisms to make sure that your chain
+can be responsive to the real world legal frameworks that govern those assets. Because if
+you do not have that and you not have call it like error catching around
+that take the tether example it is a matter of time until you brick the
+asset cuz the real world like legal process will win.
+
+There's a lot of people with a lot of guns who are going to enforce
+that. >> Whose legal process. >> So if you're doing this is the problem is
+the answer to that is it depends on your real world asset. If I'm talking
+about like a US dollar stable coin it will be the United States of America.
+If I'm talking about gold that is custody at the London Metals Exchange, it's the
+United Kingdom, right. If I'm talking about like, you know, call it tokenized deposits for
+a bank in Hong Kong, it's fundamentally China. And look,
+
+I don't have an answer to the fact that the real world is messy. The
+real world is messy. But I'm saying if you want to inherit real world assets
+onto your chain, you have to have a reckoning with the fact that that is
+the case. And there are many, many disperate views on that. Again, this is not
+a reputation of like do it this way for the ETH token or Bitcoin, but
+it sure as hell is to say if you have a US dollar stable coin
+and the US government disagrees with you, I don't think
+
+your blockchain is going to win. win. >> So, I think the appeal of going
+on chain is that the asset regulated in the US, the asset issued out of
+custody in London, and the asset controlled in Hong Kong could coexist with the natively
+issued asset like ETH. I think that is a killer application because all of these
+parties for the first time ever, I except maybe when they ship gold back and
+forth to each other, could use a way to interact with each other economically that
+no other party could impose their will on it. That
+
+the US users will say, you know what, I'm going to use these this neutral
+blockchain because China doesn't control it. And the Chinese users are going to feel exactly
+the same way. And I'm not, this is not a east versus west thing. And
+the London tokenized gold issuer is going to be like, "Hey, look, here's a blockchain
+that has a trillion dollars and a trillion yuan, and that's where I want my
+tokenized gold to be because then people could borrow and lend against it. " When
+you talk, Austin, about well, the real world asset legal
+
+systems plural are not going to tolerate this, right. And that's why the chain to
+attract their assets should have some kind of a control mechanism or or um exception
+handling, error control, whatever you want to call it, right. Then what I think is
+you are headed for a world where some transaction involving the a US party and
+a Hong Kong party happens and then the Chinese authorities go to the chain and
+say this is an invalid transaction. You must stop it. And then almost immediately President
+Trump tweets no it's a valid transaction. and it must
+
+go through and now you have destroyed your censorable or or failsafe blockchain because it's
+become completely politicized. So my argument is if these assets are going to go on
+chain, they are going to go on the chain where everybody's treated equally. And that
+treatment is we don't care. You get hacked here, you get robbed there, you make
+a mistake there, the Chinese government wants us to do something, the US government wants
+us to do the opposite thing. We have no power to change any of it.
+I think that is going to attract far more users
+
+and assets than it's going to repel because by the way also as you know
+better than most of our listeners most of the world's most valuable payment systems already
+work that way right whether it's Fed wire or counterpart in almost every other country
+these RTGS or realtime gross settlement systems have a rule which is that the intermediary
+which in this case is literally or Almost have always the central bank is not
+getting involved in dispute resolution. Which is why the example that you brought up from
+City Bank is they accidentally wired out hundreds of millions
+
+of dollars. The only way they could get it back is to go to court
+and use the legal system to sue the recipient to give him the money back.
+And first they lost and now I think they went on appeal. But the most
+important thing is the Fed's position, right. the mother of all centralized trafi jackal island
+intermediaries who processes trillions of dollars in payments a day. Their position is we are
+neutral. Not our problem. You make a mistake not our problem. The the central bank
+of Pakistan was hacked and the money was routed through
+
+Fed wire and the Fed's response was not our problem. So given Trafi recognizes the
+importance of neutrality when it comes to important transactions. I actually don't think it's that
+far of a reach to say that, hey, that's how the blockchain's going to work.
+Unlike Fed Wire, though, it's going to be for different currencies and tokens and NFTTS
+and whatever. And I think the Trafy mind, if we could call it that, will
+be like, "Oh, oh, okay. You're doing the same thing that every central bank does,
+but in a more universal way. " Well, for the
+
+same reason that I'm glad the central bank is neutral, I'm glad that the blockchain
+is neutral. I'm going to move my assets on there. Well, I'm so I'm going
+to say I don't think this is a correct description of how the Federal Reserve
+operates because I agree with you. They are neutral for the people that they choose
+to let on their network. And boy, does Caitlyn Long have some things to say
+about that for instance. And also, if people are repeat offenders, they will totally kick
+them off their network. So, one of the things that
+
+the Fed is doing, and I think we should both like just say this for
+the listeners, is they are highly permissioned as to who gets to use the Fed
+infrastructure to send payments in the first place. So, they part of why they can
+be like, well, you made a mistake. You made a mistake because it's big boys
+only who are there by permission. Like, you had to be led into the club
+by the bouncer, right. The bouncers being the group that gives master accounts at the
+Federal Reserve. And then two, boy, do they do bank
+
+supervision, right. like these are people going into all of the members and like observing
+them, auditing them, setting rules and procedures. Like this is not just you show up
+and you get to do what you want. So I will concede if you were
+to create like an L1 blockchain where the validators and the people using it were
+permissioned in the way that the Fed does, I'd be a lot more chill about
+neutrality, but we've just eliminated 99. 999% eliminated 99. 999% of users for blockchains because
+now it's just big banks. So part one there. Part
+
+two, I think the hypothetical world that you have proposed where there are these permissionless
+trades on blockchains and nation states can't intervene does not exist and is not the
+world we live in. I think the hypothetical you gave of what if Donald Trump
+starts shouting about this is valid or not valid is unfortunately the one we are
+already in with real world assets because again I will go back to the point
+of the unfortunate reality that we face is actually let's take your example because I
+think it was a really good one. We have a
+
+world where we have ETH, we have tokenized gold in London, we have a Chinese
+stable coin, and we have an American stable coin. I'm going to use Chinese and
+American because the assets just need to reside there. Like you could have a weird
+like Euro, American, fine, whatever. But there's a Chinese and American one. Here's what I'm
+saying is the way the chain ultimately functions whether you like it or not. And
+the question is just does your code reflect the real world reality. reality. London controls
+how the gold token operates. China controls how the Chinese
+
+stable coin operates and America controls how the American stable coin operates. Because if you
+could brick the reserve and brick the issuer, you control the coin. And I agree
+with you, Omid, there are things governments can do that would destroy the value proposition
+of the chain or at least using that specific asset on the chain. But the
+problem is, yeah, like that's just the way it is. I don't like that, right.
+I do think there could be better real world frameworks but I think that requires
+a lot of legal right and regulatory reform that has
+
+not occurred yet because here's the fundamental problem with your system. Let us say that
+China says no this trade did not occur and goes and joins the issuer from
+like ever withdrawing the money for those tokens and just confiscates it. Now what right
+like it's just broken on chain forever if you cannot represent that reality on your
+blockchain. And so what I am fundamentally saying here is that decentralization that decentralization that
+decentralization is a feature in situations where there's lack of trust and people want neutrality.
+I agree with you on that. But it is a
+
+bug in situations where the underlying asset itself is not decentralized and by creating this
+fiction that something can be decentralized that does not interact well with reality, all you're
+doing is stuffing a live grenade into the system. That almost sounds like you're against
+stable coins though >> because yeah, they have the freeze and seize capability and even
+if like Circle doesn't want to implement it, the US government could always uh jail
+Jeremy Aair, which you know, we we hope not. We like Jeremy. like Jeremy. >>
+Well, the US government has never jailed anybody in crypto
+
+for like sanctions or money issues money issues money issues >> or or yeah, trumped
+up charges. So, but that's to me, ironically, another reason why we want neutral infrastructure
+because neutral infrastructure creates a competitive playing field for different kinds of assets, including ones
+that are issued from offchain, RWA, stable coins, etc. And ultimately if you do have
+a world where a becomes the repo market which I think it could um but
+you have tokenized treasuries and tokenized dollars and very large financial institutions all over the
+world are borrowing and lending against each other. The stable
+
+coin that ends up dominating that market is going to be the one that has
+the most perceived neutrality. it is not going to be the one that has the
+most built-in fail safes and kill switches because everybody in Trafi understands that that could
+be weaponized against them, right. Like counterparty risk is something that's drilled into the DNA
+of risk managers like you actually when you used to be one, right. So, they
+understand that and they're going to say, "I'm not worried about me being hacked and
+then not having a way to stop the hack because
+
+I can address that problem by making my infrastructure, my wallet, my custodian more robust.
+" They're going to think I'm more concerned about a counterparty weaponizing counterparty weaponizing counterparty
+weaponizing some kind of an error resolution system to undo a trade where I made
+money or that was vital to me. And because of that, they're going to be
+more attracted to the RWAs that are the most neutral. I think they're actually going
+to be the ones that advertise this. Just like Apple has made a fundamental part
+of its brand to be privacy. They put up billboards
+
+that say, "We protect your privacy. " And they even stood up to the US
+government after an actual terrorist attack, right. And they say, "We will not help you
+break that iPhone because we protect privacy. " I think they're going to be real
+world asset issuers that advertise themselves on neutrality and then they win. So whether it's
+dollars or euros or remimi or gold, whatever it is, we'll see how the balance
+of uh global asset preferences shift over time too. If you have a neutral blockchain,
+it's going to attract more neutral assets, including the ones
+
+that are issued offchain. They'll never be fully neutral, but there will be a CEO
+of a stable coin issuer who advertises himself as willing to go to jail in
+order to fight against some kind of a court order from some government. And then
+the market will ultimately attract more and more of these assets. And then you're like
+the little smaller London tokenized gold issuer. you're going to think, I want my gold
+token to be the winner because that's how I make money, right. My vested personal
+interest is to make my gold token neutral. So, you
+
+get this sort of like network effect of the RWA is becoming more and more
+resilient. And the final boss in all this, I think we all agree, is the
+government, right. I think the governments that want their currency to be more widely adopted,
+which is all of them, well, almost all of them, maybe not the Swiss. Um,
+and the asset issuers, whether it's they're tokenizing tokenizing tokenizing commodities or equities or whatever,
+right. They're all going to want to win the neutrality race. And then the governments
+who want their businesses to win, who want their currencies
+
+to win, who want their version of the US Treasury or the actual US Treasury
+bond to win, they're all going to say, "You know what. We want to win
+the neutrality Olympics because then we get more money, more spending, more jobs, more taxes.
+So if you start with this base infrastructure that is neutral, I think it creates
+a cascading effect where the assets become neutral and then the issuers of the assets
+become more neutral and the final boss, the governments that issue those assets are going
+to be more willing to be neutral than they are
+
+today. So, I would say I don't think as of yet that's been shown to
+be the true revealed market preference for real world assets. Like I I actually think
+you've just made an exceptional argument in favor of Bitcoin to be totally honest with
+you, right. Like I know all three of us like believe in Bitcoin to some
+extent in addition to ETH as an asset. So like I think this one we're
+preaching to the choir on, but I would tell you like you could create a
+stable coin like that, but the costs of it are
+
+very high, right. Like I would need to find some sort of relatively neutral offshore
+jurisdiction and the assets I'm going to need to hold are like physical [&nbsp;__&nbsp;] bills
+in a vault so that they're not responsive to judicial procedures. And then I'm going
+to need a bunch of people to defend the thing. Like Eric Prince and I
+are going to need to have a contract, right. So that we could keep this
+stuff secure. And by the way, all of that is actually doable. And in fact,
+I think you and I both know a lawyer who's
+
+thought about the joking idea of a central bank physical currency, right. Like you could
+if you want to like descend into like levels of madness go like Hideo Kajjima
+Metal Gear style like let's create a like offshore military contractor that holds all the
+currency type behavior. But the costs of that are high and the market has shown
+zero adoption preference for that. It just wants [&nbsp;__&nbsp;] that's highly liquid globally. And I
+think what I'm getting at here is like asset preferences are not monolithic. And there
+appear to be a lot more people I think than
+
+you would like who are willing to make the tradeoff to have liquidity. I also
+think government is final boss is something we will never get away from. Like government
+is just a word for the things we do together. And you know in many
+ways like we're talking about reordering how we think about human civilization which m maybe
+maybe down the road this will occur but it is not a decades thing. That
+is a centuries thing. And so I'm saying in the world we live in today,
+like it or not, the revealed preferences are for highly
+
+liquid centralized stable coins and crypto exchanges. Um, and that these are responsive to real
+world like legal systems whether we like it or not. And to live in that
+reality without breaking [&nbsp;__&nbsp;] it's going to be a matter of time until blockchains need
+to find a way to be responsive to real world legal procedures. By the way,
+I think the rubber is about to meet the road on this globally for stable
+coins in a way it has not because of the passage of Genius. Like if
+you go read that bill, there are some serious hooks
+
+in there with regard to like ecosystem monitoring and responsiveness to court orders and like
+law enforcement. And I'm going to tell you, knowing something about how US regulators regulate
+foreign banks, they're going to tell you if you want to have a USissued token,
+that means your foreign entity is also responsive to us on all of those things.
+So you are going to find explicitly US dollar stable coins responding to US freeze
+and seize orders going forward. And I think my point is we live in a
+world where Omid your negative case is actually just the
+
+base case. Like that is what's going on right now. But I'm not endorsing that
+as good. But I am saying that's the world we live in. And so the
+reason I would say to bring this all the way back around to Ryan's initial
+question cuz like unsurprisingly with you and me on here sent us down a rabbit
+hole immediately which is amazing is the core reason I said I think ETH is
+unprepared is what is the right way to say this. I think you think some
+of these concerns are highly speculative. They may be less
+
+speculative than you think and people may have already been fighting about them in private.
+It's a matter of time until one of them happens. Imagine a world where traditional
+finance meets the power of blockchain seamlessly. That's what Mantle is pioneering with blockchain for
+banking. A revolutionary new category at the intersection of Tradfi and web 3. At the
+heart is UR the world's first money app built fully on chain. It gives you
+a Swiss iband account blending fiat currencies like the euro, the Swiss franc, the United
+States dollar or the raimi with crypto all in one
+
+place. Enjoy real world usability and blockchain's trust and programmability. Transactions post directly to the
+blockchain, compatible with tradi rails and packed with integrated defy futures. UR transforms mantle network
+into the ultimate platform for onchain financial services unifying payments, trading and assets like the
+MI4, the me protocol and functions FBTC backed by developer grants, ecosystem incentives and top
+distribution through the UR app, reward stations and buybit launch pool. For MNT holders, every
+economic activity in UR drives value back to you, embodying the entire stack and future
+growth of this super app ecosystem. Follow Mantle on X
+
+at mantle_official for the latest updates on blockchain for banking. That's x. com/mantle_official. DGEN started
+as a tight-knit community on Farcaster and organically grew into one of the top meme
+coins on base. What began as a simple idea, tip anyone who joins the fund,
+sparked an economy that turned into a movement. The community runs the show from the
+logo and the lore to funding and building ambitious ideas together. Over 1 million Dgens
+now power each other with their generosity, creativity, and ability to get things done. At
+the center is the DGEN token. It rewards engagement, fuels
+
+tipping, and drives the marketplace for builders and fans. That same energy gave rise to
+DGEN chain, a fast, lowcost layer 3 for new projects. And now the DGEN app,
+the easiest way to connect, earn, and participate in decentralized social media with a built-in
+wallet and real token utility. In DJEN, the hat stays on. Join DJ and get
+on the app weight list at www. den. tips. Austin, I just to follow up
+on this, right, this this point that OMI is making with respect to neutrality. One
+thing we have seen with the Genius Act is of
+
+course nation state support of a stable coin in the US. We've not seen the
+EU move. We have not seen India move. We have not seen China move. What's
+very interesting to me about this is um we already have the swift network essentially
+which is kind of a US controlled I know it's a European sort of entity
+administered but it's basically a US controlled payment apparatus. China is uh creating their own
+payment network something called SIPs. That's sort of the you know China controlled ability to
+freeze you know whatever they want done on on SIPs.
+
+we don't have a credibly neutral third player that has entered. Maybe part of the
+argument that Omid is making is well that's Ethereum that's the the layer one here
+and so yeah what China the question for China or the EU or for any
+or India or any sovereign country is which set of chains are you going to
+deploy on and it seems to be the case that you'd want to deploy on
+a chain on a payment network essentially that couldn't be freezed by another sovereign country
+and potentially your adversary when it comes to the EU
+
+and making a decision in terms of which chain to issue their currency, wouldn't you
+think neutrality would be a factor. When it comes to China, don't they want to
+deploy to something that the US can't intervene in, can't censor in. Like, what do
+you make of that argument. Because we have started to see the rubber meets the
+the road, but that's only in the US. Once we have geopolitical adversaries and interests
+uh, you know, colliding, won't they prefer neutrality. to Omit's point. >> Well, I I
+would remind everybody Europe has moved. They have Mika. It's
+
+just terrible and broken because in the classic European fashion, they misunderstood the problem and
+so created basically bank captured tokenized deposits that can only function within Europe. So, golf
+clap guys good work. So, right, I might argue Europe's revealed preference is actually no,
+we just want to control things that don't want to be a blockchain at all
+and we'll just, you know, essentially take it in the face economically for that choice.
+Um, Europe has clearly not been prioritizing growth for a long time. And this goes
+back to kind of the point I was making that
+
+you were saying about where is the credible neutrality. I agree with you. They want
+a blockchain that cannot be unilaterally dominated in all ways by their nation state adversaries.
+But here is the problem that you're going to run into for instance with China
+is they're going to tell you we don't want to be on a chain that
+the United States is in control of like unilaterally but we also aren't deploying on
+a chain where we can't control our own currency because that will obliterate our currency
+controls. So you get into this sort of prisoners dilemma
+
+or if you will Mexican standoff if we start incorporating the EU too where like
+everybody wants to have the control over their thing but they don't want other people
+to have control over their thing right so like China doesn't want the US to
+run their currency and the US doesn't want China to run their currency the EU
+is not okay with either of them running their currency and so on and so
+forth but also all of them want like a place to transact and this is
+sort of why I'm coming back to if you want
+
+on a blockchain that can simultaneously be the warehouse of the majority of RWA and
+actually trade, call it more freely amongst each other, certainly more freely than the current
+very sort of siloed global network. But you also want it to be something that
+people will actually use. What you're getting into is a system where it's local responsiveness
+to local tokens only, right. Like China can't tell the US how a US token
+works and the US can't tell China how a China token works. But they need
+to be able to tell themselves how the tokens work.
+
+Cuz if you don't do that, while I agree with you that ETH will have
+some value, it's essentially going to become the trading venue only for limited forms of
+FX and maybe certain forms of physical commodities. Securities will not be on there. Derivatives
+will not be on there. Many forms of trade finance will not be on there.
+so on and so forth cuz like once things start breaking with real world legal
+systems like you're just done right like congratulations I have a token that's non-representative of
+the economics of the real world it has no value
+
+to me and so this this is back to like I think there's some nuance
+to this argument that's very important which is I'm not fighting with people about the
+properties of ETH or Bitcoin and I am not saying we should have a chain
+where the US just gets to dictate everything but I am to go back to
+the real world is messy point saying if we want to tokenize the maximum number
+of assets and maybe that's not your goal. We can come back to that in
+a minute. But if you want to tokenize the maximum
+
+number of assets, you're going to need a real world system where you can revert
+some of these things because like simply put to go back to the basic examples
+like the North Koreans are not moving into grandma's house in Connecticut and they're not
+getting a board seat on Apple if they somehow like hack the Apple stock contract
+and steal a bunch of it. Like it's not happening. And so you would need
+a chain that can reflect those legal frameworks one way or another. another. >> I
+still don't understand what your solution is. You just made
+
+a more eloquent argument than I could as to how messy legal frameworks are in
+an international geopolitical setting. And then you're saying and I want a blockchain that's accountable
+to all of them. Like I I really like how does it work. What's the
+consensus mechanism. What's the governance. Like in the event that China wants to dispute a
+stable coin transaction, do they file a form. Is there a website. And then where
+does it go. You're going to have validators, right. And you tell me what consensus
+mechanism you're running. What is the process by which they
+
+decide that this messy Chinese request that is now being disputed by a messy American
+request is going to resolve in the chain. something simple like we're going to freeze
+a transaction. How would that work. >> I think the punchline on how you make
+those things work is unfortunately relatively simple and I think most crypto people are not
+going to like this. Um, back to your prespecifying systems. If I were designing a
+blockchain and I were thinking about tokenizing real assets at scale on that chain, I
+would want for each asset when it's deployed to have
+
+to specify who does it think it's answerable to and to have the network agree
+with that definition for the thing to exist. So I guess what I'm fundamentally saying
+is I think the permissioning might need to exist at the do you get to
+put your token on here layer which is probably an unsatisfactory answer to a lot
+of people in crypto and I understand that but would solve this problem pretty well
+which is to say USDC would drop and say we are responsive to like the
+US government and US states and that is the answer
+
+and if you want us to do something go to them and if you don't
+like that [&nbsp;__&nbsp;] off cuz that's how it works for us right like deal and
+then it would be relative relatively simple. Again, obviously you want to get the security
+model properly. Don't just do this with like a single point of failure one to
+have some sort of oracle network that like reposts US court orders and the chain
+will enforce whatever those are. Code them properly, right. Like we could have standards here.
+That doesn't bother me. But like we need some way
+
+to communicate effectively in this vector. And so if China comes and says, well, we
+have a problem with this USDC transaction. The answer that the chain gives because it's
+already set these rules in advance is cool. go to a US court and get
+an order or [&nbsp;__&nbsp;] off, right. But it will also work the other way with
+China is my point is like the United States, Donald Trump can't just stand up
+and be like, I don't like that transaction that happened with the Chinese CBDC on
+this chain, so reverse it. They'll be like, dog, go
+
+get a court order from China. It says it right there. That's the only thing
+we can enforce. So, I'm not against even OM to your point like immutability with
+regard to those rules. My point is just what the rules are probably needs to
+reflect how the real world works because if they don't, you have a problem. And
+again, what we may be getting around to here is an argument that actually most
+assets should not be tokenized. tokenized. >> Yeah, you just you just proposed Swift. >>
+Yeah, I was going to say to what extent is
+
+what you said different than what we have today in in Tradfi. Okay, so here
+is actually a core point where I think a blockchain is vastly superior to what
+we have in Tradfi and something that I think people underdisuss which is I know
+decentralization is a buzzword for a lot of people in crypto but I'm going to
+make maybe the hot take here that I'm not sure that's the most important feature
+of blockchains. I actually think it may be the open access and composability that matters
+more because one of the problems like let's go back
+
+to Amid's example of the Federal Reserve. The Federal Reserve system works like this conditional
+upon you being allowed into the system. And that conditioning is the point of a
+huge amount of corruption and like political contention and like arguments. Blockchains don't operate like
+a private club. They operate like a public park. That is to say, your default
+is you can come in here and if you start doing [&nbsp;__&nbsp;] we don't like,
+maybe we can kick you out. Some of them are not even like that. They're
+just like, even if you're doing [&nbsp;__&nbsp;] we don't like,
+
+you can stay forever. But at least some of them are designed in the way
+of like the default is you get to come in and then we have to
+kick you out for bad behavior. That change alone is a dramatic and extremely important
+difference compared to the traditional financial system. The second part is that blockchains kind of
+function as like a layer cake. Again, back to what Omid and I have been
+talking about here. And I think the two of us intuitively understand this. So, let
+me expose it better for like the people at home
+
+just to drive the point home. And OM pile in if you disagree, but like
+one of our complaints with the current system is also that it's incredibly fragmented and
+toolated. Like for me to get a bank account in like Singapore and get a
+bank account in Switzerland and get a bank account in Dubai and get a bank
+account in the it [&nbsp;__&nbsp;] sucks, right. And like a lot of people functionally cannot
+do it, right. But again, with a blockchain, you now have all of these like
+in a single layer cake where people globally can transact
+
+in ways that previously they were not. So that's part one. Part two, the composability.
+Like let me propose a hypothetical for people. If you have a great business idea
+that would be value additive for the world and consumers on which you're not going
+to charge egregious fees, but the problem is you need to build it on top
+of the Chase banking app and the Apple store, what do you think your odds
+of success are, right. It's basically zero cuz Chase can just block you or brick
+you at any point they want. And so the other
+
+part of blockchains that I think people have really underdised and sort of like undervalued
+is the composability component, right. Like part of what's so [&nbsp;__&nbsp;] cool about DeFi primitives
+like Uniswap, like a is not just that they exist on a standalone basis. It's
+that we can start Frankensteining them together and using money in new ways that were
+not possible previously because of the centralized control of a lot of intermediaries. And so
+what I am fundamentally saying here is while decentralization may be a bug with regard
+to responding to legal norms in like real world assets
+
+and that is the heart of my critique of the current structure. I think it
+is, as Omid and I have agreed upon elsewhere, a feature in a lot of
+other ways. And I actually think one of the most important like features of blockchains
+existing and why I've gotten so interested in them is breaking down a bunch of
+walled gardens and access controls around these things more than sort of backend responsiveness to
+judicial orders. the system that you propose has no composability because if I understand correctly
+what you're saying is we're going to permission the asset
+
+issuer at the network layer right do I have that right that like in the
+chain that you envision the future circles and tethers would have to get permission from
+governance to end to issue an asset but then anybody can hold their token do
+I understand that correctly correctly correctly >> I think essentially if you want RWA to
+work properly Yes. And the question becomes, what is that permissioning condition, Don. Because the
+good part about a blockchain, like I know you and I agree on this, is
+we can kind of set the rules of governance in
+
+advance in a transparent way as opposed to having like four dudes in Jackson Hole
+in a private room decide whether Caitlyn gets a master account or not. But how
+again like your your in your system the validator set for a blockchain will somehow
+publicly somehow publicly somehow publicly >> determine whether circle gets to issue USCC on that
+chain or not >> vote >> vote >> vote >> how that's a legal governance
+thing. It's not a consensus thing, right. Are they going to have voting. >> I
+mean >> who's going to decide. My my answer to
+
+that is ultimately OM this all comes back to social consensus and voting with real
+world assets. Like whether we like it or not, that is what the current system
+is. Because like again to go back to the root of my critique, if the
+ETH validators say a transaction is good in USDC and the US government says it's
+not, the US government wins. I mean that's the president's state and my point was
+that because the ETH validators are not going to get involved, Circle is less likely
+to want to do something which then in the long
+
+run will make the US government less likely to do something. Now you're saying that
+no, the US government is always going to want to flex its muscle. >> Yes.
+>> And we should design the system to give the US government what it wants.
+I say no, we shouldn't. We should design the system for to optimize for mitigating
+counterparty risk, giving guaranteed outcomes. Whichever one of us turns out to be right remains
+to be seen. But I just want to point out in a system where the
+validators get to permission the issuer of an asset, there
+
+is no composability because just as easily as the validators could permission a stable coin
+issuer, they can deposition that stable coin issuer. And you would have to be insane
+to build a massive a like lending market on a stable coin that the validators
+could decide tomorrow is no longer allowed on this chain. The risk is there always
+and this is a fundamental problem in DeFi that the circles of the world could
+do that too. If if circle wanted to tomorrow they could break all of DeFi.
+However, if they did that, it would destroy their business.
+
+Their 30-ish billion dollars in um in in market cap would go to zero. The
+personal wealth that the executives have built, particularly recently as the sock went public, would
+collapse. So, the way the system is designed today, they have a very strong financial
+incentive to leave things be in DeFi, which by the way, they have, right. You
+know this better than me that Circle has historically actually been resistant to when governments
+come and knock in and say we need you to permission this and decommission that.
+But what you want to do is take that risk
+
+which I concede is already a liability for DeFi and integrate it at the consensus
+layer which to me means that we've just blown up the whole thing. And if
+that's what you want then I would like to introduce you to a New Jersey
+based firm named DTCC. They already permission everyone and everything for you. They are quite
+good at it. They've been around a long time. Uh never been hacked by North
+Korea as far as I know. >> It's hard. It's hard to hack paper share
+certificates. certificates. >> Can't be hacked. >> They they have
+
+been de demobilized and dematerialized lately. So actually it's mostly now um just electronic ledger.
+But my whole point is like >> it might be that what you and I
+disagree on is whether the neutrality of an actual permissionless blockchain is desirable in of
+itself self even for non-permissioned assets. I think it very much is, but I think
+it's valid. We don't know yet, right. It's still, as you've pointed out on other
+podcasts, like the size of crypto is still a rounding error to the size of
+Trafi. So we'll see what it is. My point is
+
+if you think that is all the world will tolerate then please for the love
+of God use a database. Do not use hash functions that serve absolutely no purpose.
+Do not incorporate public key cryptography that serves absolutely no purpose other than to slow
+everything down and make it needlessly complicated. And do not use words like composable. composability
+composability at the end of the day is only possible if the infrastructure is as
+neutral as the laws of physics right and you might turn out to be right
+I disagree but you might turn out to be right
+
+that that's not what the world is going to tolerate but if that's the case
+then sorry bankless guys the podcast is not pointless blockchains are not useful for anything
+other than just like meme coins and niche DJN activity also Austin and I are
+going to have to find new topics to teach and become experts in because it
+turns out that the actual TAM of public permissionless networks is limited to just what
+Bitcoin does. All right. So, I have I have two points on this um where
+I think it's a little more nuanced than what you've
+
+said though I appreciate the rhetoric. You're like you're good at what you do. One,
+I think some of the argument is actually more about the volatility surface of errors.
+I would tell you in the current space the problem that we have with blockchains
+is they're incredibly fragileized which is to say when you have a system where circle
+is call it incentivized in the current way they are which is to resist as
+long as possible the problem is what you have there is your volatility is none
+none none none none oops right that is to say
+
+at some point the United States shows up at bony melon and it's like give
+us the entire reserve and you're just broken because if they find severe enough issues
+they're not going do the thing of like, oh, you know, well, we'll negotiate a
+little. It's like, we see like $4 billion in the hands of the Iranians. We're
+just freezing everything and we'll sort this [&nbsp;__&nbsp;] out in bankruptcy. And it does all
+go to zero. So, it it goes from fine to [&nbsp;__&nbsp;] right, is how I
+would describe it. I am arguing we might be better
+
+with a system that has medium amounts of volatility at all times because those tend
+to evolve towards stronger outcomes. Like, OMD, I think part of our disagreement is I
+think we are more likely likely likely to get to a future where we force
+governments to chill the hell out about like the extreme degree of control that they
+currently want by putting these things right in their face and like revealing to everybody
+the consequences of what they're doing. I think the current system is kind of trying
+to trade away from it disguises like call it the
+
+malfeasants of that. I think it may be better a little bit like you know
+when your dog like pees in the house to bring the dog over to it
+be like see what you did >> but you want to put it at the
+protocol layer right it already exists at the asset issuer layer circle is already heavily
+regulated but you want the blockchain to incorporate >> and again I'm not saying that
+the validators need to enforce specific transaction restrictions but they should probably enforce some degree
+of redundancy if we want to do it this way
+
+because again like there is a nonzero chance that In 2027, we wake up and
+100% of circles assets are freezed and then what happens again. Like in the current
+system, you're a very binary like it's great, we're [&nbsp;__&nbsp;] And I'm arguing it would
+be better to have moderate levels within there is one part of it. Two, to
+get to your other point, I actually do disagree with you on the composability thing
+because DTCC is a great example here. There are middle states between a fully decentralized
+blockchain where we have tens of thousands to hundreds of
+
+thousands to millions of anonymous public validators and five dudes in a broom closet in
+New Jersey, right. Like being the controllers of all of this stuff. I do think
+there's a pretty good argument as somebody who spent a lot of time thinking about
+financial market structure that something like a blockchain because again none of you trust each
+other composed of like call it the 500 largest financial institutions in some jurisdiction or
+set of jurisdictions that are willing to cooperate is significantly better than DTCC right because
+there the ability for individual entities to exert outsized influence
+
+or compromise the system goes down dramatically. So I think it's less binary than like
+you've laid it out. I think again it's like the problem with trady people is
+we like binary options like we want a zero or one in a fixed outcome
+and this is more of a volatility surface problem but I think blockchains are usable
+for significant improvements. I do not think private like unilateral blockchains are though like I
+think Omid and I both agree that like private bank chains are absolutely a bridge
+to nowhere. Why are you doing this. Please for the
+
+love of God just use a database. pointless call it financial companies in the world
+to move all these even if we're only talking about local to America is probably
+better than the current system. I love this example because first of all, having both
+worked at banks, I like to think about the sausage making of creating such a
+chain because every bank of 500 institutions, they're all going to have to have a
+bunch of lawyers involved. They're all going to have to have a bunch of risk
+people involved, bisdev, reputation, and of course, this is going
+
+to be the global clearing layer for everything. So then management and the board is
+going to have to be involved. So now we have like I don't know 2,000
+to 10,000 bureaucrats in a room and they have to decide how to design a
+consortium. Great. Good luck with that. I think that's literally impossible. But for the sake
+of argument, I'm going to say that Austin, you you might be the one person
+who can pull it off. You're very connected in that world. You're extremely witty and
+charming. So you corral the bankers and they agree on
+
+a consortium that they're going to do this. One of the things I love about
+permissionless public permissionless chains is that they provide very simple answers to the most fundamental
+questions. Who owns it. Who controls it. Who gets to use it. Who gets the
+data. Who profits from it. And if I ask those questions about Ethereum, who owns
+it. Nobody. Some very diffuse group of stakers, nodes, token holders. >> I've heard it's
+a single podcast. right. That controls that thing that is in fact driving the entire
+>> um right and then like who gets to use
+
+it. Everyone. How are fees determined by the market. So forth and so on in
+the consortium chain example. You've coraled the bankers. They're all going to agree. So equity
+>> one, let me be very clear here. I think if it's just banks, it
+fails because you have like a specific stripe of narrow interests, right. You need many
+kinds of regulated institutions. regulated institutions. >> Even better, who owns it. >> Hold on,
+let me finish. Two, I think the way that you end up getting there, and
+this goes back to the ownership question there. I actually
+
+agree with Omid. There's zero chance, like zero. You're going to get bureaucrats in a
+room and they're going to decide on this. Like, what was the median time to
+launch a new product at city was probably like 2 years. And that's just us
+making a decision. decision. >> I was going to say never, but you're being more
+generous. >> Totally about two years. as somebody who launched one, it was two years.
+Um, so >> fat scale outlier. >> Yeah, it Well, again, as you said, I'm
+uniquely qualified here, but like joking aside, I don't think
+
+they're going to be able to do it. This goes back to my point of
+when you incorporate these things and start forcing people to look at the consequences of
+their action. Do you know what does actually dramatically change things is legislation. I think
+you have to hold the feet to the fire of the people. It It's a
+little bit like, okay, I'm going to reveal that I'm a like OG internet den,
+but I was around for like the creation of the malicious compliance subreddit. And I
+would suggest to people that this is like my inner
+
+spirit animal of like, you've got to say to people, hey, if these are the
+rules you said, we're actually going to do the thing that you said the rules
+do. So, like, look at what's happening, you idiots. I would tell you I think
+designing chains to operate in this way will force governments to start having to respond
+to oh [&nbsp;__&nbsp;] all of this stuff is broken right like actually we need to
+fix it and the answer as to how you get to this sort of state
+of the world oid is that people will put pressure
+
+on them to bring the hammer down and I think I have way more faith
+about that than many people cuz like I've been personally involved in the United States
+and like talking to politicians and lawmakers and legislators and regulators and watching watching the
+ball move from like the hysteria of like the anti-crypto Biden admin to like degrees
+where they were like trying to ban all public blockchains and like committed perjury in
+a court in Utah to try to destroy a product. Debt box versus SEC if
+anybody doesn't believe me to the point where we're like
+
+passing legislation on this stuff and grappling with these things. I I maybe have more
+faith in the political process forcing people to come to these conclusions. And then you
+have much more unification between real world governance and what's happening on a blockchain than
+the two of them like in sort of like the Cartman versus Jimmy fight from
+South Park to determine like whose ledger wins. >> Once again, you have reinvented Trafi
+and even if the government compels it, which by the way, >> all the way
+down, >> it's uh maybe for you but not for
+
+me. Uh, I'm here for something fundamentally different. And most people might not know this,
+but the core infrastructure of Wall Street and Trafi was created in the exact process
+that Austin just spelled out. Whether we're talking about clearance systems, settlement systems, uh, payment
+systems, DTCC to the Chicago Mercantil exchange to Visa and Mastercard, they all began as
+regulatory blessed consortiums where people in suit said, you know what we need. We need
+the responsible executives of large corporations to get together and build some kind of important
+infrastructure that they all share. And and by the way,
+
+to be fair at the time, great that they did that. It's very important that
+we have the kind of tradition up until this point, right. My argument is that
+with crypto, we can now go categorically better. But I'm not arguing that we never
+should have done this because the result would have been that we would not have
+the great capital markets that we do today. That's one of the things that I
+think Austin and I agree on that many other crypto people underrate. We should give
+credit where credit is due, but we should also study
+
+the history of the exact consortium model that was just proposed. And what ends up
+happening over time is the consortium entity realizes that it's more powerful than any one
+of its power of its founding members. And then it systematically begins to screw most
+of them. The NASDAQ stands for the National Association of Securities Dealers Automated Quotation System.
+It began as infrastructure for members of the NASD to trade with each other over
+the counter, right. But now it is a public corporation that is probably more valuable
+and far more powerful than almost every single one of
+
+its founding members. There is a lawsuit outstanding against the four traders from the good
+old days in Chicago, I believe, of the of the Merc, and they used to
+be the owners. Most of the trady infrastructure was mutually owned, aka a consortium, and
+they're suing that they're saying when the exchange went electronic, it screwed them over, right.
+It started preferencing new kinds of financial entities. And it probably did, right. I don't
+know about any of the details of it, but the point is, and it's the
+same with like Visa and Mastercard. Visa's market cap and
+
+Mastercard's market cap is larger than I would guess 98% of the companies that initially
+founded them and they're clearly far far more powerful right they're more powerful than some
+regional bank that issues cards on their network so what I'm saying is that while
+today if we think about what Austin is proposing it would solve a lot of
+problems today it would probably get like more no coiner executive cutives to join it
+and issue assets on it. Jaime Diamond, I'm sure, would be all over it because
+JP Morgan is already one of the largest owners and
+
+participants of the Trafa infrastructure. So, give him fake crypto infrastructure to control and own
+too and he's going to be all over it. But I don't think we're achieving
+anything. So, the question then is if we do things my way, is it going
+to work or not. And Austin made a great point about reveal preferences that I
+think is actually there is more data there than than we know because when I
+first started talking about Bitcoin in 2013, the most common response I got particularly from
+people who worked in finance was the government will never
+
+allow it. A non-svereign decentralized money or store of value, whatever you want to call
+it, that they don't control. Governments the world over will ban it. And here we
+are today, the president of the United States is the biggest Bitcoin bowl and we're
+debating about whether we should have a strategic reserve or not. So the reveal preference
+there was that the decentralization became something that even governments gravitated gravitated towards possibly because
+as we experienced during the Biden administration when you try to kill it you only
+harm your own people, right. And then with stable coins,
+
+I think I wrote my first blog post arguing something like stable coins are going
+to be a killer app in 2018, right. And again there too specifically people like
+at City Bank who Austin and I both work with said the government will never
+allowed a nonkyced permissionless dollar to exist. They said I don't care about your freeze
+and seize capabilities. I don't care about your arguments that more money laundering happens through
+Trafi. I don't care about how good chain analysis data is to try to like
+catch the bad guys. The government will never allow this
+
+to happen. And here we are in the aftermath of the Genius Act where the
+government has actually enshrined the fact that you are allowed to own a let's call
+it semi-permissionless dollar because there is the freezes and seize capability which by the way
+all the bankers out there if you're not freaking about what this means for you
+you should be because this is going to be a huge problem and that's another
+thing Austin and I agree on. So I actually think the revealed preference on the
+neutrality and decentralization has been that eventually people come around
+
+to it. A lot of things have to get tried in the meantime. A lot
+of experiments have to fail in the meantime. I think the fact that many many
+many consortium chains have been attempted and like hundreds of millions of dollars spent and
+years later they have nothing to speak of has led us to the world where
+more and more people are sort of being like begrudgingly dragged to my point of
+view including governments. So, one, Omid, I just think you've made a great argument for
+my incremental change idea of like, hey, if we put
+
+this in the government's face, eventually they have to start doing things about it. But
+two, and this is an important point that I think there's an area of a
+lot of agreement on. The reality is we will always be building these castles and
+then the next generation of Omides and Austin's and Ryans will have to lay siege
+to the castle that we built. They'll build one and then the next generation is
+laying siege to that. like there will always be this process of building things and
+then they get corrupted and you have to destroy it.
+
+You have to build the next thing. That is the nature of reality. I think
+what is important and why I'm less concerned about the permissionlessness of real world assets
+is having something like Bitcoin or ETH existing now acts as a check on the
+behavior of those things in a way that did not previously exist because you have
+an alternative, right. Like I don't think you have to fully co-opt the castle so
+long as people have the option to leave the castle and use something else. Like
+it mass adoption of permissionless systems is not required. The
+
+existence of permissionless systems that people could mass adopt if the current system is profoundly
+corrupt is all that is required to keep them behaving much better. Now, as we
+move to uh closing arguments here, you one reflection I have in in listening to
+uh both of you and it would fantastic debate. We appreciate you coming on is
+that it seems to be the case that we are already we're in the process
+of letting all of the exper these experiments play out and we're letting the revealed
+preference of the market sort of decide. It seems to
+
+me with crypto there's like kind of three things going on. There's tradi over here,
+but there's three things going on in crypto. One of course is the store of
+value type of case. Another is DeFi, decentralized finance. And the third might be more
+what you were talking about Austin which is open finance. We see all of these
+experiments at play. We see the store of value case uh with Bitcoin and Ether.
+We see the DeFi case with something like Ethereum, some other ecosystems as well. We
+also see the open finance case. You know, Stripe, they
+
+didn't decide to deploy a layer 2. They didn't go on Ethereum. It's a it's
+a stripe layer one. This seems to be sort of the open finance maybe that
+you're advocating though we haven't seen the details. So as we close out I mean
+I think for the listener we're letting all of these experiments play out right and
+um who wins the debate or it's a combination of of winners will probably play
+out over the next 5 to 10 years because it's all happening right in front
+of us uh right now. And I want to throw
+
+this to to Omid for your closing arguments. So I think we started the question
+of why does decentralization matter. The two of you both agree that it does matter
+very much for store of value for this open finance use case and real world
+assets. Omid you're still of the opinion that it greatly matters for that whereas Austin
+differs with you on that make your closing arguments for you know uh this debate.
+I wrote this blog post not that long ago that vectors of centralization for any
+onchain solution are like the exhaust ports of the Death
+
+Star. Eventually, the rebels will find them, not because they're easy to find, but because
+the incentive to find them is so high. And if Austin's version of a semi-permissioned
+future or consortium future becomes true, it'll blow itself up. So to me at the
+end of the day the people, the users, the assets, the companies who issue those
+assets and the governments who regulate those companies will find themselves on a decentralized network
+because I'm going to garble this, but it's like the quote that uh Churchill said
+about America or democracy or something. It's the worst option
+
+except for every other one. Austin, >> I'm going to go back to sort of
+the beginning of this, which is I don't think we could ever get away from
+the real world or the constraints of the real world and humans are going to
+human. So the way I would think about it is this way. Bitcoin is now
+your floor. your floor. You have to do better than Bitcoin in order to be
+more valuable than people just owning Bitcoin. If ETH works the same way, ETH is
+now your floor. You have to do better than ETH
+
+to actually create significant value above that. And where I think I differ with OM
+is I don't think transaction preferences are monolithic. There are some areas where like speed
+and controls and error reversal are significantly more valuable than others. I care less about
+mistakes if I'm buying a $5 sandwich than I do if I'm clearing like $5
+trillion of overnight reverse repo. >> For sure. And so I don't think this is
+a monolithic system. And I think the real legacy of blockchains is going to be
+doing two things at once. And they don't need to
+
+be done in the exact same way at the exact same time, which is one
+raising the floor on global conduct in financial markets, which I am just going to
+strictly say is a massive, massive improvement in human rights on average over time. And
+I think what's happening here is incredibly important. But that number two, it will lead
+people to have to cooperate in different ways because now there is a credible alternative
+and sort of raise the standard even above that in many things that may themselves
+be more centralized over time. So I think what we're
+
+really looking at here is a governance revolution where again I've said I think the
+value of decentralization at large is overvalued, but that's just because it will force better
+behavior elsewhere. >> Very good. We'll end it there. Of course, bankless listeners, none of
+this has been financial advice. As you know, crypto is risky. You could lose what
+you put in, but we are headed west. This is the frontier. It's not for
+everyone, but we're glad you're with us on the bankless journey. Thanks a lot. [Music]
+[Music].

@@ -1,0 +1,1125 @@
+One of the biggest traumas of my life growing up was that nothing worked. You
+would go to the bank, the systems wouldn't work. And my idea was, hey, why
+don't we invent an internet currency. >> You built an internet currency called karma. karma.
+>> It's cheap to acquire initially and it has proof of work minting in it.
+So, one of the key components in Bitcoin was also in karma about 6 years
+before Bitcoin came along. >> What did Satoshi Nakamoto do better than you when he
+invented Bitcoin. >> We did two major things much better
+
+than I did. Number one technically, >> Emir, the founder of Ava Labs, >> the
+team behind Avalanche, a fast scalable blockchain. scalable blockchain. >> A former Cornell professor, he's
+driving decentralized finance forward. >> What needs to happen for crypto to go fully mainstream.
+fully mainstream. >> I think we have the right architecture for being able to absorb
+the growth. And what we don't have is the front end. Wallets are very difficult
+to use. We built this wallet called core that is designed to address this difficulty.
+>> What does broader crypto use look like. >> Everything
+
+of values on the blockchain and services operate with a chain. >> Can you give
+me some examples. We open up the top game on PlayStation and all of the
+assets on that game are on a chain. You want to borrow some money from
+the bank, you don't go to a bank. You just do it on chain. >>
+What's the most important thing to you in life. It >> is being able to
+change the world. It's showing the world how it can be much much better. And
+I want to prove to all of the crypto naysayers
+
+that crypto is the solution to a lot of the problems that they perceive with
+big tech. >> You call Avalanche the home of layer ones. ones. >> Yes, it
+is. What did you do differently when you launched Avalanche that helped you become one
+of the biggest projects by market cap worth more than $60 billion in 2021. >>
+Yeah. So, what did we do right. >> Hi everyone. This is the little bit
+that I know none of you like that can help us make a huge difference
+for this show and we want to take it next.
+
+71% of the people who regularly watch when shift happens have not subscribed. And so
+all I'd ask you if you want to make a huge difference is the following.
+If you've seen this show before and you like it, help me. Help my team.
+Hit the subscribe button and we'll continue to build this show for you. Thank you.
+>> It looks good. Life is good. You look good. I'm good. I'm >> sorry.
+>> sorry. >> I was in Miami. I just got back from Miami. Miami. >>
+Nice. How long for. >> Uh 5 days. >> You
+
+just stand in 5 days. >> I was in Florida before. >> Okay. >> My
+third trip to Miami this in the last couple couple months. >> I can see
+the the red. Yeah. My nose came off. I know. I got too much sun.
+sun. >> What a what what a tough problem to to have. have. It's a
+It's okay. Of all the problems to deal with, this is the least of our
+worries is World War II that almost broke out. So, you know, compared to that,
+this is >> Yeah. What's one of the bad problem
+
+that you have to deal with recently. um trying to figure out where the space
+is going, you know, it's like our constant biggest problem and uh and uh how
+to get the next billion people into crypto. That's our big problem as a space
+as anyone active in the space. >> Amen. >> Yes. >> What is your mission.
+>> What's the mission. To take crypto to everybody. So to make it the uh
+the primary rail by which every value transfer happens by which every asset is stored,
+sent kept, sold and uh the primary means by which
+
+we build services that are not controlled by any single entity. Um so it is
+in many ways a uh a king breaker, a technology that uh that makes sure
+that tech titans don't get too strong that we democratize the systems that we use.
+Why is that so important. >> Because without it we get concentration of power in
+just a few hands and that holds a lot of uh a lot of danger
+for everyone. everyone. >> Who are you. >> Who am I. It's a good question.
+Um so uh I was a I think my uh
+
+I think of myself as a graduate student at all times but uh really I
+think the thing that defines me is that I was a professor at Cornell University
+for about 19 years. I uh was a professor of computer science. I'm a lifelong
+student of computer science. I'm a I'm a geek who loves to build stuff. I'm
+a geek who loves to build largecale distributed systems that organize themselves. Uh systems that
+provide a service without anyone in charge. Systems that um operate without a centralized owner.
+So this is very different obviously from the systems that
+
+most people build, right. They they usually build client server systems. When you go to
+use Facebook, you're using Zuckerberg servers. when you go to use Google, you're using Google
+servers. And so I like to build systems where you're using anyone's service servers uh
+to get a service and there is no single entity in charge. Instead uh uh
+the service is provided by some kind of a computer program whose behavior we all
+understand and agree to. >> You say I'm someone who loves to build stuff. stuff.
+That's not really the image that people have from someone
+
+who is a professor at university which is a very theoretical thing. Uh that's uh
+that's true. Most people think of professors as sort of like you know uh disconnected
+from reality. People who are sort of far away far apart from uh the day-to-day
+concerns. People who think about theoretical foundations and not so much the practical implementations. Um
+but that image is is uh is not accurate. Uh so it's true that a
+lot of academia is theoretical but there are also um wholesale departments wholesale areas where
+people uh do focus on how to build actual things
+
+that work. So uh uh so for example Cornell computer science has a lot of
+theoreticians but I was on the practical side of things. I always thought of theoreticians
+as people with you know sort of pointy pointy wizard hats or mathematicians hats and
+I always wore a hard hat. I always build stuff. Every single uh one of
+my papers pretty much uh has a hardcore implementation in it. I really build the
+systems. I would like to fully build the systems to understand the nuances. So I
+always built stuff. built stuff. >> What made you not
+
+go into business and go into a PhD program. >> Oh um that was easy.
+So uh I was graduating from Princeton University. I got into Princeton with a with
+a very nice scholarship. I grew up in Turkey. I got a scholarship to Princeton.
+and I did my undergraduate studies there. Loved computer science, loved to build u complex
+systems, large programs and so on. And I want to learn more and uh and
+I want to so I thought well okay now that I finished my undergrad I
+should go get a master's degree but master's degrees are
+
+expensive. So I was like well why don't I enroll in a PhD program because
+if you're a PhD student they pay you to study >> and you can leave
+after a year or two with your masters which is which was my original plan
+and then I got into the PhD program. And then I got sucked into how
+fun that life is of of figuring out uh answers to questions that nobody knew
+the answers to. So that that's what research is all about. And uh and I
+love that life and that's sort of what got me
+
+into into the PhD studies. Uh I didn't leave with a masters. I got my
+PhD. Then I went on to um to uh to become an academic because I
+really like that life of problem solving. >> You said you're from from Turkey. >>
+You grew up there. I did in a stumble. >> Beautiful city. The city of
+the cats. >> City of cats. That's right. It's a was a gorgeous, especially when
+I was growing up with fewer people in it. It was awesome. >> There's a
+common pattern across most of the very successful people I
+
+interview on this podcast. They have a childhood trauma or something that happened in their
+life that gave them a chip on the shoulder. What happened in your life. That
+might explain your hunger for success and your fire in the belly. >> There's a
+lot. we're going into therapy now. Um, so there are a lot of things that
+happened to any given one of us. But, uh, I think one of the biggest
+biggest traumas of my life growing up in Turkey back then was, uh, the fact
+that nothing worked. Like you would go to the bank,
+
+the systems wouldn't work. They'd turn you around. You'd have to come back the next
+day. You'd go to the airport, >> half the displays would would just blue screen
+on you, right. And then uh then they'd be they'd be giving out paper tickets
+or whatnot. things that should take no time at all. I knew should take no
+time at all were just very difficult. They just wore you down. And at a
+very physical level, too, you know, we lived in these houses that weren't perfect by
+any means. The windows would close, there'd still be a
+
+draft in the house, right. And uh and so I remember being very very upset
+at things that did not work 100%. 99. 9 is good enough maybe for some
+people but it just you know it would just piss me off that that if
+it didn't work that 0. 1% and in fact back then you know most things
+were built to what 85% 95% standard is so quite a lot of the time
+things didn't work so um so that's what got me interested in uh in uh
+in things that really work that things that reliably provide
+
+a service no matter the circumstances and I remember so when I was growing up
+uh you had to take this big exam to get into schools and if you're
+in the top, you know, whatever 110 people or so, you go to you go
+to this one American school for for middle school and high school. I got into
+the school and uh I remember my first day uh walking up to these big
+doors um built by to American standards and I walked through the door and it
+closed behind me with a satisfying click. I was like,
+
+"Yes, I am. I am where I belong. These people know how to build things
+that actually work. " and that that got me on the path to engineering large
+things that work. >> Quick shout out to our sponsors who make this show possible.
+I'd like to thank our friends at Jupiter, the most used decentralized trading platform on
+Solena and the largest DAO in the world. We've teamed up with Money Badgers, the
+lifestyle brand launched by Paradex, to give you a shot at winning an exclusive Money
+Badger NFT from their upcoming Genesis collection. Being in the
+
+trenches is more than a full-time job. It's a way of life. The Money Badgers
+was born to tell that story. Their flagship NFD collection drops in Q4 this year
+and we're giving you a chance to get one. Remember, supply is limited. Use the
+link below to get on the wait list. Your a Swissbacked and regulated nail bank
+powered by Menal that offers Swiss IBAN accounts with fiat currencies such as the Euro,
+the Swiss Frank, the US dollar, and the Chinese yen as well as crypto all
+in one place. To support this show, please check the
+
+sponsors link in the description down below. >> They know how to build a door
+that closes properly. closes properly. >> I mean, it sounds so stupid, but >> seems
+seems Yeah, it sounds simple, but you know, it >> shows that we take too
+many things for granted, actually. granted, actually. >> Mhm. >> So, you would go to
+the bank and then they would not give you money and have to go back
+the >> system's down. Systems down. Like I'm I'm sure this resonates with the with
+the with a fair bit of your audience uh uh
+
+that that live through the dark old ages of computerization. >> You'd go there, they'd
+rely on a centralized server. Server's down. What do you do. Nothing. You just go
+back come back tomorrow. >> I mean, I just I was in Bali a couple
+of weeks ago. I live in Singapore, so it's not far. not far. >> Uh
+and it's a beautiful island. It's amazing. But nothing works. And so I would just
+go, you know, we're going to to the south of the island. We we just
+say, "Oh, let's go buy a bottle of water. "
+
+water. " >> Mhm. in the supermarket. >> It took us 45 minutes for a
+bottle of water because we go there, the system doesn't work. Then we don't have
+cash because we don't use cash anymore. Then uh then the cash machine kind of
+works, but it doesn't work again. Then there's a huge queue. Then okay, let's go
+and get some cash out. Then 45 minutes for a bottle of water. >> Absolutely.
+>> And then you're like, if a bottle of water takes 45 minutes, how do
+you build a business here. It's impossible. >> You can't.
+
+Okay. And the contrast from Singapore to Bali must be >> I would say the
+contrast from Singapore to a lot of places. >> Yeah, that's a that's that's Singapore
+is an island where everything works. That's Yeah, it's quite a quite a culture shock.
+culture shock. >> You built an internet currency called karma in 2022. >> I did
+uh no in 2002. So 22. So 23 years ago today. >> What is an
+internet currency. >> Ah why do we need one. Because back then uh people were
+really into file sharing and um you know so file
+
+sharing was really big. Everybody was downloading music and other stuff and um and so
+and there was a craze like because you could do with a file sharing service
+what what big business couldn't do. You couldn't download music at the time. You had
+to buy a shrink wrapped CD or DVD or whatnot. So there was something available
+on the internet. It worked through these self-organizing file sharing networks. But there was a
+problem with all of these systems, as is often a problem when you have communities
+trying to get stuff done, which is people wanted to
+
+take things. Nobody wanted to donate things to the common good. So everybody wanted to
+download, nobody wanted to upload. Uploading got you, you know, got your bandwidth occupied at
+at a minimum. So um so there had to be some system, something to incentivize
+people to occasionally do good for the world, right. And so I figured, okay, uh
+what can we do. Um, one of the things that people came up with at
+the time was Bit Torrent, which is still around, and that's a barterbased system. And,
+um, uh, my idea was, hey, why don't we invent
+
+some kind of an internet currency, and it's cheap to acquire initially, uh, but but
+you can't acquire, you know, there's a finite amount of it. And, um, and so,
+so you acquire it, and then every time you download a file, you use some
+of it. And at some point, you're going to run out. and uh and if
+you don't want to run out, you have to be good and you have to
+actually provide services to others as well. So that was the genesis of the karma
+currency in 2002. It was peer-reviewed and published in 2003
+
+and um it has proof of work minting in it. So one of the key
+components that uh is in Bitcoin was also in karma about 6 years before Bitcoin
+came along. What did Satoshi Nakamoto do better than you. Um, in late 2008 when
+he invented Bitcoin, Bitcoin, Bitcoin, >> he did something he did a couple of things,
+right. So, he did two two major things much better than I did. Number one,
+technically he ended up taking the consensus side of the of the of the equation,
+the consensus problem, and folding it into the coin creation
+
+problem. So in in Bitcoin mining when you're creating the coin when when a minor
+is creating coins he's also codifying what happened in the preceding 10 minutes. So that
+was something that in karma was disjoint. I had proof of work minting but the
+consensus was classical consensus. It's it was still done by quorums of uh of nodes
+and uh that wasn't as lightweight that wasn't as um as open as uh as
+Bitcoin was later on. So Satoshi had an incredible insight that uh that really changed
+I think the world for much better uh technically when
+
+he came up with that part. He also had another big idea that I completely
+missed. He was so I was working in the aftermath of 9/11. I was working
+in the aftermath of you know people being very concerned about havala networks about you
+know money flows terrorist financing and so on. And so I always conceived of what
+I was building as something only that only targets the file sharing problem. But uh
+Satoshi was was coming right after the 2008 crisis. And uh and he had a
+much grander vision. He was like well let's just down
+
+with fiat. Let's come up with a new store of value, a new asset that
+is that will replace fiat. And that's um that's a that's that's the kind of
+big vision that uh you know as a younger person who was trying to do
+something much more contained I did not have. So he he nailed two fronts that
+in a way that uh that I did not. >> But you identified some flaws
+in what he did too. Right. >> I did. I found an me and my
+co co-author. We found the biggest known flaw in Bitcoin
+
+and we found some flaws in what Satoshi claimed about his own his own system.
+what what were those flows. flows. >> So, uh we invented something called selfish mining
+and uh essentially what we what we showed the world was uh some of the
+claims that Satoshi made about Bitcoin are incorrect. So, what are those claims. For a
+system like Bitcoin to uh to to work, for a system like Bitcoin to be
+compelling, it has to have a key property called incentive compatibility. What does that mean.
+It means that the participants should follow should have incentives
+
+to follow the protocol the protocol the protocol >> as opposed to incentives to diverge
+from the protocol and do something else. If I can make more money doing something
+else, well then the pro protocol is not compelling as it is. It's not the
+thing that people should do will do uh when when when they have you know
+when their incentives are are sort of pulling them away from what you told them
+to do. So everybody thought uh that uh that that Bitcoin was incentive compatible. Everybody
+thought that as long as an adversary was less than
+
+uh 51% that he would not be able to benefit um from diverging from the
+protocol and Satoshi explicitly claimed this uh people repeated this. There was even a study
+an academic study by some academics that turned out to be deeply flawed u that
+claimed this and um and so the work that we did with selfish mining was
+look uh there's another way to approach the Bitcoin mining protocol. you don't have to
+follow what what Satoshi told you to do and in fact if you don't do
+it and follow this other product other uh other strategy
+
+you can make more money so your incentives can lie elsewhere and you can make
+more money doing selfish mining as opposed to regular mining. So uh this of course
+was anathema to Bitcoin maxis at the time because it implies that Satoshi made a
+mistake and Satoshi of course you know the Bitcoin maxis believe is this infallible person.
+Everything he said is is is wonderful and and he has made no mistakes. So
+um uh so we when we came up with with selfish mining it ruffled a
+lot of feathers. I mean it it's all sorts of
+
+things started going south. Uh it started getting death threats. Um, there was a there
+was a letterw writing campaign for Cornell to fire me. I was a tenure professor
+at the time, so they couldn't fire me. And I was it was nice watching
+all the letters going around. It was kind of unnerving at the time, but you
+know, it's okay. It's was like they can't fire me. It's okay. And um and
+there was even uh crowdfunded studies, crowdfunded projects to prove us wrong. And all three
+of those projects flipped. All the leads flipped and said
+
+after a while uh they said, "Look, you know what these guys claim is exactly
+right. all the simulations actually confirm what they said and selfish mining is a thing
+and uh and by that time people had realized hey we weren't trying to tear
+down Bitcoin we were trying to better characterize its security and um and if you
+do characterize it better then you can guard against selfish mining attacks if you know
+what can happen what can go south you can watch for it and make sure
+that it doesn't happen in practice so uh then ultimately
+
+what's happened is people adopted us and decided hey these people are actually in crypto
+to make crypto much better they're scient test they provide the foundations that we need
+and uh they started inviting me to all the crypto conferences and so on. So
+that's how I got into the space. >> When was this story. >> 2013 >>
+2013 >> 2013 12 13 around then. >> What is maximalism a good thing. >>
+Absolutely horrible thing. >> Why. >> Because um maximalism is religion. Maximalism is a cult
+for any maximalism even the avalanche maxis. So um there
+
+is nothing that's unassailable in the world. The only god that you should have is
+probably science and um and so uh so the right thing to do is always
+to approach all claims with skepticism to to demand proof to demand scientific proof to
+validate things etc. And if there are better ideas if there is something that shows
+hey these these beliefs are false then you should abandon them and adopt better beliefs.
+>> Can you take the side of maximalism. Tell me something positive about maximalism. maximalism.
+>> Sure. Maximalism allows communities to bind together very strongly
+
+and it creates very strong communities. So uh so that's why you see cults as
+long-standing things. There there are thousand year old cults around in the world, right. People
+still dress like they did hundreds of years ago, do things in the old ways,
+etc. So um it it it allows groups of people to capture some set of
+values uh and some sets of behaviors that sometimes might be okay to preserve. to
+preserve. So uh so maximalism has that positive side but it also has the problem
+that if you adopt the wrong ideas that discredited ideas
+
+or uh technical beliefs that are incorrect then you might find yourself you know still
+trying to use a gas engine to you know to do your farming with when
+there are better better uh you know or kerosene engines or whatever it is that
+the Amish use right so so they they're allowed to use certain things but not
+electricity right it's just it's kind of an odd odd behavior they their their behavior
+is frozen in the 1800s. That's a strange thing to be doing. >> I mean,
+we've seen that at various degrees, right, with Ethereum lately.
+
+>> We've seen that with Luna, like a more extreme example of what maximalism can
+do to people. >> Uh in terms of negative consequences, basically going broke. Um, do
+you think that Bitcoin and crypto would be where we are today without a good
+dose of maxi maximism in the early days. days. >> I think we'd be far
+farther. We we would not have the uh the backlash against crypto that we ended
+up having. I think Maxis did great disservice to the crypto crypto movement. Um, do
+I think that uh um that the uh the the
+
+uh store of value narrative of of Bitcoin would be as strong. Probably wouldn't be
+as strong. I think the Maxis really repeated that mantra really well and they really
+sold Bitcoin to the masses as a store of value. And um so uh so
+yeah, Bitcoin probably wouldn't be where it is today, but crypto would be further along.
+There'd be less backlash against crypto. How did you get so fascinated by the world
+of Bitcoin and the cryptocurrencies. cryptocurrencies. >> I think it all started with the karma
+work. You know, I like self-organizing systems. That's clear. And
+
+then uh and then once I saw Bitcoin, I was like, okay, this is there's
+something much much bigger here. There is a bigger movement. And I think the fundamental
+thing that attracted me is the fact that crypto is the next sort of destination
+in the evolution of large-scale computer systems. You know, when I was growing up, we
+barely knew how to build a computer that's that stood alone, right. That operated by
+itself. >> And uh as I got older, you know, I started seeing mainframes, etc.
+So, you know, people started learning how to build bigger
+
+and bigger systems. Uh we started getting network systems. We started having PCs at home
+and you could connect to each, you know, connect these PCs to each other, but
+you could generally you would connect them to servers. we barely uh had solved how
+to build client server systems and that begat us the the dotcom boom >> and
+um and I think the next stage in the evolution of computer systems are largecale
+systems where no one's in charge where the system provides a service without necessarily a
+titan a tech titan providing that service and that democratization
+
+is in line with my values is in line with the world that I want
+to build I want people to be able to count on a service without having
+to trust the service provider provider because the service providers have time and time again
+proven that they are not trustworthy. trustworthy. >> How far are we from that word.
+>> It takes a lot of time. >> I think the core tech is there.
+It takes a lot of time. Uh it takes uh it takes a lot of
+u sort of slow evolution. It takes a a conducive
+
+regulatory en environment. So um imagine imagine that we had the dot boom or the.
+com ideas. We had the internet's foundations but the rules were that um the only
+thing you could hold you could put on the internet would be things that don't
+have any impact on anything. Cat pictures. The internet would then be just a place
+for cat pictures and cat pictures alone. And um and uh and so and if
+you had to vet every user, you have to know the identity of every internet
+user before you serve a cat picture to anyone, you
+
+have to know who they are. So that clearly would be a terrible universe. That
+that's literally what we went through with crypto. >> And uh the regulators were not
+at all uh um happy about about the disruption that crypto could cause >> and
+they did everything to sloww walk our space. So we uh we ended up getting
+delayed quite a bit but um but I think the foundations are there and society
+at large now understands what crypto can do. They understand how easy it is to
+use these services. There is still a hurdle for DeFi.
+
+I think we're still one or two years away from uh generalized generalized DeFi acceptance
+and uh we're probably about five years away from uh broader crypto use and probably
+10 years away from governmental crypto use. It uh it essentially means or I think
+the telltale signs of broader crypto use are that everything of value is on a
+blockchain and services operate with a chain. chain. >> In in 5 years, >> yeah,
+>> yeah, >> yeah, >> we sit down here >> in the studio with a
+few few more gray hair, maybe less hair. >> What
+
+does the world look like. >> That's changing. I think uh the world look like
+looks like we fire up PS5. We open up the top game on uh on
+PlayStation and uh there's going to be PS15 by then, right. So, uh we open
+up a PS15 uh we look at the top game and all of the assets
+on that game are on the chain. >> So, that's beginning to happen today with
+uh efforts like Off the Grid. That game, if you've played it, is amazing. Um
+in it, every arm, every mech arm, every mech leg,
+
+every every piece of armor, every piece of ammo is an asset, is an NFT
+asset in game. You can buy and sell it and trade it on the side.
+you can play the game and get them by killing people. It's just it's a
+fascinating game fascinating game fascinating game >> and that would be the primary means that
+would be in the gaming space. You go to borrow some money from the you
+want to borrow some money from the bank. You don't go to a bank. There's
+no there would be no need and uh you just
+
+do it onchain. onchain. >> Uh and I can just sort of enumerate many other
+examples. You go to instead of going to the DMV, you go to the chain
+and you do a transfer of your car when you sell your car and it's
+it happens within seconds instead of months. So everything that has a value to anyone
+that is not necessarily kind of part of the GDP today because it cannot be
+valued necessarily valued necessarily valued necessarily >> will be in five years and the example
+is some items in a in a game or basically
+
+anything anything anything >> anything anything. So absolutely anything and everything whether it's the the
+keys to your car, the the title to your car, the deed to your house,
+the um virtual assets that people create, virtual assets that companies create and uh in
+every financial transaction. All of these things have to happen on the blockchain. That's the
+right way to do it. Everybody who's listening to me who understands the tech knows
+that this is the only way we build auditable, coherent systems that reconcile with each
+other cheaply, easily, and in the fastest manner possible. Quick
+
+one. I want to thank our partners who help us make this show possible. Thank
+you, Treasor, my favorite cold wallet to store my crypto and make sure I sleep
+well at night. If you too want to sleep well at night and want to
+order a treasure wallet, you can use my promo code WH10 to get a 10%
+discount. Big thanks to Bitwise Asset Management for backing today's conversation. Bitwise is a crypto
+specialist asset manager with more than $15 billion in client assets across 30 plus crypto
+solutions including ETFs, index funds, alpha strategies, staking and more.
+
+However you like to invest in crypto, Bitwise has something for you. And three, a
+scalable layer 1 blockchain that's fast, secure, and affordable, built by Facebook developers, and that
+delivers the benefits of web 3 with the ease of web 2. You're the co-founder
+and CEO of Avalabs. Avalabs. >> I am indeed. >> The company behind the Avalanche
+blockchain. What is Avalanche if you had to explain it to your mom. >> Avalanche
+is the latest um system that um embodies the b best um best uh technology
+when it comes to blockchains. It facilitates building of uh
+
+chains for a multitude of uses. uh facilitates the cre creation of digital assets that
+can be sent anywhere at any time and allows the creation of services where no
+one is in charge. in charge. >> You told me you launched Avalanche because crypto
+was full of idiots who make all decisions. >> That's not wrong. >> Can you
+explain. I mean this space is uh there's so many the space has so many
+sins. I think uh your audience knows this very well. Um it's a it's look
+the people have been selling the crypto vision for a
+
+long time right and if you look at how many systems have matched up to
+what how they got sold is is very few systems right so there's always some
+constant sort of dangling uh shiny crypto object you know such and such will happen
+and then we're going to be able to scale Ethereum such and such will then
+happen and then we're going to scale it and so there's there's always some promises
+of technologies that would come maybe someday today. It's kind of like waiting for Godo.
+Let's wait for Godo. When he comes, it's going to
+
+be so good. Life's going to be great. All of our problems are going to
+be solved. And uh and Godo changes. Like every time something materializes, people realize, hey,
+we we pinned our hopes on on a set of technologies that we did not
+quite understand whose drawbacks we didn't really follow. And now that the technology is real
+and here we realize we were wrong. We were led to a to a blind
+alley. And Ethereum was doing this again and again and again. >> And I watched
+this happen. I watched a whole bunch of other chains
+
+uh app bring absolutely nothing to the space. Ethereum at least tried to bring some
+stuff and uh and as a technologist it really irked me that uh that there
+was a there was a a big group of people essentially in the business of
+selling hopes and dreams but not really materializing them. So uh I thought hey we
+we know how to build stuff. We know the best of technology. We have a
+pragmatist uh side to us. So we know which technologies are are essentially [&nbsp;__&nbsp;] and
+not quite here um and will have huge drawbacks and
+
+which technologies will really move the needle. And so I thought hey let me bring
+this new sensibility into crypto. >> Why do you think that there was that these
+people were doing these things that way. Is it because I mean straight scams. Is
+it because ah now we raised the money but the actual thing is hard to
+do is build, right. But we don't need to build because we have the money.
+>> Um is it because they tried but it failed. failed. >> It's all of
+those. You know, there's there's a multitude of people. Um
+
+some people are in it for just scams. You know, you hear about some chain
+that comes out of nowhere, brings nothing to the space. You don't know why it's
+it's supposed to be good or a new asset shows up. There's a guy behind
+it, especially if the guy is quirky, right. He's acting like he's, you know, it's
+it's a dumb person's idea of what a genius looks like, right. So, uh, you
+know, curly hair, can't tie his shoes, right. I'm referring to SPF here, of course.
+Never understood what he brought to the space. I was
+
+like, it's just some rando dude. A lot of rando dudes in the space. And
+uh, and so people go, hey, okay, so that's uh, it's easy to identify scams.
+They're also um, hopeful optimists. They're like, "Hey, you know, I don't really know much
+about this technology, but it sounds like it could fix some problem I have. "
+And then they go following uh that path. I think a lot of people in
+Ethereum followed uh verifiable delay functions. VDFs were going to, you know, for a long
+time that was going to be the scalability approach for
+
+Ethereum. All of us knew in in academia that that was a dead end. Um
+so it was VDFs that didn't pan out for them. VRFs, verifiable random functions were
+going to be key to scaling Ethereum. That didn't work out. And then accumulators were
+going to help and that didn't work out. Snarks and that didn't work out. And
+then ZKevms and that didn't work out. So there was that shiny object phenomena that
+was just plaguing that community. And um yeah, it's definitely not scams. Those people really
+genuinely thought, hey, these technologies will will fix it. But
+
+it's it got to a caricaturized version of itself towards the end where essentially what
+they were doing is looking at the cryptography journals and picking the latest shiniest object
+and holding that up instead in in front of their audiences as opposed to actually
+getting into the weeds and solving actual scalability problems. So it was behind it was
+against that backdrop that uh we did the avalanche work and thought hey we really
+need to show the world how this is done. Uh, it sounds like the the
+the people who make the most noise don't know how
+
+to get us to the destination. >> So, you launched Avalanche because crypto was full
+of idiots who make wrong decisions. Has this changed. >> Um, yeah, I think it
+has. I think it has. A lot of things have changed. I think the days
+of um of uh constantly selling dreams are over. The days of um uh technical
+influencers directing huge money flows are over. The days of selfies are over, right. You
+take a selfie with Vitalic and you're like, "Hey, I'm Ethereum aligned, you know. "
+No, dude. You just copied some some code, you know.
+
+You're running it on your laptop. There's nothing crypto about what you're doing. It's just
+a it's just essentially a scam at that point. So, I think those days are
+gone. Uh we just went through the phase of uh proximity to politicians, right. We
+went to the selfies with Trump era and I think that's done as well. Um
+I think we're getting getting to the the you know show me era where people
+will demand to see actual proof of working systems and uh selling dreams is going
+to be harder and harder and um so I can't
+
+wait because that's when we shine because we've been building quietly in the background these
+large systems with large partners uh that really change the way things work. We really
+pride pride ourselves on building things that actually work that are actually usable and um
+and I'm really excited about what's to come. >> What did you do differently when
+you launched Avalanche that helped you stand out in a sea of layer ones and
+helped you become one of the biggest projects by market cap worth more than $60
+billion in 2021. So what did we do right. We
+
+did a a lot of things right. I think we brought to the space the
+biggest breakthrough in in the most important area that limited scalability and that was consensus
+protocols. So for those of you in the audience who are following sort of the
+technical uh technical evolution of these systems uh there are only three different approaches to
+to consensus. A lot of people will say oh we have a novel consensus mechanism.
+No they don't. They're like, you know, it's like there's a hat, you know, a
+hat is a way to keep this the the rain
+
+out and they're putting feathers on it. Hey, mine is novel. No, dude. It's just
+a basic hat. You put a feather, you put two feathers, you put 15 feather,
+whatever the hell you put, you maybe you put, you know, whatever stringers on it,
+but it's still a hat at the end of the day. So, umbrellas are a
+different technology, right. So, we brought the uh the new technology into the space. There
+are only three ways of doing consensus. the Bitcoin way, the classical consensus way, which
+is what I was using in karma, which is what
+
+Ethereum and Solana and others are using, and then the avalanche way. So, that was
+one of the main technical uh and it's probably the biggest technical breakthrough in the
+space of consensus protocols in the last 50 years, the entire time that this this
+area has been around. That was one. Uh number two, we did our launch in
+a way that is absolutely the most conducive to participation. We always uh worked to
+make sure that crowds could participate in our success. >> We offered uh the same
+terms to everybody. We allowed everyone to get in on
+
+the ground floor and um and uh and build large systems with us. Uh number
+three is relentless dedication by our community to to essentially pushing Avalanche to wherever it
+will go. And uh that's how we were able to get you know cutting edge
+partnerships. we were able to get uh absolute users who came to us and uh
+and said hey we without announcing to anyone we've been using your system because it's
+one of the few systems that actually work and handles the load that we have.
+So uh so those are things that really helped us
+
+um and uh you know it's hard to pinpoint any one thing but in combination
+they brought us to where we are. >> What did you do wrong. >> What
+did I do wrong. Of course so many things. Um, I think one of my
+greatest problems has always been the uh the the difficulty of of getting the word
+out. I think my marketing has always been weak. And um so if you look
+at Avalanche and if I had to identify the thing that I I'm the weakest
+at, that would be by far uh the area where
+
+I need the most help. So when you have a chain that that's got nothing
+to it, right. You it's just there's no new technology. It's just a chain. it's
+running on your laptop or it's running on on your laptop and five of your
+friends laptops, right. So, uh then you have all the time in the world to
+push that thing. You have all the time to think about how you're going to
+market that thing and uh and there are many chains like this and um and
+the people behind them, you know, they they're fantastic at
+
+marketing. That's that's what they do, right. That's like, you know, all day long, every
+day, that's what they think about. And um in contrast, we are constantly pushing the
+boundaries of the technology. We're constantly bringing the best of tech, best of science into
+Avalanche. Um, I'm running a fairly big show with hundreds of people, hundreds of devs,
+uh, developing new technologies, new new things on top of Avalanche. And so, that didn't
+leave me as much time to get the word out. And, um, and I think
+to this day, um, I would say that that's the
+
+part where I'm weakest. And from my own community, that's one of the things that
+I need the most of to help with the with getting the word out. I
+had Gavin Wood from Polka Dot on this podcast and he firmly believes that the
+best tech must win and will win. What do you think about that. >> Best
+tech doesn't always win, doesn't doesn't have to win. Uh but in the long term,
+um the chain that will come out ahead will be that which can absorb the
+enormous growth we're going to have in the space the
+
+space the space that I firmly believe in. And if we think about sort of
+uh the systems out there um you know let me characterize them right. So you
+have very early systems generation one chains like bitcoin where you have a single asset
+BTC and a single single chain. Then you have generation 2 which is ethereum solana
+and others which are uh multiasset but single chain. There's a single chain everybody must
+use that one chain and uh but you can have multiple chains multiple assets on
+that chain. So that's okay. But those things conk out
+
+when somebody is doing an NFT release, when someone's doing an airdrop, Ethereum becomes unusable.
+Solana becomes unusable. Solana stops, you know, used to stop, you know, a couple times
+a month. So, um, uh, so then the third generation, the latest generation of systems
+out there, and there are only a few of these, uh, are the systems that
+are multi-asset, multi-chain. Avalanche is at the forefront of these. Gavin system, polka dot is
+another one of them, and Cosmos, Cosmos is another one of them. So the the
+three of us are the multi-chain systems and the multi-chain
+
+thesis has been borne out. That is to say our approach to scalability is the
+one that can absorb the growth as new applications develop their own chains on top
+of us. That adds to our performance. We don't have to compete for performance and
+uh and we can absorb the growth that is to come from all sorts of
+uh uh industry all sorts of governments building their own systems on the blockchain. blockchain.
+Yes, it is. >> What does that mean. Explain simply. No jargon. jargon. >> No
+jargon. Um, Avalanche is not a single chain. It allows
+
+other pe it allows anyone to build their own blockchain on top. It's a network
+of networks. So, it's very different from Ethereum, very different from Solana, very different from
+from Bitcoin and others. It's essentially a network of networks where anyone can start their
+own chain according to their own rules, digitize their own assets, use their assets as
+gas, use their assets as collateral, use their assets for staking, use it for whatever
+they might want to to use their asset for on their own terms. This enables
+us, this enables our users rather to build custom application
+
+specific chains. They can build a chain for use by Europeans according to European rules,
+GDPR rules, etc. They can create a chain for use by people on Wall Street,
+but people who are doing games, who are doing whatever else that they might want
+to do. And these things can then communicate with each other in a seamless fashion.
+We bring to the space what uh Ethernet brought to computer networking back in the
+80s. >> Can you give me an example of what Ethernet brought back into the
+80s, but in the inter Ethernet and internet era so
+
+people can >> can understand better. So um the what I what what happened back
+then was u uh was essentially a transformation from uh single mainframes from single servers
+to multiple servers that interoperate with each other. We it enabled campuses to connect to
+each other to send messages uh emails from one campus to another and that gave
+us the birth of the internet. The internet got created by people connecting uh campuses
+to each other via via these network connections. In a similar fashion, Avalanche allows you
+to create a chain, me to create a chain, and
+
+these chains to interoperate by sending messages back and forth. These chains to send assets
+from one chain to another whenever that makes sense, and facilitates the interoperable collection of
+of these chains that operate together. together. I had conversation with uh Anatoli from Sena,
+Gavinwood from Poladot, Steven from Arbitro, Jesse Pak from Baze, bunch of other people. Each
+one has a different approach to scaling. scaling. >> How does Avalanche scale. So you
+said before the ones that will be at the forefront are the ones that are
+going to be able to scale when we hit this
+
+this moment of mass adoption. So the avalanche approach to scaling is to allow multiple
+chains to coexist under the same rubric under the same umbrella. same umbrella. >> That's
+very different from every single person that you mentioned in that list. So all of
+these people are going to try to to jam-pack all users onto a single chain
+base, Solana and every everything else that you just mentioned. These are all single chains
+at the end of the day and every user in effect competes with every other
+user for blockchain space on that chain. The avalanche approach
+
+is different. When you have a use case, then you can start your own chain
+that operates according to its own rules on its own terms with its own validators
+with its own resources and that chain can interoperate and communicate with other users using
+that have built different chains. We don't have to jam-pack them onto the same infrastructure
+onto the same set of limited resources. That is the biggest difference between us and
+everyone else that you just mentioned. You talked about gaming before when you talked about
+uh each uh each uh each uh each asset that
+
+or each uh thing that has value today will be uh on a blockchain, right.
+Avalanche is pretty focused on a bunch of things. One of them is gaming. Why
+do some people call Avalanche the gaming blockchain. So, some people do call it call
+it that. I never do. We work really hard to make sure that uh that
+we we we have built a platform that's usable usable for anything and everything under
+the sky. There are many many many other use cases besides just gaming. But um
+but a lot of games come to us because they
+
+have really stringent requirements. The game play has to be fantastic. The game play has
+to be super fast. Uh it has to be seamless and the system overall has
+to be reliable. If imagine you turn on your PS, whatever it is, five today,
+15 tomorrow, um, and you can't connect or whatever, the the the performance is not
+good enough or you kill somebody, but you can't collect their resources because you lack
+enough uh coins for for gas. Like that's just not a a usable platform. So,
+um, so gaming developers have been coming to us saying,
+
+"We've studied what's happening in the space. Yours and yours alone is the only system
+that we trust for our demanding users. " And I'm really proud of our our
+uh track record in this case. Off the grid is a huge game that launched
+on top of us. I believe they have more than 15 million users. So in
+the last bull cycle of crypto, there were these chains that made a crap ton
+of noise. And in fact, a bunch of the people that you just mentioned, you
+sum up all the users for quite a few of
+
+them. Sum up every single one of their users and they still wouldn't approach this
+one game, the number of users this one game brought to Avalanche. So um when
+you have such a big load, when you have such high reliability requirements, speed requirements,
+then you know where to go and that's avalanche. That's what people have been doing
+to us. >> What's the right way to do crypto gaming. gaming. >> So um
+and that's this is going to sound super obvious. So but it wasn't obvious a
+few years ago. So a few years ago, everybody thought
+
+web 3 gaming was, you know, Axi Infinity Ponzi games. you know, I take your
+coin, I sit on it, and I don't know what you pay me or I
+pay you, but you know, new users pay old users, something like that. It creates
+just very Ponzi Ponzi like behaviors. And people thought it was all about that kind
+of terrible financial transactions. Uh we had this the world's simplest thesis, which was build
+a game that's compelling to play, build a AAA game that's compelling to play. um
+and um and put it on a blockchain infrastructure so
+
+that it has the ability for the gamers to participate in running the game in
+enforcing the rules um that allows people to create third-party value added services. And uh
+the first example of this was Godzilla's off the grid. I mentioned this already. It's
+set on an island. Uh you're what's called a zero, like a mercenary who's got
+nothing to lose. you cut your arms off, you cut your legs off, you put
+these mechanical arms and legs, and then uh then you jetack onto the island, you
+start killing people in that game. Uh but then more
+
+recently, we've had Maple Story come in, and Maple Story is exactly the opposite. It's
+a it's many many many millions of users, especially in Southeast Asia, who love the
+game. They have uh you know, tens of millions of users and uh and uh
+it's a very much different universe, gentler universe. But again, uh all the game interactions
+are happening on a blockchain so that they're open, auditable, and so on. In these
+games, often the game uh the game designers will say, "Hey, here's a new weapon.
+We're going to sell it for this much, and there
+
+will be only so many of them. " them. " >> And to this day,
+you couldn't really audit that. Do you really know how many, you know, whatever it
+is, World of Warcraft, uh whatever swords of death there were. No one knows these
+things. But with Off the Grid, that's easily auditable. with Maple Story, this this new
+version of it that's on Avalanche now. Uh everything is auditable and transparent. transparent. >>
+What is Maple Story Universe and what's the relationship with Avalanche. >> Um they are
+um Maple Story Universe is a is an independent company.
+
+It's a gaming company based in Korea, I believe. Um with a huge installed user
+base with a huge set of people who grew up playing these games. Um, it's
+really hard to explain this, but uh I think you know your audience will immediately
+recognize the artistic style of the Maple Story universe. Uh, it's a lovely game uh
+with a with a large number of people who grew up playing it and um
+and that game was recently by the creators of the game moved to a blockchain
+foundation as an Avalanche L1. So they're building on Avalanche,
+
+they're using Avalanche and they built their own chain on top of us. You see
+RWA, real world assets as a foundational layer enabling future DeFi applications. applications. >> Can
+you explain what that means. Um, so R, what are RWS. That's an acronym. Real
+world assets. Uh, we firmly believe that uh that everything of value should be on
+a blockchain. That's the best way to maximize its value. It's its reach should not
+be limited by technological means. If I want to sell something, I should be able
+to sell it to anybody on earth and transfer ownership
+
+immediately uh to anyone. So, um that's that was the core vision and when we
+were starting out, our by line was uh digitize all of the world's assets. So,
+Avalanche's mission initially was essentially this. And uh so why is this important. Well, um,
+for example, uh, recently Bergen County in New Jersey, um, announced that they would be
+putting about 200 billion dollars worth of land records on Avalanche. And, uh, they came
+to this conclusion after doing a thorough study of the technological uh, offerings provided by
+different chains and thought Avalanche is the uh, the foundation
+
+that we're going to be building on when you have that much. So, let let's
+actually roll back a little bit. Those of those of your your of the people
+in in your audience who ever did a title transfer will know that when you
+do a title transfer, it's actually a complicated process. You typically need title insurance. You
+need to make sure that you are not being scammed that the person selling the
+title to indeed has it and so forth. So, putting those those uh assets on
+chain immediately fixes all of the uncertainty with ownership. Transfers
+
+are very very easy to audit. Uh competing claims are easy to ascertain, etc. And
+in addition once those ch those assets are onchain then they become the foundational pieces
+of value on which you can do decentralized finance. When you have your deed in
+your hand you can simply put that up as collateral and borrow against it and
+that need not be a weeksl long process with a bank but instead it's essentially
+a fairly it can be an automated process that's done on chain within a few
+minutes. minutes. How big is this RWA thing. >> Trillions
+
+and trillions of dollars. So I think there's about 700 trill trillion in assets in
+the world >> and uh and real estate alone is about 200 trillion of it.
+There are many other assets that are real world besides real estate of course. So
+um so many hundreds of trillions uh worth of assets will be digitized in the
+next decade. If blockchain fixes this, the there's the meme bitcoin fixes this, blockchain fixes
+this, fixes this, fixes this, >> that's right. >> Why is it so slow. >>
+The the process of transformation because because of regulatory lack
+
+of clarity. So I think for actually that's not true. Um why is it so
+slow. I think for the first decade for decade and a half is spent solely
+on education as as was the case with with the internet. The internet started becoming
+a real thing in the 80s. like you know people were using email in the
+80s. M >> it's only in the mid '90s that people realized hey this thing
+can do more than email this thing can do all sorts of other things and
+then you know then it started with the dot thing
+
+and then we got differentiation within. com so uh that first decade and a half
+just went in just got absorbed you saw no progress right in the 80s people
+be like why is the internet not exploding well because nobody not enough people understand
+how it works what it could do so there is that the initial part is
+just education uh the secondary part is regulatory clarity Okay. And uh the third one
+is is essentially differentiation, market forming, double-sided market formation, etc. Many of these processes are
+human processes that take time >> and humans are slow.
+
+>> Oh, sure. >> They are the technology goes fast but people Yeah. If you
+look at and this is blockchain like which is like very intimidating for a lot
+of people but if you just look at data right data is the same problem.
+There was all this big data thing whatever 10 years ago then AI everything is
+so slow because humans are slow. Yeah, slow. Yeah, >> the technology is going fast
+but the people are slow. >> Another big one building the layer one blockchain on
+the top of Avalanche is FIFA. FIFA. >> Yeah, they
+
+are. >> Why did FIFA choose Avalanche and why now. now. >> I think that's
+a question best uh best directed to them. Um so FIFA was a fantastic partner.
+You know that they have uh they have uh uh requirements that are very demanding.
+So uh many of the chains that make a lot of noise out there just
+lack the uh the underlying capacity to support what FIFA needs. Um one of the
+key differentiators for us I'm going to repeat what I said earlier but uh but
+this is you know that's the answer to the question.
+
+FIFA needs its own chain that operates according to its own rules and um and
+that chain needs to be fast and reliable and Avalanche is the only system that
+had those characteristics for them. >> What's the end game for Avalanche. >> The end
+game. The endgame is to to dominate the world and provide the rails for everybody
+to digitize all of the valuable things that they have. >> You're saying that >>
+that's not the end. That's I think the beginning of the a new beginning. You're
+saying that the Avalanche approach is multi-chain, right. multi-chain, right.
+
+>> But ultimately, does the endgame for Avalanche mean that everyone is in your ecosystem,
+everyone is building on Avalanche or is there a word where we have this kind
+of multi-chain approach with other ecosystem, other of these other ecosystems that have a very
+different way of thinking than you. >> Yeah, that's an interesting question, right. So if
+you like fast forward like couple decades, is it going to be a single system
+to rule them all or is it going to be a multitude of systems that
+interoperate with each other. So um uh if you look
+
+at what's happened on the internet, right, the technologies disappear, they get commoditized, they get
+hidden behind uh behind layers and um uh but usually what happens is one technology
+dominates. So I do believe that it's going to be a winner takes all environment.
+that winner has has got to be uh technologically foundationally and and uh and fundamentally
+able to absorb multiple different use cases. >> And so um so that's I think
+the the end world that we're moving to. Um Bitcoin even Bitcoin uh I see
+you know couple decades from now uh needing the kinds
+
+of fast transfers at the settlement layer that Avalanche offers. So I can see actual
+ways in which Bitcoin would be married so to speak with Avalanche. Bitcoin would always
+have its own proofof work mining foundation. >> But uh I can see approaches where
+you put Avalanche in front of Bitcoin >> and then the Bitcoin mining comes in
+and sort of double stitches, right. It it it uh it adds proof of work
+to decisions that have already been made in the in the in a uh in
+a by an avalanche L1 that's sitting in front of
+
+Bitcoin. So uh so there are I think the universe is one where we go
+to a fast fast fast fast foundation and uh there's going to be a winner
+takes all kind of a dynamic there and uh and I'm really excited about how
+flexible Avalanche is in that it can absorb these other chains and allow them to
+to keep on doing their core operation on top of Avalanche and and and tie
+into Avalanch's interoperability its low latency and it's high capacity. I recorded recently with Lily
+from Solana Foundation. Foundation. >> She says Bitcoin is the
+
+asset. Sena is the infrastructure. the infrastructure. I don't know what those means. >> So
+for you it's not Bitcoin is the asset. asset. >> Bitcoin is an asset. Of
+course >> Avalanche is the infrastructure. >> Um >> Um >> Um right. Lily would
+say that and it's like it's it's a great sound bite. Um, Solana is a
+is an infrastructure for one one chain and there is absolutely nothing that's compatible between
+Solana and Bitcoin. Bitcoin. >> Um, whereas Avalanche is really a network of networks and
+it's very different from Solana and Ethereum. So, so we
+
+are the technology, we are the rails uh for uh for other assets to uh
+to flourish on and I'm really excited about that future. You share with me some
+very difficult moments that many people are not aware of. While many only saw the
+man behind the blockchain valued at tens of billions of dollars, you spent three years
+managing a family health crisis with cancer affecting two of your family members. members. >>
+Oh, right. >> All while running the most successful one of the most successful companies
+in crypto and all during COVID. >> Yeah, that was
+
+a rough time. So, uh I can tell you what happened. Uh you know, it's
+not something I've shared. uh much before but uh let's see uh 2019 about well
+2018 or so uh my father got diagnosed with cancer and uh um I had
+uh I had a family member taking care of him and uh and I was
+going back to visit him regularly. Uh but then that family member also got sick
+also got diagnosed with cancer and so that uh that was actually very rough and
+then COVID came along just all about at about the
+
+same time and um so I spent a couple of years uh uh you know
+flying back and forth uh trying to uh take care of my my ailing father
+and um all the while you know with with essentially other family also suffering from
+from a pretty pretty awful disease um and dealing with the difficulty of traveling during
+co um and and and you know essentially trying to help people who are even
+a compromised during COVID. So I would travel, I'd be in quarantine, I'd be living
+in Airbnbs because you know you can't just go to
+
+the regular house. Uh I'd be in quarantine in the Airbnb and uh spend the
+requisite number of days then go to the hospital and you I've got two people
+in the same hospital at the same time sometimes. It was a very very rough
+time. What did you learn about life and >> the fragility of our existence and
+even you know a lot of money involved in your business. business. >> Yeah, >>
+Yeah, >> Yeah, >> but you realize that probably it's just money and it doesn't
+help. >> That's just money. I like that I was
+
+never motivated by money when when I got into this space. Um so uh the
+things I learned I I learned quite a lot about uh about family, about values,
+about what is important to people, what ought to be important to people. um how
+resilient people are and um and uh and how much strength anyone can have, anyone
+can muster up under duress. So um uh yeah, it was a it was a
+it was an eye opening time. time. >> What did you change in your life
+after that. that. >> Um through that it's a slow
+
+process of transformation. It wasn't a, you know, it wasn't a flip or anything, but
+uh, you know, before then I I was uh, you know, I was a more
+sort of a standard kind of person, right. Like people would ask me like, "Hey,
+what do you do for fun. " And I would have an answer to what
+I did for fun. And then there was this long period where I just couldn't
+like what what do I do for fun. I don't know. Um, right. Uh who
+am I. I cut away a large portion of how
+
+I defined myself because I just didn't have time to to dedicate to it. and
+uh and uh and I suddenly found a new a new identity, a new set
+of things that really deeply matter to me. Not a new one, but you know,
+I realized what set of things actually matter to me. What really makes me me
+and it's not the hobbies. It's not what I do. And um and that really
+uh that was eye opening. That was really eye opening. And um and what's what's
+really important um just comes to the surface when you
+
+are when you're under stress. That's that's when everything comes to the surface. What's the
+most important thing to you in life >> these days. Um, it's uh it is
+being able to change the world. It's it's showing the world um how it can
+be much much better. And I want to prove to all of the crypto naysayers
+that crypto is not this evil thing that the things that they hate about big
+tech, especially the progressives out there with whom I identify, um they they have this
+hatred. A lot of Democrats es uh especially they demonstrated
+
+that they hate big tech and they hate crypto and I want to prove to
+them that crypto is the solution to a lot of the problems that they perceive
+with big tech. The concentration of wealth that big tech creates that they really rebel
+against is something that crypto can address. The uh uh the the data management problems,
+the fact that these titans collect our information and sell it and monetize it, that
+is something that crypto can can fix. And I want to show everybody on earth
+how much better our lives can be if value is
+
+stored on a chain, can be transferred, sold, etc. Uh if we can create new
+economies for people, uh the world will be a better place. So that's something that
+drives me. That's something that I'm super passionate about. >> We're recording this conversation from
+New York New York New York >> on a very hot day. >> Very hot
+>> during heat wave. Actually, >> you live here. I do. >> Why does anyone
+live in New York. It's a great question. This is the the most the area
+with the most regulatory scrutiny. This is the area with
+
+probably one of the highest taxation rates, right. So, uh why would anyone choose to
+to to come here and and doicile here and live day and night here. And
+um and if you look at blockchain projects, I think you can categorize them into
+a couple of groups, three groups. Um, you've got those people who start their project
+and go to Silicon Valley. Those are the people who think that what they have
+is a tech play. play. >> They see blockchain as a tech tech idea and
+they go to where big tech is and they want
+
+to cidle up to big tech and tie into the tech community. These people usually
+base their entire existence and their entire chain around this singular simple tech idea. They
+have a onetrick pony. They want to hire the kind of talent that can sort
+of ride that pony as far as it will go and they'll push their thing.
+These projects are never successful. They never succeed because this is not a tech play.
+This is a societal transformation play. >> You've got those people who start their project
+and they go to a tax haven. You know, they
+
+go to Dubai, they go to I don't know where else, but uh you know,
+they go to Austin, they go to a place with low taxation. They're going to
+sell their tokens and they're going to get out. Those people have no staying power.
+They're not ideologically driven. they're just there to sell things. And uh then then there's
+the kind of people that are kind of like us. Uh I came to New
+York because this is where the world's value is. This is where the assets are.
+The financial assets are right here. We're not afraid of
+
+the regulatory scrutiny. We welcome it. We do everything by the book, right by the
+book. And uh we take a lot of technological uh risk by advancing tech, by
+bringing science into the space. And and we necessarily don't take any other risk on
+any other front. So, um, I'm really proud to be here. I'm really proud to
+be a New Yorker. I'm really proud that we have the connections that we do
+to, uh, to big institutions that we've we've built so far over the years. >>
+You left Turkey to come here to the US where
+
+nothing was working as we talked about before about before about before >> back then.
+No. >> And you moved to the US, which was supposed to be where freedom
+exists and anything is possible and everything works. works. >> Well, I wouldn't say that,
+but things do work better here. And you ended up being debanked. debanked. >> Can
+you explain what happened. >> Oh god. Yes, I can explain what happened. happened. >>
+So, uh, so let's see. This is not something that I've touched upon in public
+too too much, but uh, but yeah, I was debunked.
+
+I was debunked by the Biden administration. I did not know this at the time.
+Um, I'll tell you what happened. It's the same day that, uh, that the family
+member got diagnosed with cancer, a second family member got diagnosed with cancer. Um uh
+on the eve of that day, some guy rang the door. My open door was
+some messenger dude handed me something, made me sign it. I got it. I opened
+it up and there was a nondescript little letter from my bank that I had
+used for maybe a decade and a half. And uh
+
+I had a mortgage with him with with that bank. And in fact, the bank's
+regional manager had called me up maybe two months ago and said, "You're one of
+our top clients and uh anything you want, let me know. We'll do anything. "
+Da da da. He was he was being so nice to me because uh you
+know, I had raised some funding for Alva Labs and I was keeping all of
+those funds in the most secure most uh uh you know, conservative investment vehicle, which
+meant that we didn't really get much, you know, interest
+
+on that money. They they collected a lot of uh you know, a lot of
+value off of that. So I was I was doing things very conservatively. They loved
+me for it. And uh and so that same bank sent me a letter that
+said um you are no longer going to be our customer. Uh please come to
+the the the bank to to collect a cashier's check for the remaining balance and
+go somewhere else. And I didn't understand what was happening. I was like why why
+would I suddenly and out of the blue uh be
+
+uh you know be losing my banking access. And uh so uh you know I
+didn't understand the the system uh so well back then either. And so my first
+thought was hey I got placed on the OFAC list right list for those of
+you in the audience who might not know is this list that the United States
+m maintains of people who should not have access to the uh the uh uh
+the financial system. So I went to I start googling for OFAC and it turns
+out there's a governmental website and you can query the
+
+OFAC list. I started quering for variants of my name and uh and it turns
+out you know the old fact list is just like a bunch of names like
+you know I don't know Abu Albakir al this all that this just it's just
+ISIS okay so it's like a bunch of ISIS operatives and uh I'm looking at
+this I'm like like what the hell could have happened I'm I'm a respectable professor
+at an Ivy League institution one of the top few in the world and um
+how would I end up on this list. Did I
+
+end up on this list. I don't see my name on the list, but but
+maybe this is not the most current version. Maybe there's a different version that the
+bank is going. Anyway, I was losing my mind. I didn't get an answer. I
+called the bank. The bank is like, "We don't know why you're being debunked. It's
+happening at a very high level. " And uh so long story short, today we
+know what happened behind the scenes. The Biden administration decided to uh enact a policy
+of harassment for crypto. They didn't like crypto. And instead
+
+of being mench about it, instead of coming up and saying, "Hey, we don't like
+this, change it. " You know, don't do these things, do these things instead. Instead
+of setting guidelines, they decided to harass people in this area. And they decided to
+put pressure on the banks to push crypto people out. So, this was really, really
+terrible. Um the um I mean, what's the I mean, the amount of stress that
+these guys created is something that I will never forgive them for. Absolutely. The worst
+days of my life were those days and um and
+
+uh I know exactly who was involved and um I cannot wait to primary those
+those individuals. I cannot wait to uh uh to essentially the best best revenge is
+going to be to watch them use Avalanche as they buy cars, sell cars, buy
+property, sell property, buy stocks and all so on. >> Why would they do that.
+>> Why would they do what. debank crypto people. people. >> Uh it's uh so
+it's it's a bunch of things I think um surely it came out that some
+of these people were getting funding from American Banking Association.
+
+Association. >> So it's so basically you have the loop right because the bank is
+saying we don't know don't know don't know >> right >> right >> right >>
+and basically we cut you out or we cut you off but we are actually
+the ones who are kind of lobbying. That that was happening. There's also hatred of
+tech and hatred of crypto, which are two separate things, by the way. And I
+I alluded to this before. Crypto is a solution to the problems that people perceive
+with tech. But somehow it got lumped together. >> Um,
+
+and just lack of understanding and a whole bunch of other things. I'm not going
+to say that all crypto is good. Like that is not the case. There are
+a lot of scams in crypto, a lot. But throwing the baby out with the
+bathwater is the worst thing you could be doing. and then these blanket statements about
+oh you know like whether all of crypto is this that and the other that's
+just absolutely horrible and uh usually comes from this ludite ludite camp um in in
+certain circles in democratic circles uh they just want to
+
+go back to a simpler time and uh um and that you know and they
+just don't understand the value that technology brings to them. >> There are a couple
+of things. Um so at the moment I think we have the right architecture for
+being able to absorb the growth. What we don't have is the front end your
+interface my interface to to services is absolutely abysmal and fraud with difficulty. You know
+using DeFi is very very tough. So one of the things that we're doing on
+Avalanche that uh I'm really excited about are chains powered
+
+by AI. So um instead of chains where the chain has a virtual machine in
+it, you interact with the chain by issuing instructions written up codes and so forth
+like essentially writing Excel programs. Um instead of that we are building a chain where
+you interact with the chain by by specifying something in your natural language. You say
+it in French, you say it in Tagalog, you say it in Mandarin, whatever your
+natural language might be. You dictate it to the chain and the chain embodies in
+it multiple AI agents that interpret your your intent based
+
+on what you said and carry it out if it's if there's a clear intent
+that they can discern. So, um I'm really excited about this because it cuts away
+a lot of the smart difficulty of smart contract programming. And um wallets have to
+change. um the way we interact from with services by going from one website to
+another that has to change. There's a lot that has to change and we're at
+the forefront of it. Uh we built this um this wallet called core that is
+uh designed to address this difficulty. It's it's improving uh
+
+uh every day and I'm really excited about where core will will take us. We
+will you know how it will allow regular people to use chain services. services. >>
+What's your biggest prediction for next 12 months. next 12 months are going to see
+a complete uh reversal I hope of uh of Trump's uh policies. I think there
+are a bunch of things that he did initially to get people to the table
+to to try to uh strike deals with various adversaries and uh uh the normalization
+from that should happen in the next several months. um
+
+as we normalize and go back to a fully functioning uh global economy, uh it's
+going to be time again for people to realize, hey, uh blockchain brings brings a
+lot of good. Uh the new in again next 12 months, the new regulations related
+to both stable coins and the market structure bill are going to allow people to
+say, "Hey, I now understand the foundations. I can build my services on the blockchain
+and I can digitize my assets. " So, those will make a huge dent. Uh
+the days of Vitalic selfies are over. That's good to
+
+have. Uh the days of Trump selfies will come to an end in about about
+12 months, in about a year or so. And um and it's going to be,
+you know, do or die. Show us show us how you can actually function. No
+more promises, no more dangling, you know, technological solutions to this and that. Just show
+us what you've built. >> Show us what you built. Thank you so much, Amin,
+for this great conversation. >> Thank you for having me. This is all this was
+great fun. As you probably know by now, I host
+
+some of the biggest name in Bitcoin and crypto on my podcast, but a lot
+of the best stuff never makes it on air. The Shift newsletter is where I
+share that raw behindthe-scene alpha, the insight, stories, and lessons straight from my guests that
+you won't hear anywhere else. If you want the real inside take on Bitcoin and
+crypto, join my newsletter, The Shift, in the description down below. [Music].
