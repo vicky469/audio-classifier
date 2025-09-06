@@ -8,7 +8,7 @@ Automatically download YouTube transcripts, clean them, and upload to Notion wit
 
 ```bash
 pip install -r requirements.txt
-streamlit run streamlit_app.py
+python -m streamlit run streamlit_app.py
 ```
 
 Open `http://localhost:8501`, paste YouTube URL, and click "Process Video"

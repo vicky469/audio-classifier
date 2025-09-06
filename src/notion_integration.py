@@ -6,9 +6,11 @@ Creates pages with transcript content and metadata for note-taking.
 
 import os
 import sys
+import time
 from datetime import datetime
 from notion_client import Client
 from dotenv import load_dotenv
+import requests
 
 # Load environment variables
 load_dotenv()
@@ -24,6 +26,42 @@ class NotionIntegration:
         
         self.client = Client(auth=self.token)
         
+    def _retry_api_call(self, func, *args, **kwargs):
+        """
+        Retry API calls with exponential backoff for timeout/connection errors.
+        
+        Args:
+            func: Function to call
+            *args, **kwargs: Arguments to pass to the function
+            
+        Returns:
+            Result of the function call
+        """
+        max_retries = 3
+        base_delay = 1  # Start with 1 second delay
+        
+        for attempt in range(max_retries):
+            try:
+                return func(*args, **kwargs)
+            except (requests.exceptions.Timeout, 
+                    requests.exceptions.ConnectionError,
+                    requests.exceptions.ReadTimeout,
+                    Exception) as e:
+                
+                # Check if it's a timeout-related error
+                error_msg = str(e).lower()
+                is_timeout = any(keyword in error_msg for keyword in 
+                               ['timeout', 'timed out', 'connection', 'read timeout'])
+                
+                if attempt < max_retries - 1 and is_timeout:
+                    delay = base_delay * (2 ** attempt)  # Exponential backoff
+                    print(f"⚠️  API call failed (attempt {attempt + 1}/{max_retries}): {e}")
+                    print(f"🔄 Retrying in {delay} seconds...")
+                    time.sleep(delay)
+                else:
+                    # Last attempt or non-timeout error, re-raise
+                    raise e
+    
     def create_page_in_database(self, title, content, video_info=None):
         """
         Create a new page in the specified Notion database.
@@ -127,8 +165,9 @@ class NotionIntegration:
             
             # Create the page first without content (to avoid 100 block limit)
             if self.database_id:
-                # Create in database
-                response = self.client.pages.create(
+                # Create in database with retry
+                response = self._retry_api_call(
+                    self.client.pages.create,
                     parent={"database_id": self.database_id},
                     properties=properties
                 )
@@ -136,8 +175,9 @@ class NotionIntegration:
                 # Create a page without database - need to find a parent page
                 # First, let's try to get the user's pages to find a suitable parent
                 try:
-                    # Search for pages in the workspace
-                    search_results = self.client.search(
+                    # Search for pages in the workspace with retry
+                    search_results = self._retry_api_call(
+                        self.client.search,
                         query="",
                         filter={"property": "object", "value": "page"}
                     )
@@ -145,7 +185,8 @@ class NotionIntegration:
                     if search_results["results"]:
                         # Use the first available page as parent
                         parent_page_id = search_results["results"][0]["id"]
-                        response = self.client.pages.create(
+                        response = self._retry_api_call(
+                            self.client.pages.create,
                             parent={"type": "page_id", "page_id": parent_page_id},
                             properties={
                                 "title": {
@@ -174,7 +215,8 @@ class NotionIntegration:
             
             for i in range(0, len(content_blocks), batch_size):
                 batch = content_blocks[i:i + batch_size]
-                self.client.blocks.children.append(
+                self._retry_api_call(
+                    self.client.blocks.children.append,
                     block_id=page_id,
                     children=batch
                 )
