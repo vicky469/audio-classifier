@@ -149,59 +149,30 @@ def remove_repetitive_phrases(text, min_phrase_length=3):
     
     return '. '.join(unique_sentences) + '.' if unique_sentences else ''
 
-def format_text_chinese(text, words_per_chunk, chars_per_line):
-    """Format Chinese text with approximately 50 characters per line."""
-    # Clean up the text but preserve basic structure
-    text = re.sub(r'\s+', ' ', text).strip()  # Normalize whitespace
-    
-    chunks = []
-    
-    # Divide into chunks based on character count (approximate)
-    chunk_size = words_per_chunk * 6  # Approximate characters per chunk for Chinese
-    
-    for i in range(0, len(text), chunk_size):
-        chunk_text = text[i:i + chunk_size]
-        
-        # Format each chunk with chars_per_line characters per line
-        formatted_lines = []
-        
-        for j in range(0, len(chunk_text), chars_per_line):
-            line_text = chunk_text[j:j + chars_per_line]
-            if line_text.strip():
-                formatted_lines.append(line_text.strip())
-        
-        if formatted_lines:
-            chunks.append('\n'.join(formatted_lines))
-    
-    return '\n\n'.join(chunks)
-
-def format_text_english(text, words_per_chunk, words_per_line):
-    """Format English text with existing rules (15 words per line)."""
-    words = text.split()
-    chunks = []
-    
-    # Divide into chunks of words_per_chunk
-    for i in range(0, len(words), words_per_chunk):
-        chunk_words = words[i:i+words_per_chunk]
-        
-        # Format each chunk with words_per_line words per line
-        formatted_lines = []
-        for j in range(0, len(chunk_words), words_per_line):
-            line_words = chunk_words[j:j+words_per_line]
-            formatted_lines.append(' '.join(line_words))
-        
-        chunks.append('\n'.join(formatted_lines))
-    
-    return '\n\n'.join(chunks)
-
 def format_text(text, words_per_chunk=100, words_per_line=15):
     """Format text based on detected language."""
     language = detect_language(text)
     
     if language == 'chinese':
-        return format_text_chinese(text, words_per_chunk=500, chars_per_line=50)
-    else:
-        return format_text_english(text, words_per_chunk, words_per_line)
+        words_per_chunk = 500
+        words_per_line = 50
+    
+    chunks = []
+    
+    # Split text into chunks of exactly words_per_chunk characters (including spaces)
+    for i in range(0, len(text), words_per_chunk):
+        chunk_text = text[i:i + words_per_chunk]
+        
+        # Add line breaks within each chunk based on words_per_line
+        formatted_lines = []
+        for j in range(0, len(chunk_text), words_per_line):
+            line_text = chunk_text[j:j + words_per_line]
+            formatted_lines.append(line_text)
+        
+        chunks.append('\n'.join(formatted_lines))
+    
+    # Join chunks with double newlines (empty line between chunks)
+    return '\n\n'.join(chunks)
 
 def process_file(input_file, output_file=None):
     """Process a single transcript file."""
