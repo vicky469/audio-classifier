@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 """
 Simple transcript processor that:
-1. Cleans VTT files by removing timestamps and formatting
-2. Removes audio cues like [Music], [Applause], etc.
-3. Divides text into chunks of 100 words
-4. Formats each line with max 15 words and adds line breaks
+1. Cleans VTT files and plain text files
+2. Formats text based on detected language
 """
 
 import os
@@ -151,7 +149,7 @@ def remove_repetitive_phrases(text, min_phrase_length=3):
     
     return '. '.join(unique_sentences) + '.' if unique_sentences else ''
 
-def format_text_chinese(text, words_per_chunk=100, chars_per_line=50):
+def format_text_chinese(text, words_per_chunk, chars_per_line):
     """Format Chinese text with approximately 50 characters per line."""
     # Clean up the text but preserve basic structure
     text = re.sub(r'\s+', ' ', text).strip()  # Normalize whitespace
@@ -177,7 +175,7 @@ def format_text_chinese(text, words_per_chunk=100, chars_per_line=50):
     
     return '\n\n'.join(chunks)
 
-def format_text_english(text, words_per_chunk=100, words_per_line=15):
+def format_text_english(text, words_per_chunk, words_per_line):
     """Format English text with existing rules (15 words per line)."""
     words = text.split()
     chunks = []
@@ -205,7 +203,7 @@ def format_text(text, words_per_chunk=100, words_per_line=15):
     else:
         return format_text_english(text, words_per_chunk, words_per_line)
 
-def process_file(input_file, output_file=None, words_per_chunk=100):
+def process_file(input_file, output_file=None):
     """Process a single transcript file."""
     if not os.path.exists(input_file):
         print(f"Error: File {input_file} not found")
@@ -219,11 +217,10 @@ def process_file(input_file, output_file=None, words_per_chunk=100):
     if input_file.endswith('.vtt'):
         cleaned_content = clean_vtt_content(content)
     else:
-        # For plain text files, apply audio cue removal and basic cleaning
         cleaned_content = clean_plain_text(content.strip())
     
-    # Format the text based on detected language
-    formatted_text = format_text(cleaned_content, words_per_chunk)
+    # Format the text based on detected language (handles chunking internally)
+    formatted_text = format_text(cleaned_content)
     
     # Create output directory if it doesn't exist
     if output_file is None:
@@ -238,7 +235,7 @@ def process_file(input_file, output_file=None, words_per_chunk=100):
     print(f"Processed transcript saved to: {output_file}")
     return True
 
-def process_directory(input_dir, output_dir, words_per_chunk=100, words_per_line=15):
+def process_directory(input_dir, output_dir):
     """Process all VTT files in a directory."""
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
@@ -254,7 +251,7 @@ def process_directory(input_dir, output_dir, words_per_chunk=100, words_per_line
     for vtt_file in vtt_files:
         base_name = os.path.basename(vtt_file)
         output_file = os.path.join(output_dir, f"{os.path.splitext(base_name)[0]}_clean.txt")
-        process_file(vtt_file, output_file, words_per_chunk, words_per_line)
+        process_file(vtt_file, output_file)
     
     return True
 
@@ -263,23 +260,23 @@ if __name__ == "__main__":
         # Use command line arguments if provided
         input_path = sys.argv[1]
         output_path = sys.argv[2] if len(sys.argv) > 2 else None
-        words_per_chunk = int(sys.argv[3]) if len(sys.argv) > 3 else 100
-        words_per_line = int(sys.argv[4]) if len(sys.argv) > 4 else 15
         
         if os.path.isdir(input_path):
             # Process directory
             if not output_path:
                 output_path = os.path.join(os.path.dirname(input_path), "clean")
-            process_directory(input_path, output_path, words_per_chunk, words_per_line)
+            process_directory(input_path, output_path)
         else:
             # Process single file
             if not output_path:
                 output_path = os.path.join(os.path.dirname(input_path), f"{os.path.splitext(os.path.basename(input_path))[0]}_clean.txt")
-            process_file(input_path, output_path, words_per_chunk)
+            process_file(input_path, output_path)
     else:
-        # Use default paths
-        transcript_dir = "/Users/wenqingli/Documents/repo/audio classifier/transcript/process"
-        output_dir = "/Users/wenqingli/Documents/repo/audio classifier/transcript/clean"
+        import os
+        current_file = os.path.abspath(__file__)
+        repo_root = os.path.dirname(os.path.dirname(current_file))
+        transcript_dir = os.path.join(repo_root, "transcript", "process")
+        output_dir = os.path.join(repo_root, "transcript", "clean")
         
         # Check if process directory exists
         if not os.path.exists(transcript_dir):

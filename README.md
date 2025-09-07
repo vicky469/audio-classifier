@@ -38,7 +38,7 @@ echo "NOTION_DATABASE_ID=your_database_id_here" >> .env
 
 ## 📁 File Structure
 
-```
+```text
 audio classifier/
 ├── scripts/
 │   └── download_transcript.sh      # YouTube transcript downloader
@@ -63,8 +63,18 @@ audio classifier/
 3. **Upload**: Create organized Notion pages with rich metadata
 4. **Cleanup**: Remove temporary files automatically
 
+## 🤖 AI Transcription
+
+For videos without subtitles, the system uses AI transcription with two backends:
+
+- **faster-whisper** (Recommended): Optimized for Apple Silicon (M1/M2), 2-4x faster with lower memory usage
+- **OpenAI Whisper**: Fallback option, works on all platforms but slower on Apple Silicon
+
+The system automatically selects the best available backend. For optimal performance on M1/M2 Macs, ensure `faster-whisper` is installed.
+
 ## 🛠 Troubleshooting
 
 - **"No transcript available"**: Video may not have subtitles or is private
 - **"Notion token not found"**: Check your `.env` file has correct `NOTION_TOKEN`
 - **"Permission denied"**: Ensure Notion integration has database access
+- **MPS/GPU errors**: System automatically falls back to CPU or faster-whisper backend

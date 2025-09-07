@@ -19,7 +19,10 @@ class TranscriptWorkflow:
     def __init__(self, base_dir=None):
         """Initialize the workflow with base directory."""
         if base_dir is None:
-            base_dir = "/Users/wenqingli/Documents/repo/audio classifier"
+            import os
+            current_file = os.path.abspath(__file__)
+            repo_root = os.path.dirname(os.path.dirname(current_file))
+            base_dir = repo_root
         
         self.base_dir = Path(base_dir)
         self.raw_dir = self.base_dir / "transcript" / "raw"

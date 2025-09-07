@@ -4,15 +4,39 @@ Whisper-based transcription for videos without subtitles.
 Supports Chinese and other languages.
 """
 
-import whisper
 import os
 import subprocess
+import platform
+import time
 from pathlib import Path
 
 class WhisperTranscriber:
     def __init__(self, model_size="base"):
-        """Initialize Whisper model."""
-        self.model = whisper.load_model(model_size)
+        """Initialize Whisper model - faster-whisper for M1/M2, fallback to CPU whisper."""
+        self.use_faster_whisper = False
+        
+        # Check if running on Apple Silicon
+        is_apple_silicon = platform.machine() == "arm64" and platform.system() == "Darwin"
+        
+        if is_apple_silicon:
+            try:
+                from faster_whisper import WhisperModel
+                # Try GPU first, fallback to CPU if needed
+                try:
+                    self.model = WhisperModel(model_size, device="auto", compute_type="auto")
+                    print("🚀 Using faster-whisper with GPU acceleration (Apple Silicon)")
+                except Exception:
+                    self.model = WhisperModel(model_size, device="cpu", compute_type="int8")
+                    print("🚀 Using faster-whisper on CPU (Apple Silicon optimized)")
+                self.use_faster_whisper = True
+            except Exception:
+                import whisper
+                self.model = whisper.load_model(model_size)
+                print("⚠️ Using OpenAI Whisper on CPU")
+        else:
+            import whisper
+            self.model = whisper.load_model(model_size)
+            print("⚠️ Using OpenAI Whisper on CPU")
     
     def transcribe_youtube_video(self, youtube_url, output_dir, language=None):
         """
@@ -32,18 +56,22 @@ class WhisperTranscriber:
             temp_dir.mkdir(exist_ok=True)
             
             # Download audio using yt-dlp
-            audio_file = temp_dir / "audio.%(ext)s"
+            print("📥 Downloading audio from YouTube...")
+            download_start = time.time()
             cmd = [
                 "yt-dlp",
-                "-x",  # Extract audio
-                "--audio-format", "wav",  # Convert to WAV for Whisper
-                "-o", str(audio_file),
+                "--extract-audio",
+                "--audio-format", "wav",
+                "--output", str(temp_dir / "audio.%(ext)s"),
                 youtube_url
             ]
             
             result = subprocess.run(cmd, capture_output=True, text=True)
+            download_time = time.time() - download_start
+            print(f"⏱️ Download completed in {download_time:.1f} seconds")
+            
             if result.returncode != 0:
-                return False, None, f"Failed to download audio: {result.stderr}"
+                return False, None, f"Download failed: {result.stderr}"
             
             # Find the downloaded audio file
             audio_files = list(temp_dir.glob("audio.*"))
@@ -52,12 +80,27 @@ class WhisperTranscriber:
             
             actual_audio_file = audio_files[0]
             
-            # Transcribe using Whisper
-            print(f"Transcribing audio with Whisper...")
-            if language:
-                result = self.model.transcribe(str(actual_audio_file), language=language)
+            # Transcribe using appropriate Whisper backend
+            print(f"🎤 Transcribing audio (language: {language or 'auto-detect'})...")
+            transcription_start = time.time()
+            
+            if self.use_faster_whisper:
+                print("⏳ Processing with faster-whisper...")
+                segments, info = self.model.transcribe(
+                    str(actual_audio_file), 
+                    language=language,
+                    beam_size=1,  # Faster but less accurate
+                    best_of=1     # Single pass for speed
+                )
+                transcript_text = " ".join([segment.text for segment in segments])
+                transcription_time = time.time() - transcription_start
+                print(f"✅ faster-whisper completed in {transcription_time:.1f} seconds")
             else:
-                result = self.model.transcribe(str(actual_audio_file))
+                print("⏳ Processing with OpenAI Whisper...")
+                result = self.model.transcribe(str(actual_audio_file), language=language, fp16=False)
+                transcript_text = result["text"]
+                transcription_time = time.time() - transcription_start
+                print(f"✅ OpenAI Whisper completed in {transcription_time:.1f} seconds")
             
             # Get video title for filename
             title_cmd = ["yt-dlp", "--print", "title", youtube_url]
@@ -67,19 +110,19 @@ class WhisperTranscriber:
                 title = title_result.stdout.strip()
                 # Clean title for filename
                 title = "".join(c for c in title if c.isalnum() or c in (' ', '-', '_')).rstrip()
+                transcript_file = Path(output_dir) / f"{title}_whisper.txt"
             else:
-                title = "Unknown_Video"
+                video_id = youtube_url.split("v=")[1].split("&")[0] if "v=" in youtube_url else "unknown"
+                transcript_file = Path(output_dir) / f"{video_id}_whisper_transcript.txt"
             
-            # Save transcript
-            transcript_file = Path(output_dir) / f"{title}_whisper.txt"
             with open(transcript_file, 'w', encoding='utf-8') as f:
-                f.write(result["text"])
+                f.write(transcript_text)
             
-            # Clean up temp audio file
-            actual_audio_file.unlink()
-            temp_dir.rmdir()
+            # Clean up temp directory
+            import shutil
+            shutil.rmtree(temp_dir)
             
-            return True, str(transcript_file), result["text"]
+            return True, str(transcript_file), transcript_text
             
         except Exception as e:
             return False, None, f"Transcription error: {e}"
@@ -101,7 +144,7 @@ def main():
     import os
     current_dir = os.path.dirname(os.path.abspath(__file__))
     base_dir = os.path.dirname(current_dir)
-    output_dir = os.path.join(base_dir, "transcript", "original")
+    output_dir = os.path.join(base_dir, "transcript", "raw")
     
     success, file_path, text = transcriber.transcribe_youtube_video(url, output_dir, language)
     

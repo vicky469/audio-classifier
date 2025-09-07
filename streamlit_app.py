@@ -8,11 +8,25 @@ import streamlit as st
 import sys
 import os
 from pathlib import Path
+from urllib.parse import unquote
 
 # Add src directory to path for imports
 sys.path.append(str(Path(__file__).parent / "src"))
 
 from workflow_orchestrator import TranscriptWorkflow
+
+# Helper functions
+def decode_youtube_url(url):
+    """Decode URL-encoded characters in YouTube URL for better display."""
+    if not url:
+        return url
+    return unquote(url)
+
+def is_valid_youtube_url(url):
+    """Validate YouTube URL format."""
+    if not url:
+        return False
+    return url.startswith("https://www.youtube.com/watch?v=") and len(url) > 32
 
 # Page configuration
 st.set_page_config(
@@ -46,10 +60,6 @@ def reset_state():
     # Delete the widget key to force recreation
     if 'youtube_input' in st.session_state:
         del st.session_state.youtube_input
-
-def add_progress_message(message):
-    """Add a progress message to the session state."""
-    st.session_state.progress_messages.append(message)
 
 def process_video_workflow(youtube_url):
     """Run the complete workflow with proper progress tracking."""
@@ -169,10 +179,7 @@ def main():
     """Main Streamlit application."""
     
     # Header
-    st.title("🎯 YouTube to Notion Transcript Processor")
-    st.markdown("Transform YouTube videos into organized Notion pages with clean transcripts")
-    st.markdown("---")
-    
+    st.title("🎯 YouTube to Notion Transcript Processor")    
     # Input section
     col1, col2 = st.columns([4, 1])
     
@@ -204,14 +211,6 @@ def main():
         st.session_state.youtube_url_value = youtube_url
     
     with col2:
-        # YouTube URL validation
-        def is_valid_youtube_url(url):
-            if not url:
-                return False
-            return url.startswith("https://www.youtube.com/watch?v=") and len(url) > 32
-        
-        is_valid_url = is_valid_youtube_url(youtube_url)
-        
         # Toggle button for Process/Stop
         if st.session_state.processing:
             button_text = "⏹️ Stop"
@@ -221,8 +220,8 @@ def main():
         else:
             button_text = "Process Video"
             button_type = "secondary"
-            button_disabled = not is_valid_url
-            if not is_valid_url:
+            button_disabled = not is_valid_youtube_url(youtube_url)
+            if not is_valid_youtube_url(youtube_url):
                 help_text = "Enter a valid YouTube URL (https://www.youtube.com/watch?v=xxx)"
             else:
                 help_text = "Click to start processing the YouTube video"
@@ -271,7 +270,9 @@ def main():
         # Run download step
         try:
             workflow = TranscriptWorkflow()
-            success, raw_file, video_info = workflow._download_with_script(youtube_url)
+            # Decode URL for better display and processing
+            decoded_url = decode_youtube_url(youtube_url)
+            success, raw_file, video_info = workflow._download_with_script(decoded_url)
             
             if success:
                 st.session_state.download_results = {
@@ -426,31 +427,33 @@ def main():
         st.subheader("📊 Processing Status")
         
         # Progress indicators
-        col1, col2, col3 = st.columns(3)
+        steps = [
+            ("📥", "Download", "download_results"),
+            ("🔄", "Process", "process_results"), 
+            ("☁️", "Upload", "upload")
+        ]
         
-        with col1:
-            if st.session_state.current_step == "downloading":
-                st.info("📥 Downloading...")
-            elif st.session_state.current_step == "error" and not st.session_state.get('download_results', {}).get('success', False):
-                st.error("📥 Download Failed")
-            elif st.session_state.current_step in ["processing", "uploading", "completed"] or (st.session_state.current_step == "error" and st.session_state.get('download_results', {}).get('success', False)):
-                st.success("📥 Download Complete")
-        
-        with col2:
-            if st.session_state.current_step == "processing":
-                st.info("🔄 Processing...")
-            elif st.session_state.current_step == "error" and st.session_state.get('download_results', {}).get('success', False) and not st.session_state.get('process_results', {}).get('success', False):
-                st.error("🔄 Processing Failed")
-            elif st.session_state.current_step in ["uploading", "completed"] or (st.session_state.current_step == "error" and st.session_state.get('process_results', {}).get('success', False)):
-                st.success("🔄 Processing Complete")
-        
-        with col3:
-            if st.session_state.current_step == "uploading":
-                st.info("☁️ Uploading...")
-            elif st.session_state.current_step == "error" and st.session_state.get('process_results', {}).get('success', False):
-                st.error("☁️ Upload Failed")
-            elif st.session_state.current_step == "completed":
-                st.success("☁️ Upload Complete")
+        cols = st.columns(3)
+        for i, (icon, name, key) in enumerate(steps):
+            with cols[i]:
+                # Check if this step or any previous step failed
+                failed = False
+                for j in range(i + 1):
+                    step_key = steps[j][2]
+                    if step_key == "upload":
+                        # Upload status is in results, not separate key
+                        step_success = st.session_state.get('results', {}).get('upload', {}).get('success', False)
+                    else:
+                        step_success = st.session_state.get(step_key, {}).get('success', False)
+                    
+                    if not step_success:
+                        failed = True
+                        break
+                
+                if failed:
+                    st.error(f"{icon} {name} Failed")
+                else:
+                    st.success(f"{icon} {name} Complete")
         
         # Progress messages
         if st.session_state.progress_messages:
