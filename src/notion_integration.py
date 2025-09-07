@@ -24,7 +24,79 @@ class NotionIntegration:
         if not self.token:
             raise ValueError("Notion token not found. Please set NOTION_TOKEN in .env file")
         
+        if not self.database_id:
+            error_msg = "Notion database ID is required. Please set NOTION_DATABASE_ID in .env file"
+            print(f"ERROR: {error_msg}")
+            raise ValueError(error_msg)
+        
         self.client = Client(auth=self.token)
+    
+    def _add_video_metadata(self, properties, video_info):
+        """Add video metadata to Notion page properties."""
+        if not video_info:
+            return properties
+        
+        # Use 'uploader' field for Author (channel name)
+        if video_info.get('uploader'):
+            properties["Author"] = {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": video_info['uploader']
+                        }
+                    }
+                ]
+            }
+        
+        # Format upload_date for better display
+        if video_info.get('upload_date') and video_info['upload_date'] != 'Unknown':
+            upload_date = video_info['upload_date']
+            # Format YYYYMMDD to YYYY-MM-DD if it's in that format
+            if len(upload_date) == 8 and upload_date.isdigit():
+                formatted_date = f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:8]}"
+            else:
+                formatted_date = str(upload_date)
+            
+            properties["Created"] = {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": formatted_date
+                        }
+                    }
+                ]
+            }
+        
+        # Convert duration from seconds to minutes for display
+        if video_info.get('duration') and video_info['duration'] > 0:
+            duration_min = str(int(video_info['duration']) // 60)
+            properties["Duration"] = {
+                "phone_number": duration_min
+            }
+        
+        # Add view count if available
+        if video_info.get('view_count') and video_info['view_count'] > 0:
+            view_count = f"{video_info['view_count']:,}"  # Format with commas
+            properties["Views"] = {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": view_count
+                        }
+                    }
+                ]
+            }
+        
+        # Add video URL if available
+        if video_info.get('webpage_url'):
+            properties["Video URL"] = {
+                "url": video_info['webpage_url']
+            }
+        
+        return properties
         
     def _retry_api_call(self, func, *args, **kwargs):
         """
@@ -94,67 +166,7 @@ class NotionIntegration:
             }
             
             # Add video metadata if available
-            if video_info:
-                # Use 'uploader' field for Author (channel name)
-                if video_info.get('uploader'):
-                    properties["Author"] = {
-                        "rich_text": [
-                            {
-                                "type": "text",
-                                "text": {
-                                    "content": video_info['uploader']
-                                }
-                            }
-                        ]
-                    }
-                
-                # Format upload_date for better display
-                if video_info.get('upload_date') and video_info['upload_date'] != 'Unknown':
-                    upload_date = video_info['upload_date']
-                    # Format YYYYMMDD to YYYY-MM-DD if it's in that format
-                    if len(upload_date) == 8 and upload_date.isdigit():
-                        formatted_date = f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:8]}"
-                    else:
-                        formatted_date = str(upload_date)
-                    
-                    properties["Created"] = {
-                        "rich_text": [
-                            {
-                                "type": "text",
-                                "text": {
-                                    "content": formatted_date
-                                }
-                            }
-                        ]
-                    }
-                
-                # Convert duration from seconds to minutes for display
-                if video_info.get('duration') and video_info['duration'] > 0:
-                    duration_min = str(int(video_info['duration']) // 60)
-                    properties["Duration"] = {
-                        "phone_number": duration_min
-                    }
-                
-                # Add view count if available
-                if video_info.get('view_count') and video_info['view_count'] > 0:
-                    view_count = f"{video_info['view_count']:,}"  # Format with commas
-                    properties["Views"] = {
-                        "rich_text": [
-                            {
-                                "type": "text",
-                                "text": {
-                                    "content": view_count
-                                }
-                            }
-                        ]
-                    }
-            
-            
-            # Add video URL if available
-            if video_info and video_info.get('webpage_url'):
-                properties["Video URL"] = {
-                    "url": video_info['webpage_url']
-                }
+            properties = self._add_video_metadata(properties, video_info)
             
             # Set default status
             properties["Status"] = {
@@ -164,47 +176,12 @@ class NotionIntegration:
             }
             
             # Create the page first without content (to avoid 100 block limit)
-            if self.database_id:
-                # Create in database with retry
-                response = self._retry_api_call(
-                    self.client.pages.create,
-                    parent={"database_id": self.database_id},
-                    properties=properties
-                )
-            else:
-                # Create a page without database - need to find a parent page
-                # First, let's try to get the user's pages to find a suitable parent
-                try:
-                    # Search for pages in the workspace with retry
-                    search_results = self._retry_api_call(
-                        self.client.search,
-                        query="",
-                        filter={"property": "object", "value": "page"}
-                    )
-                    
-                    if search_results["results"]:
-                        # Use the first available page as parent
-                        parent_page_id = search_results["results"][0]["id"]
-                        response = self._retry_api_call(
-                            self.client.pages.create,
-                            parent={"type": "page_id", "page_id": parent_page_id},
-                            properties={
-                                "title": {
-                                    "title": [
-                                        {
-                                            "type": "text",
-                                            "text": {
-                                                "content": title
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        )
-                    else:
-                        raise Exception("No suitable parent page found. Please set up a database or share an existing page with your integration.")
-                except Exception as e:
-                    raise Exception(f"Cannot create page without database. Please either:\n1. Set NOTION_DATABASE_ID in .env and share the database with your integration\n2. Share an existing page with your integration\nError: {e}")
+            # Create in database with retry
+            response = self._retry_api_call(
+                self.client.pages.create,
+                parent={"database_id": self.database_id},
+                properties=properties
+            )
             
             page_id = response["id"]
             page_url = response["url"]
