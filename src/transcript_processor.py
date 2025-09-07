@@ -7,9 +7,8 @@ Simple transcript processor that:
 
 import os
 import re
-import glob
 import sys
-import string
+import json
 
 def remove_audio_cues(text):
     """Remove audio cues and sound descriptions from text."""
@@ -26,7 +25,7 @@ def remove_audio_cues(text):
     return text
 
 def detect_language(text):
-    """Detect if text is primarily Chinese or English."""
+    """Detect if text is primarily Chinese or English (fallback only)."""
     # Count Chinese characters (CJK Unified Ideographs)
     chinese_chars = len(re.findall(r'[\u4e00-\u9fff]', text))
     # Count English words (sequences of Latin letters)
@@ -149,11 +148,10 @@ def remove_repetitive_phrases(text, min_phrase_length=3):
     
     return '. '.join(unique_sentences) + '.' if unique_sentences else ''
 
-def format_text(text, words_per_chunk=100, words_per_line=15):
-    """Format text based on detected language."""
-    language = detect_language(text)
+def format_text(text, language='en', words_per_chunk=100, words_per_line=15):
+    """Format text based on provided language from metadata."""
     
-    if language == 'chinese':
+    if language == 'zh':
         words_per_chunk = 500
         words_per_line = 50
     
@@ -174,11 +172,42 @@ def format_text(text, words_per_chunk=100, words_per_line=15):
     # Join chunks with double newlines (empty line between chunks)
     return '\n\n'.join(chunks)
 
+def get_language_from_metadata(input_file):
+    """Get language from metadata JSON file based on input file."""
+    # Get the base name without extension
+    base_name = os.path.splitext(os.path.basename(input_file))[0]
+    
+    # Look for metadata JSON in the same directory
+    input_dir = os.path.dirname(input_file)
+    metadata_file = os.path.join(input_dir, f"{base_name}.json")
+    
+    if os.path.exists(metadata_file):
+        try:
+            with open(metadata_file, 'r', encoding='utf-8') as f:
+                metadata = json.load(f)
+            language = metadata.get('language')
+            if language:
+                return language
+            else:
+                print(f"Warning: No language found in {metadata_file}, defaulting to English")
+                return 'en'
+        except Exception as e:
+            print(f"Warning: Could not read metadata from {metadata_file}: {e}")
+            return 'en'
+    else:
+        print(f"Warning: No metadata file found at {metadata_file}, defaulting to English")
+        return 'en'
+
 def process_file(input_file, output_file=None):
     """Process a single transcript file."""
     if not os.path.exists(input_file):
         print(f"Error: File {input_file} not found")
         return False
+    
+    # Get language from metadata
+    language = get_language_from_metadata(input_file)
+    
+    print(f"Processing {input_file} with language: {language}")
     
     # Read the file
     with open(input_file, 'r', encoding='utf-8') as f:
@@ -190,8 +219,8 @@ def process_file(input_file, output_file=None):
     else:
         cleaned_content = clean_plain_text(content.strip())
     
-    # Format the text based on detected language (handles chunking internally)
-    formatted_text = format_text(cleaned_content)
+    # Format the text using language from metadata
+    formatted_text = format_text(cleaned_content, language=language)
     
     # Create output directory if it doesn't exist
     if output_file is None:
@@ -206,54 +235,25 @@ def process_file(input_file, output_file=None):
     print(f"Processed transcript saved to: {output_file}")
     return True
 
-def process_directory(input_dir, output_dir):
-    """Process all VTT files in a directory."""
-    # Create output directory if it doesn't exist
-    os.makedirs(output_dir, exist_ok=True)
-    
-    # Find all VTT files
-    vtt_files = glob.glob(os.path.join(input_dir, "*.vtt"))
-    
-    if not vtt_files:
-        print(f"No VTT files found in {input_dir}")
-        return False
-    
-    # Process each file
-    for vtt_file in vtt_files:
-        base_name = os.path.basename(vtt_file)
-        output_file = os.path.join(output_dir, f"{os.path.splitext(base_name)[0]}_clean.txt")
-        process_file(vtt_file, output_file)
-    
-    return True
-
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        # Use command line arguments if provided
-        input_path = sys.argv[1]
-        output_path = sys.argv[2] if len(sys.argv) > 2 else None
-        
-        if os.path.isdir(input_path):
-            # Process directory
-            if not output_path:
-                output_path = os.path.join(os.path.dirname(input_path), "clean")
-            process_directory(input_path, output_path)
-        else:
-            # Process single file
-            if not output_path:
-                output_path = os.path.join(os.path.dirname(input_path), f"{os.path.splitext(os.path.basename(input_path))[0]}_clean.txt")
-            process_file(input_path, output_path)
-    else:
-        import os
-        current_file = os.path.abspath(__file__)
-        repo_root = os.path.dirname(os.path.dirname(current_file))
-        transcript_dir = os.path.join(repo_root, "transcript", "process")
-        output_dir = os.path.join(repo_root, "transcript", "clean")
-        
-        # Check if process directory exists
-        if not os.path.exists(transcript_dir):
-            # Create it if it doesn't exist
-            os.makedirs(transcript_dir, exist_ok=True)
-            print(f"Created directory: {transcript_dir}")
-            print("Please place VTT files in this directory and run the script again.")
-        else:
-            process_directory(transcript_dir, output_dir)
+    if len(sys.argv) < 2:
+        print("Usage: python transcript_processor.py <input_file> [output_file]")
+        print("Example: python transcript_processor.py transcript.vtt clean.txt")
+        sys.exit(1)
+    
+    input_path = sys.argv[1]
+    output_path = sys.argv[2] if len(sys.argv) > 2 else None
+
+    
+    if not os.path.exists(input_path):
+        print(f"Error: File {input_path} not found")
+        sys.exit(1)
+    
+    # Process single file
+    if not output_path:
+        output_path = os.path.join(os.path.dirname(input_path), f"{os.path.splitext(os.path.basename(input_path))[0]}_clean.txt")
+    
+    success = process_file(input_path, output_path)
+    
+    if not success:
+        sys.exit(1)

@@ -227,37 +227,15 @@ class NotionIntegration:
             }
         })
         
-        # Split content into paragraphs (Notion has a 2000 character limit per block)
-        paragraphs = content.split('\n\n')
+        # Use the same chunking as transcript_processor - content is already properly formatted
+        # Split by double newlines to preserve the paragraph chunks
+        chunks = content.split('\n\n')
         
-        for paragraph in paragraphs:
-            if paragraph.strip():
-                # Split long paragraphs if needed (Notion limit is 2000 chars)
-                text = paragraph.strip()
-                if len(text) > 1900:  # Leave buffer for safety
-                    # Split into chunks of 1900 characters at word boundaries
-                    chunks = []
-                    while len(text) > 1900:
-                        # Find a good break point (space, comma, period, or Chinese punctuation)
-                        break_point = 1900
-                        for i in range(1900, max(1700, 0), -1):  # Look backwards for break point
-                            if i < len(text) and text[i] in ' ,.。，！？\n':
-                                break_point = i + 1
-                                break
-                        
-                        chunks.append(text[:break_point].strip())
-                        text = text[break_point:].strip()
-                    
-                    # Add remaining text
-                    if text:
-                        chunks.append(text)
-                    
-                    # Create blocks for each chunk
-                    for chunk in chunks:
-                        if chunk:
-                            blocks.append(self._create_paragraph_block(chunk))
-                else:
-                    blocks.append(self._create_paragraph_block(text))
+        for chunk in chunks:
+            if chunk.strip():
+                # Remove internal line breaks within each chunk to create proper paragraphs
+                clean_chunk = chunk.replace('\n', ' ').strip()
+                blocks.append(self._create_paragraph_block(clean_chunk))
         
         # Add a divider and notes section
         blocks.extend([
