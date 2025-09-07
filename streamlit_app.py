@@ -204,45 +204,61 @@ def main():
         st.session_state.youtube_url_value = youtube_url
     
     with col2:
-        # Button styling and state
-        button_disabled = st.session_state.processing
-        button_text = "Processing..." if st.session_state.processing else "Process Video"
+        # YouTube URL validation
+        def is_valid_youtube_url(url):
+            if not url:
+                return False
+            return url.startswith("https://www.youtube.com/watch?v=") and len(url) > 32
+        
+        is_valid_url = is_valid_youtube_url(youtube_url)
+        
+        # Toggle button for Process/Stop
+        if st.session_state.processing:
+            button_text = "⏹️ Stop"
+            button_type = "primary"
+            help_text = "Click to stop processing"
+            button_disabled = False
+        else:
+            button_text = "Process Video"
+            button_type = "secondary"
+            button_disabled = not is_valid_url
+            if not is_valid_url:
+                help_text = "Enter a valid YouTube URL (https://www.youtube.com/watch?v=xxx)"
+            else:
+                help_text = "Click to start processing the YouTube video"
         
         process_button = st.button(
             button_text,
-            disabled=button_disabled,
+            type=button_type,
             use_container_width=True,
-            help="Click to start processing the YouTube video" if not button_disabled else "Processing in progress..."
+            help=help_text,
+            disabled=button_disabled
         )
-        
+
+    # Toggle button logic
+    if process_button:
+        if st.session_state.processing:
+            # Stop processing
+            st.session_state.processing = False
+            st.session_state.current_step = None
+            st.session_state.progress_messages.append("⏹️ Processing stopped by user")
+            st.rerun()
+        elif is_valid_youtube_url(youtube_url):
+            # Start processing only with valid URL
+            st.session_state.processing = True
+            st.session_state.current_step = "initializing"
+            st.session_state.progress_messages = ["🚀 Starting YouTube to Notion workflow..."]
+            st.rerun()
     
     # Check if Enter was pressed (input value changed and not empty)
-    enter_pressed = False
     if youtube_url and youtube_url != st.session_state.get('previous_url', '') and not st.session_state.processing:
-        enter_pressed = True
         st.session_state.previous_url = youtube_url
-    
-    # Process button logic or Enter key
-    if (process_button or enter_pressed) and youtube_url and not st.session_state.processing:
-        # Set processing state immediately to disable UI elements
-        st.session_state.processing = True
-        st.session_state.current_step = "initializing"
-        st.session_state.progress_messages = ["🚀 Starting YouTube to Notion workflow..."]
-        # Force immediate UI update to show disabled state
-        st.rerun()
-    
-    # Show stop button when processing
-    if st.session_state.processing:
-        st.markdown("---")
-        col1, col2 = st.columns([1, 4])
-        with col1:
-            if st.button("⏹️ Stop", key="stop_processing", type="primary"):
-                st.session_state.processing = False
-                st.session_state.current_step = None
-                st.session_state.progress_messages.append("⏹️ Processing stopped by user")
-                st.rerun()
-        with col2:
-            st.info("🔄 Processing in progress... Click the Stop button to cancel.")
+        # Start processing only with valid URL
+        if is_valid_youtube_url(youtube_url):
+            st.session_state.processing = True
+            st.session_state.current_step = "initializing"
+            st.session_state.progress_messages = ["🚀 Starting YouTube to Notion workflow..."]
+            st.rerun()
     
     # Run workflow step by step with UI updates
     if st.session_state.processing and st.session_state.current_step == "initializing":
@@ -372,10 +388,41 @@ def main():
         st.rerun()
     
     
-    # Progress section
-    if st.session_state.processing or st.session_state.results:
-        if not st.session_state.processing:
-            st.markdown("---")
+    # Results section
+    if st.session_state.results and not st.session_state.processing:
+        st.markdown("---")
+        
+        results = st.session_state.results
+        
+        if 'error' in results:
+            st.subheader("❌ Results")
+            st.error(f"❌ Error occurred: {results['error']}")
+            st.info("💡 Make sure you have set up your Notion integration and .env file")
+        else:
+            # Success/failure summary
+            success_count = sum(1 for step in results.values() if step.get('success', False))
+            total_steps = len(results)
+            
+            if success_count == total_steps:
+                st.subheader("✅ Results")
+                st.success("🎉 All steps completed successfully!")
+                
+                # Show results ONLY when ALL steps succeed
+                if results.get('upload', {}).get('success') and results['upload'].get('page_url'):
+                    st.markdown("### 🔗 Notion Page Created")
+                    notion_url = results['upload']['page_url']
+                    
+                    if st.button("🌐 Open Notion Page", type="primary"):
+                        st.markdown(f'<meta http-equiv="refresh" content="0; url={notion_url}">', 
+                                  unsafe_allow_html=True)
+            else:
+                st.subheader("❌ Results")
+                # When ANY step fails, do NOT show success content
+                st.warning(f"⚠️ {success_count}/{total_steps} steps completed successfully")
+    
+    # Progress section - only show when workflow has failed
+    if st.session_state.results and not st.session_state.processing and st.session_state.current_step == "error":
+        st.markdown("---")
         st.subheader("📊 Processing Status")
         
         # Progress indicators
@@ -410,53 +457,7 @@ def main():
             st.markdown("**Progress Log:**")
             for message in st.session_state.progress_messages:
                 st.text(message)
-    
-    # Results section
-    if st.session_state.results and not st.session_state.processing:
-        st.markdown("---")
-        
-        results = st.session_state.results
-        
-        if 'error' in results:
-            st.subheader("❌ Results")
-            st.error(f"❌ Error occurred: {results['error']}")
-            st.info("💡 Make sure you have set up your Notion integration and .env file")
-        else:
-            # Success/failure summary
-            success_count = sum(1 for step in results.values() if step.get('success', False))
-            total_steps = len(results)
-            
-            if success_count == total_steps:
-                st.subheader("✅ Results")
-                st.success("🎉 All steps completed successfully!")
-                
-                # Show results ONLY when ALL steps succeed
-                if results.get('upload', {}).get('success') and results['upload'].get('page_url'):
-                    st.markdown("### 🔗 Notion Page Created")
-                    notion_url = results['upload']['page_url']
-                    st.markdown(f"[Open in Notion]({notion_url})")
-                    
-                    if st.button("🌐 Open Notion Page", type="primary"):
-                        st.markdown(f'<meta http-equiv="refresh" content="0; url={notion_url}">', 
-                                  unsafe_allow_html=True)
-                
-                # Show file info ONLY when processing succeeded
-                if results.get('process', {}).get('clean_file'):
-                    clean_file = results['process']['clean_file']
-                    st.markdown(f"### 📄 Clean Transcript")
-                    st.text(f"Saved to: {os.path.basename(clean_file)}")
-                
-            else:
-                st.subheader("❌ Results")
-                # When ANY step fails, do NOT show success content
-                st.warning(f"⚠️ {success_count}/{total_steps} steps completed successfully")
-        
-        # Process another video button
-        st.markdown("---")
-        if st.button("🔄 Process Another Video", type="secondary"):
-            reset_state()
-            st.rerun()
-    
+
     # Sidebar with info
     with st.sidebar:
         st.markdown("### ℹ️ About")
