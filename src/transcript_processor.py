@@ -148,29 +148,48 @@ def remove_repetitive_phrases(text, min_phrase_length=3):
     
     return '. '.join(unique_sentences) + '.' if unique_sentences else ''
 
-def format_text(text, language='en', words_per_chunk=100, words_per_line=15):
+def format_text(text, language, words_per_chunk=100, words_per_line=20):
     """Format text based on provided language from metadata."""
     
     if language == 'zh':
+        # For Chinese: use character-based chunking
         words_per_chunk = 500
         words_per_line = 50
-    
-    chunks = []
-    
-    # Split text into chunks of exactly words_per_chunk characters (including spaces)
-    for i in range(0, len(text), words_per_chunk):
-        chunk_text = text[i:i + words_per_chunk]
         
-        # Add line breaks within each chunk based on words_per_line
-        formatted_lines = []
-        for j in range(0, len(chunk_text), words_per_line):
-            line_text = chunk_text[j:j + words_per_line]
-            formatted_lines.append(line_text)
+        chunks = []
+        # Split text into chunks of exactly words_per_chunk characters (including spaces)
+        for i in range(0, len(text), words_per_chunk):
+            chunk_text = text[i:i + words_per_chunk]
+            
+            # Add line breaks within each chunk based on words_per_line
+            formatted_lines = []
+            for j in range(0, len(chunk_text), words_per_line):
+                line_text = chunk_text[j:j + words_per_line]
+                formatted_lines.append(line_text)
+            
+            chunks.append('\n'.join(formatted_lines))
         
-        chunks.append('\n'.join(formatted_lines))
+        return '\n\n'.join(chunks)
     
-    # Join chunks with double newlines (empty line between chunks)
-    return '\n\n'.join(chunks)
+    else:
+        # For English: use word-based chunking
+        words = text.split()
+        chunks = []
+        
+        # Split into chunks of words_per_chunk words
+        for i in range(0, len(words), words_per_chunk):
+            chunk_words = words[i:i + words_per_chunk]
+            
+            # Add line breaks within each chunk based on words_per_line
+            formatted_lines = []
+            for j in range(0, len(chunk_words), words_per_line):
+                line_words = chunk_words[j:j + words_per_line]
+                line_text = ' '.join(line_words)
+                formatted_lines.append(line_text)
+            
+            chunks.append('\n'.join(formatted_lines))
+        
+        return '\n\n'.join(chunks)
 
 def get_language_from_metadata(input_file):
     """Get language from metadata JSON file based on input file."""

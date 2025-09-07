@@ -85,8 +85,6 @@ extract_metadata() {
         tags: .tags,
         categories: .categories,
         language: .language,
-        automatic_captions: .automatic_captions,
-        subtitles: .subtitles,
         webpage_url: .webpage_url,
         thumbnail: .thumbnail
     }' 2>/dev/null || echo "$full_metadata")
